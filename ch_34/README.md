@@ -20,3 +20,6 @@ In this folder, you will find both Java source code and SQL scripts:
 - **JDBC Driver**: The bridge between Java and a specific DB (MySQL, Oracle, etc.).
 - **SQL (Structured Query Language)**: Used for data manipulation.
 - **Connection Pooling**: (Advanced concept) managing database connections efficiently.
+
+## Featured Scripts
+- [create_tables.sql](./create_tables.sql): Contains the SQL DDL commands to create the `Course`, `Student`, and `Enrollment` tables as described in §34.3.3.
