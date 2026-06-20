@@ -6,6 +6,6 @@ A fundamentals-first introduction to basic programming concepts and techniques
   <img src="https://m.media-amazon.com/images/I/91Cyu2zZ6DL._AC_UF1000,1000_QL80_.jpg" alt="Introduction to Java Programming and Data Structures" width="300">
 </p>
 
-## Table of Contents
+## CONTENTS
 - [ ] **Chapter 1** Introduction to Computers, Programs, and Java
 - [ ] **Chapter 2**: Elementary Programming
