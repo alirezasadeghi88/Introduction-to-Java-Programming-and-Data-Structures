@@ -9,4 +9,3 @@ A fundamentals-first introduction to basic programming concepts and techniques
 ## CONTENTS
 - [ ] **Chapter 1** Introduction to Computers, Programs, and Java
 - [ ] **Chapter 2**: Elementary Programming
-
