@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SubtractionQuiz {
     public static void main(String[] args) {
         int number1 = (int)(Math.random() * 10);
@@ -11,5 +13,8 @@ public class SubtractionQuiz {
 
         System.out.print
                ("What is " + number1 + " − " + number2 + "? ");
+
+        Scanner input = new Scanner(System.in);
+        int answer = input.nextInt();
     }
 }
