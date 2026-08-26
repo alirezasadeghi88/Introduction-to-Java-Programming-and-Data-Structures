@@ -8,5 +8,8 @@ public class SubtractionQuiz {
             number1 = number2;
             number2 = temp;
         }
+
+        System.out.print
+               ("What is " + number1 + " − " + number2 + "? ");
     }
 }
