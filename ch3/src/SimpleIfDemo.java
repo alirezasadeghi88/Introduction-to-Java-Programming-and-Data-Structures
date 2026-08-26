@@ -6,5 +6,8 @@ public class SimpleIfDemo {
 
         System.out.print("Enter an integer: ");
         int number = input.nextInt();
+
+        if (number % 5 == 0)
+            System.out.println("HiFive");
     }
 }
