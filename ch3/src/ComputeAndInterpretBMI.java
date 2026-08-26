@@ -12,5 +12,10 @@ public class ComputeAndInterpretBMI {
 
         final double KILOGRAMS_PER_POUND = 0.45359237;
         final double METERS_PER_INCH = 0.0254;
+
+        double weightInKilograms = weight * KILOGRAMS_PER_POUND;
+        double heightInMeters = height * METERS_PER_INCH;
+        double bmi = weightInKilograms /
+                (heightInMeters * heightInMeters);
     }
 }
