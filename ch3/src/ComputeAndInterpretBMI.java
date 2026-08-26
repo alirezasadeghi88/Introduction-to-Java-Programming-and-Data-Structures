@@ -6,5 +6,8 @@ public class ComputeAndInterpretBMI {
 
         System.out.print("Enter weight in pounds: ");
         double weight = input.nextDouble();
+
+        System.out.print("Enter height in inches: ");
+        double height = input.nextDouble();
     }
 }
