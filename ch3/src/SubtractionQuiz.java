@@ -19,5 +19,11 @@ public class SubtractionQuiz {
 
         if (number1 - number2 == answer)
             System.out.println("You are correct!");
+
+        else {
+                   System.out.println("Your answer is wrong.");
+                   System.out.println(number1 + " − " + number2 +
+                           " should be " + (number1 - number2));
+                 }
     }
 }
