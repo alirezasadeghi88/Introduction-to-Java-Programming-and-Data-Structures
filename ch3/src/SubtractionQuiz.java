@@ -16,5 +16,8 @@ public class SubtractionQuiz {
 
         Scanner input = new Scanner(System.in);
         int answer = input.nextInt();
+
+        if (number1 - number2 == answer)
+            System.out.println("You are correct!");
     }
 }
