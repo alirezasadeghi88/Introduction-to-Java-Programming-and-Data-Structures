@@ -9,5 +9,10 @@ public class AdditionQuiz {
 
         System.out.print(
                 "What is " + number1 + " + " + number2 + "? ");
+        int answer = input.nextInt();
+
+        System.out.println(
+                number1 + " + " + number2 + " = " + answer + " is " +
+                        (number1 + number2 == answer));
     }
 }
