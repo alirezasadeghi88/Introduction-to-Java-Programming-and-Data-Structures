@@ -6,5 +6,8 @@ public class AdditionQuiz {
         int number2 = (int)(System.currentTimeMillis() / 10 % 10);
 
         Scanner input = new Scanner(System.in);
+
+        System.out.print(
+                "What is " + number1 + " + " + number2 + "? ");
     }
 }
