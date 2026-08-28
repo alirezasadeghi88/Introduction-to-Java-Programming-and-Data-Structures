@@ -12,5 +12,12 @@ public class HexDigit2Dec {
             System.out.println("You must enter exactly one character");
             System.exit(1);
         }
+
+        char ch = Character.toUpperCase(hexString.charAt(0));
+        if ('A' <= ch && ch <= 'F') {
+            int value = ch - 'A' + 10;
+            System.out.println("The decimal value for hex digit "
+                    + ch + " is " + value);
+        }
     }
 }
