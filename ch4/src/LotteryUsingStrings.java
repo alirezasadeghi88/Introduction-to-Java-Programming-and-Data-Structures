@@ -12,5 +12,7 @@ public class LotteryUsingStrings {
 
         char lotteryDigit1 = lottery.charAt(0);
         char lotteryDigit2 = lottery.charAt(1);
+        char guessDigit1 = guess.charAt(0);
+        char guessDigit2 = guess.charAt(1);
     }
 }
