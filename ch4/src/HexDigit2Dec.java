@@ -6,5 +6,11 @@ public class HexDigit2Dec {
 
         System.out.print("Enter a hex digit: ");
         String hexString = input.nextLine();
+
+
+        if (hexString.length() != 1) {
+            System.out.println("You must enter exactly one character");
+            System.exit(1);
+        }
     }
 }
