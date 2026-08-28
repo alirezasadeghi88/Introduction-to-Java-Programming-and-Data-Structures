@@ -27,5 +27,7 @@ public class LotteryUsingStrings {
                 || guessDigit2 == lotteryDigit1
                 || guessDigit2 == lotteryDigit2)
             System.out.println("Match one digit: you win $1,000");
+        else
+            System.out.println("Sorry, no match");
     }
 }
