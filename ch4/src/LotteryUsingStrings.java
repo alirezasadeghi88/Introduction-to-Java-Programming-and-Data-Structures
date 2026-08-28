@@ -9,5 +9,8 @@ public class LotteryUsingStrings {
 
         System.out.print("Enter your lottery pick (two digits): ");
         String guess = input.nextLine();
+
+        char lotteryDigit1 = lottery.charAt(0);
+        char lotteryDigit2 = lottery.charAt(1);
     }
 }
