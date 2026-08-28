@@ -6,5 +6,8 @@ public class LotteryUsingStrings {
                + (int)(Math.random() * 10);
 
         Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your lottery pick (two digits): ");
+        String guess = input.nextLine();
     }
 }
