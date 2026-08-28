@@ -14,5 +14,8 @@ public class ComputeAngles {
 
         double a = Math.sqrt((x2 - x3) * (x2 - x3)
             + (y2 - y3) * (y2 - y3));
+        double b = Math.sqrt((x1 - x3) * (x1 - x3)
+            + (y1 - y3) * (y1 - y3));
+
     }
 }
