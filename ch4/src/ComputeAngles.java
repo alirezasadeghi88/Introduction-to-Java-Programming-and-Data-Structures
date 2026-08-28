@@ -9,5 +9,7 @@ public class ComputeAngles {
         double y1 = input.nextDouble();
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
+        double x3 = input.nextDouble();
+        double y3 = input.nextDouble();
     }
 }
