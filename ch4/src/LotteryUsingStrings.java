@@ -16,5 +16,8 @@ public class LotteryUsingStrings {
         char guessDigit2 = guess.charAt(1);
 
         System.out.println("The lottery number is " + lottery);
+
+        if (guess.equals(lottery))
+            System.out.println("Exact match: you win $10,000");
     }
 }
