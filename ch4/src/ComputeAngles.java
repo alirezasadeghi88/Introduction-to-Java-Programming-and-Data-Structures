@@ -7,5 +7,7 @@ public class ComputeAngles {
         System.out.print("Enter three points: ");
         double x1 = input.nextDouble();
         double y1 = input.nextDouble();
+        double x2 = input.nextDouble();
+        double y2 = input.nextDouble();
     }
 }
