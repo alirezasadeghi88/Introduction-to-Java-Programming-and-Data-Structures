@@ -19,5 +19,14 @@ public class HexDigit2Dec {
             System.out.println("The decimal value for hex digit "
                     + ch + " is " + value);
         }
+
+        else if (Character.isDigit(ch)) {
+            System.out.println("The decimal value for hex digit "
+                    + ch + " is " + ch);
+        }
+
+        else {
+            System.out.println(ch + " is an invalid input");
+        }
     }
 }
