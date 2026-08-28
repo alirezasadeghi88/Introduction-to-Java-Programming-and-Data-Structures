@@ -14,5 +14,7 @@ public class LotteryUsingStrings {
         char lotteryDigit2 = lottery.charAt(1);
         char guessDigit1 = guess.charAt(0);
         char guessDigit2 = guess.charAt(1);
+
+        System.out.println("The lottery number is " + lottery);
     }
 }
