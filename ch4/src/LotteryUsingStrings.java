@@ -22,5 +22,10 @@ public class LotteryUsingStrings {
         else if (guessDigit2 == lotteryDigit1
                 && guessDigit1 == lotteryDigit2)
             System.out.println("Match all digits: you win $3,000");
+        else if (guessDigit1 == lotteryDigit1
+                || guessDigit1 == lotteryDigit2
+                || guessDigit2 == lotteryDigit1
+                || guessDigit2 == lotteryDigit2)
+            System.out.println("Match one digit: you win $1,000");
     }
 }
