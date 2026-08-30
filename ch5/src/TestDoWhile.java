@@ -7,5 +7,11 @@ public class TestDoWhile {
 
         Scanner input = new Scanner(System.in);
 
+        do {
+
+            System.out.print("Enter an integer (the input ends if it is 0): ");
+            data = input.nextInt();
+            sum += data;
+        }
     }
 }
