@@ -9,5 +9,11 @@ public class SentinelValue {
         int data = input.nextInt();
 
         int sum = 0;
+
+        while (data != 0) {
+            sum += data;
+            System.out.print("Enter an integer (the input ends if it is 0): ");
+            data = input.nextInt();
+        }
     }
 }
