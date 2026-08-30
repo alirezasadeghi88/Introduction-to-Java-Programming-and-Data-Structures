@@ -6,5 +6,8 @@ public class GuessNumberOneTime {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Guess a magic number between 0 and 100");
+
+        System.out.print("\nEnter your guess: ");
+        int guess = input.nextInt();
     }
 }
