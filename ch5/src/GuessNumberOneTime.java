@@ -14,5 +14,7 @@ public class GuessNumberOneTime {
             System.out.println("Yes, the number is " + number);
         else if (guess > number)
             System.out.println("Your guess is too high");
+        else
+            System.out.println("Your guess is too low");
     }
 }
