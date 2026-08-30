@@ -16,5 +16,7 @@ public class RepeatAdditionQuiz {
                             +  " + " + number2 + "? ");
                     answer = input.nextInt();
                   }
+
+        System.out.println("You got it!");
     }
 }
