@@ -14,5 +14,7 @@ public class TestDoWhile {
             sum += data;
         }
         while (data != 0);
+
+        System.out.println("The sum is " + sum);
     }
 }
