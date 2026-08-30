@@ -6,5 +6,8 @@ public class GuessNumber {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Guess a magic number between 0 and 100");
+
+        int guess = -1;
+
     }
 }
