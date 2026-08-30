@@ -15,5 +15,6 @@ public class SentinelValue {
             System.out.print("Enter an integer (the input ends if it is 0): ");
             data = input.nextInt();
         }
+        System.out.println("The sum is " + sum);
     }
 }
