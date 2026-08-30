@@ -13,5 +13,6 @@ public class TestDoWhile {
             data = input.nextInt();
             sum += data;
         }
+        while (data != 0);
     }
 }
