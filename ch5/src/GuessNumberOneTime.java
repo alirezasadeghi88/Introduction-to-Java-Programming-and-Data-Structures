@@ -9,5 +9,8 @@ public class GuessNumberOneTime {
 
         System.out.print("\nEnter your guess: ");
         int guess = input.nextInt();
+
+        if (guess == number)
+            System.out.println("Yes, the number is " + number);
     }
 }
