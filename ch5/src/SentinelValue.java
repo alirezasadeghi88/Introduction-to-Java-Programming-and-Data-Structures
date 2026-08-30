@@ -7,5 +7,7 @@ public class SentinelValue {
         System.out.print(
                 "Enter an integer (the input ends if it is 0): ");
         int data = input.nextInt();
+
+        int sum = 0;
     }
 }
