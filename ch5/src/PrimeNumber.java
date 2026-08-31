@@ -4,5 +4,7 @@ public class PrimeNumber {
         final int NUMBER_OF_PRIMES_PER_LINE = 10;
         int count = 0;
         int number = 2;
+
+        System.out.println("The first 50 prime numbers are \n");
     }
 }
