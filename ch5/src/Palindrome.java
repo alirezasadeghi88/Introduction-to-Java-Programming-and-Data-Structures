@@ -6,5 +6,9 @@ public class Palindrome {
 
         System.out.print("Enter a string: ");
         String s = input.nextLine();
+
+        int low = 0;
+        int high = s.length() - 1;
+        boolean isPalindrome = true;
     }
 }
