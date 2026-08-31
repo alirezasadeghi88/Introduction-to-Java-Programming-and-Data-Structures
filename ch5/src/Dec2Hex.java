@@ -18,5 +18,6 @@ public class Dec2Hex {
             hex = hexDigit + hex;
             decimal = decimal / 16;
         }
+        System.out.println("The hex number is " + hex);
     }
 }
