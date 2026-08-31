@@ -9,5 +9,7 @@ public class TestContinue {
                 continue;
             sum += number;
         }
+
+        System.out.println("The sum is " + sum);
     }
 }
