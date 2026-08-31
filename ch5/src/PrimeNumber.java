@@ -16,6 +16,15 @@ public class PrimeNumber {
                     break;
                 }
             }
+
+            if (isPrime) {
+                count++;
+                if (count % NUMBER_OF_PRIMES_PER_LINE == 0) {
+                    System.out.println(number);
+                }
+                else
+                    System.out.print(number + " ");
+            }
         }
     }
 }
