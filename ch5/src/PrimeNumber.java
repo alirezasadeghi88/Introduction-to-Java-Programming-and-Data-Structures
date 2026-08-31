@@ -6,5 +6,16 @@ public class PrimeNumber {
         int number = 2;
 
         System.out.println("The first 50 prime numbers are \n");
+
+        while (count < NUMBER_OF_PRIMES) {
+            boolean isPrime = true;
+
+            for (int divisor = 2; divisor <= number / 2; divisor++) {
+                if (number % divisor == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+        }
     }
 }
