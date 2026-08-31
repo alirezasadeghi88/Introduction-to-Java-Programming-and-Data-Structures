@@ -6,5 +6,7 @@ public class Dec2Hex {
 
         System.out.print("Enter a decimal number: ");
         int decimal = input.nextInt();
+
+        String hex = "";
     }
 }
