@@ -19,5 +19,8 @@ public class Palindrome {
             low++;
             high--;
         }
+
+        if (isPalindrome)
+            System.out.println(s + " is a palindrome");
     }
 }
