@@ -7,5 +7,22 @@ public class PrimeNumberMethod {
         final int NUMBER_OF_PRIMES_PER_LINE = 10;
         int count = 0;
         int number = 2;
+
+        while (count < numberOfPrimes) {
+            if (isPrime(number)) {
+                count++;
+                if (count % NUMBER_OF_PRIMES_PER_LINE == 0) {
+                    System.out.printf("%−5d\n", number);
+                } else
+                    System.out.printf("%−5d", number);
+            }
+
+            number++;
+        }
+    }
+
+    public static boolean isPrime(int number) {
+
     }
 }
+
