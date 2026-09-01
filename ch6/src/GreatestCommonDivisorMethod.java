@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class GreatestCommonDivisorMethod {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first integer: ");
+        int n1 = input.nextInt();
     }
 
     public static int gcd(int n1,int n2) {
