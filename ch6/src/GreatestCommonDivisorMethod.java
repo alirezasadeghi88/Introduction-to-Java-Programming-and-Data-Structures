@@ -12,5 +12,7 @@ public class GreatestCommonDivisorMethod {
                 gcd = k;
             k++;
         }
+
+        return gcd;
     }
 }
