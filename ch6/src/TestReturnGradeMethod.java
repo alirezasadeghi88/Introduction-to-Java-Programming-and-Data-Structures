@@ -13,5 +13,7 @@ public class TestReturnGradeMethod {
         else if
         (score >= 70.0)
             return 'C';
+        else if (score >= 60.0)
+            return 'D';
     }
 }
