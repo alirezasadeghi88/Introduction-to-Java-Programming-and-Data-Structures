@@ -2,6 +2,9 @@ public class TestPassByValue {
     public static void main(String[] args) {
         int num1 = 1;
         int num2 = 2;
+
+        System.out.println("Before invoking the swap method, num1 is " +
+                num1 + " and num2 is " + num2);
     }
 
     public static void swap(int n1, int n2) {
