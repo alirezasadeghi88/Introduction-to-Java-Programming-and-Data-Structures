@@ -4,6 +4,7 @@ public class GreatestCommonDivisorMethod {
     }
 
     public static int gcd(int n1,int n2) {
-
+        int gcd = 1;
+        int k = 2;
     }
 }
