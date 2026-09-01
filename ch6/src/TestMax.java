@@ -1,6 +1,8 @@
 public class TestMax {
     public static void main(String[] args) {
-
+        int i = 5;
+        int j = 2;
+        int k = max(i, j);
     }
 
     public static int max(int num1, int num2) {
