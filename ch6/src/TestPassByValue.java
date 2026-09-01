@@ -9,7 +9,7 @@ public class TestPassByValue {
         swap(num1, num2);
 
         System.out.println("After invoking the swap method, num1 is " +
-                15        num1 + " and num2 is " + num2);
+                num1 + " and num2 is " + num2);
     }
 
     public static void swap(int n1, int n2) {
