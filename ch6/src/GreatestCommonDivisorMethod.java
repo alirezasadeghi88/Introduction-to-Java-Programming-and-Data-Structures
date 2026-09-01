@@ -1,6 +1,6 @@
 public class GreatestCommonDivisorMethod {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 
     public static int gcd(int n1,int n2) {
