@@ -6,6 +6,9 @@ public class TestReturnGradeMethod {
     public static char getGrade(double score) {
         if
         (score >= 90.0)
-        return 'A';
+            return 'A';
+        else if
+        (score >= 80.0)
+            return 'B';
     }
 }
