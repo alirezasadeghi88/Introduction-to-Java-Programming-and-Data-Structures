@@ -6,7 +6,8 @@ public class TestVoidMethod {
 
     public static void printGrade(double score) {
 
-        if (score >= 90.0) {
+        if
+        (score >= 90.0) {
             System.out.println('A');
         } else if
         (score >= 80.0) {
@@ -17,6 +18,8 @@ public class TestVoidMethod {
         } else if
         (score >= 60.0) {
             System.out.println('D');
+        } else {
+            System.out.println('F');
         }
     }
 }
