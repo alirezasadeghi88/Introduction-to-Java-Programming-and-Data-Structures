@@ -11,5 +11,8 @@ public class TestPassByValue {
         int temp = n1;
         n1 = n2;
         n2 = temp;
+
+        System.out.println("\t\tAfter swapping, n1 is " + n1
+                + " and n2 is " + n2);
     }
 }
