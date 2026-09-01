@@ -27,6 +27,9 @@ public class PrimeNumberMethod {
                 return false;
             }
         }
+
+
+        return true;
     }
 }
 
