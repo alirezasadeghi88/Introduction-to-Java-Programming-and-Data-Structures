@@ -14,6 +14,9 @@ public class TestVoidMethod {
         } else if
         (score >= 70.0) {
             System.out.println('C');
+        } else if
+        (score >= 60.0) {
+            System.out.println('D');
         }
     }
 }
