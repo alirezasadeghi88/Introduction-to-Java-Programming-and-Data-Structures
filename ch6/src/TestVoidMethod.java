@@ -2,6 +2,9 @@ public class TestVoidMethod {
     public static void main(String[] args) {
         System.out.print("The grade is ");
         printGrade(78.5);
+
+        System.out.print("The grade is ");
+        printGrade(59.5);
     }
 
     public static void printGrade(double score) {
