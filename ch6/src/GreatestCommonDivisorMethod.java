@@ -6,6 +6,8 @@ public class GreatestCommonDivisorMethod {
 
         System.out.print("Enter first integer: ");
         int n1 = input.nextInt();
+        System.out.print("Enter second integer: ");
+        int n2 = input.nextInt();
     }
 
     public static int gcd(int n1,int n2) {
