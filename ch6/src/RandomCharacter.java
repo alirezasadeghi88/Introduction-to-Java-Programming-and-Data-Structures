@@ -4,6 +4,6 @@ public class RandomCharacter {
     }
 
     public static char getRandomLowerCaseLetter() {
-
+        return getRandomCharacter('a', 'z');
     }
 }
