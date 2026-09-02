@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Hex2Dec {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 
     public static int hexToDecimal(String hex) {
