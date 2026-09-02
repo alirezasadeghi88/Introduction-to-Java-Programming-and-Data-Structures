@@ -18,5 +18,7 @@ public class Hex2Dec {
     public static int hexCharToDecimal(char ch) {
         if (ch >= 'A' && ch <= 'F')
             return 10 + ch - 'A';
+        else
+            return ch - '0';
     }
 }
