@@ -10,5 +10,7 @@ public class Hex2Dec {
              decimalValue = decimalValue * 16 + hexCharToDecimal(hexChar);
         }
 
+
+        return decimalValue;
     }
 }
