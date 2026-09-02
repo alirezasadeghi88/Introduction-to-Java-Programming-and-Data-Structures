@@ -1,5 +1,5 @@
 public class RandomCharacter {
-    public static void main(String[] args) {
+    public static char getRandomCharacter(char ch1, char ch2) {
 
     }
 }
