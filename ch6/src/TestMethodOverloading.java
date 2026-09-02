@@ -16,4 +16,8 @@ public class TestMethodOverloading {
         else
             return num2;
     }
+
+    public static double max(double num1, double num2, double num3) {
+
+    }
 }
