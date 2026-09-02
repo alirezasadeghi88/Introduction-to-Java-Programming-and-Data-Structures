@@ -7,7 +7,8 @@ public class TestRandomCharacter {
             char ch = RandomCharacter.getRandomLowerCaseLetter();
             if ((i + 1) % CHARS_PER_LINE == 0)
                 System.out.println(ch);
-
+            else
+                System.out.print(ch);
         }
     }
 }
