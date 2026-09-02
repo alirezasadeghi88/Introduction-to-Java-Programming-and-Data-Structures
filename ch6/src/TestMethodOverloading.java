@@ -5,6 +5,9 @@ public class TestMethodOverloading {
 
         System.out.println("The maximum of 3.0 and 5.4 is "
                 + max(3.0, 5.4));
+
+        System.out.println("The maximum of 3.0, 5.4, and 10.14 is "
+                + max(3.0, 5.4, 10.14));
     }
 
     public static int max(int num1, int num2) {
