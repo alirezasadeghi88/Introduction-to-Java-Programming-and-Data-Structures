@@ -16,7 +16,7 @@ public class RandomCharacter {
     }
 
     public static char getRandomCharacter() {
-
+        return getRandomCharacter('\u0000', '\uFFFF');
     }
 
 }
