@@ -18,6 +18,6 @@ public class TestMethodOverloading {
     }
 
     public static double max(double num1, double num2, double num3) {
-
+            return max(max(num1, num2), num3);
     }
 }
