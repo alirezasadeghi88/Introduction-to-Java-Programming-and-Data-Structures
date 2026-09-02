@@ -8,6 +8,6 @@ public class RandomCharacter {
     }
 
     public static char getRandomUpperCaseLetter() {
-
+        return getRandomCharacter('A', 'Z');
     }
 }
