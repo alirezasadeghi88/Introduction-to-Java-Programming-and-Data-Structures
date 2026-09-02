@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Hex2Dec {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a hex number: ");
+        String hex = input.nextLine();
     }
 
     public static int hexToDecimal(String hex) {
