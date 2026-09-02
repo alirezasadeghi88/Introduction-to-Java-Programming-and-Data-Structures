@@ -12,6 +12,6 @@ public class RandomCharacter {
     }
 
     public static char getRandomDigitCharacter() {
-
+        return getRandomCharacter('0', '9');
     }
 }
