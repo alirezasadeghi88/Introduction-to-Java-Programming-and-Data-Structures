@@ -13,4 +13,9 @@ public class Hex2Dec {
 
         return decimalValue;
     }
+
+
+    public static int hexCharToDecimal(char ch) {
+
+    }
 }
