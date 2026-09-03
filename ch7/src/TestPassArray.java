@@ -7,6 +7,7 @@ public class TestPassArray {
         System.out.println("Before invoking swap");
         System.out.println("array is {" + a[0] + ", " + a[1] + "}");
         swap(a[0], a[1]);
+        System.out.println("After invoking swap");
     }
 
     public static void swap(int n1, int n2) {
