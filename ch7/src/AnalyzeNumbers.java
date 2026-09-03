@@ -19,5 +19,7 @@ public class AnalyzeNumbers {
         for (int i = 0; i < n; i++)
             if (numbers[i] > average)
                 count++;
+
+        System.out.println("Average is " + average);
     }
 }
