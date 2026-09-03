@@ -9,6 +9,12 @@ public class TestPassArray {
         swap(a[0], a[1]);
         System.out.println("After invoking swap");
         System.out.println("array is {" + a[0] + ", " + a[1] + "}");
+
+        System.out.println("Before invoking swapFirstTwoInArray");
+        System.out.println("array is {" + a[0] + ", " + a[1] + "}");
+        swapFirstTwoInArray(a);
+        System.out.println("After invoking swapFirstTwoInArray");
+        System.out.println("array is {" + a[0] + ", " + a[1] + "}");
     }
 
     public static void swap(int n1, int n2) {
