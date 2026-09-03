@@ -14,5 +14,7 @@ public class AnalyzeNumbers {
         }
 
         double average = sum / n;
+
+        int count = 0;
     }
 }
