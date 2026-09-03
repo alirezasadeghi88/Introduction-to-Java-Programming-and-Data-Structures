@@ -12,5 +12,7 @@ public class AnalyzeNumbers {
             numbers[i] = input.nextDouble();
             sum += numbers[i];
         }
+
+        double average = sum / n;
     }
 }
