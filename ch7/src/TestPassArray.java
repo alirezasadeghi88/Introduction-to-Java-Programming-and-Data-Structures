@@ -15,5 +15,7 @@ public class TestPassArray {
         n2 = temp;
     }
 
+    public static void swapFirstTwoInArray(int[] array) {
 
+    }
 }
