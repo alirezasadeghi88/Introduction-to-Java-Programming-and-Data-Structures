@@ -11,3 +11,4 @@ A fundamentals-first introduction to basic programming concepts and techniques
 - [ ] **Chapter 2**: Elementary Programming
 - [ ] **Chapter 6**: Methods
 
+
