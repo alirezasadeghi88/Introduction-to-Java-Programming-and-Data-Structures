@@ -9,5 +9,9 @@ public class TestPassArray {
         swap(a[0], a[1]);
     }
 
+    public static void swap(int n1, int n2) {
+
+    }
+
 
 }
