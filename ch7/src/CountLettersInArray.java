@@ -20,4 +20,8 @@ public class CountLettersInArray {
                 System.out.print(chars[i] + " ");
         }
     }
+
+    public static int[] countLetters(char[] chars) {
+
+    }
 }
