@@ -11,4 +11,8 @@ public class CountLettersInArray {
 
         return chars;
     }
+
+    public static void displayArray(char[] chars) {
+
+    }
 }
