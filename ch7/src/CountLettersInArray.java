@@ -22,6 +22,6 @@ public class CountLettersInArray {
     }
 
     public static int[] countLetters(char[] chars) {
-
+        int[] counts = new int[26];
     }
 }
