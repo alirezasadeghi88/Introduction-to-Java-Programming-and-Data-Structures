@@ -6,6 +6,10 @@ public class CountLettersInArray {
         displayArray(chars);
 
         int[] counts = countLetters(chars);
+
+        System.out.println();
+        System.out.println("The occurrences of each letter are:");
+        displayCounts(counts);
     }
 
     public static char[] createArray() {
