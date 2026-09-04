@@ -7,5 +7,19 @@ public class Calculator {
         }
 
         int result = 0;
+
+        switch (args[1].charAt(0)) {
+            case '+': result = Integer.parseInt(args[0]) +
+                    Integer.parseInt(args[2]);
+            break;
+            case '−': result = Integer.parseInt(args[0]) -
+            Integer.parseInt(args[2]);
+            break;
+            case '.': result = Integer.parseInt(args[0]) *
+                    Integer.parseInt(args[2]);
+            break;
+            case '/': result = Integer.parseInt(args[0]) /
+                    Integer.parseInt(args[2]);
+                     }
     }
 }
