@@ -8,5 +8,7 @@ public class VarArgsDemo {
             System.out.println("No argument passed");
             return;
         }
+
+        double result = numbers[0];
     }
 }
