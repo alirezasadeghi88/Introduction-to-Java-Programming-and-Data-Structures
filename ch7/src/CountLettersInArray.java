@@ -4,6 +4,6 @@ public class CountLettersInArray {
     }
 
     public static char[] createArray() {
-
+        char[] chars = new char[100];
     }
 }
