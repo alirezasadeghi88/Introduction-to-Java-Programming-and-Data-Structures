@@ -8,5 +8,7 @@ public class CountLettersInArray {
 
         for (int i = 0; i < chars.length; i++)
             chars[i] = RandomCharacter.getRandomLowerCaseLetter();
+
+        return chars;
     }
 }
