@@ -5,5 +5,7 @@ public class Calculator {
                     "Usage: java Calculator operand1 operator operand2");
             System.exit(1);
         }
+
+        int result = 0;
     }
 }
