@@ -4,6 +4,8 @@ public class CountLettersInArray {
 
         System.out.println("The lowercase letters are:");
         displayArray(chars);
+
+        int[] counts = countLetters(chars);
     }
 
     public static char[] createArray() {
