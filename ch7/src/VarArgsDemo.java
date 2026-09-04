@@ -1,6 +1,6 @@
 public class VarArgsDemo {
     public static void main(String[] args) {
-
+        printMax(34, 3, 3, 2, 56.5);
     }
 
     public static void printMax(double... numbers) {
