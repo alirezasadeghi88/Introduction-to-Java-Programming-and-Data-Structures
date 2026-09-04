@@ -15,6 +15,6 @@ public class VarArgsDemo {
                 if (numbers[i] > result)
                     result = numbers[i];
             System.out.println("The max value is " + result);
-        }
+
     }
 }
