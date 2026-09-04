@@ -1,6 +1,9 @@
 public class CountLettersInArray {
     public static void main(String[] args) {
         char[] chars = createArray();
+
+        System.out.println("The lowercase letters are:");
+        displayArray(chars);
     }
 
     public static char[] createArray() {
