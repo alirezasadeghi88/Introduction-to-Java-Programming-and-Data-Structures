@@ -1,6 +1,6 @@
 public class CountLettersInArray {
     public static void main(String[] args) {
-
+        char[] chars = createArray();
     }
 
     public static char[] createArray() {
