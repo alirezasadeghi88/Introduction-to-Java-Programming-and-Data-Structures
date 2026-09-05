@@ -25,5 +25,7 @@ public class PassTwoDimensionalArray {
                 total += m[row][column];
             }
         }
+
+        return total;
     }
 }
