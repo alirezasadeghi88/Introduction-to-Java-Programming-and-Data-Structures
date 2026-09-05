@@ -3,4 +3,8 @@ public class CheckSudokuSolution {
 
 
     }
+
+    public static int[][] readASolution() {
+
+    }
 }
