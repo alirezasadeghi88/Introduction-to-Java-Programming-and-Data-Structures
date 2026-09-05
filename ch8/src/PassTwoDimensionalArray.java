@@ -7,5 +7,7 @@ public class PassTwoDimensionalArray {
 
     public static int[][] getArray() {
         Scanner input = new Scanner(System.in);
+
+        int[][] m = new int[3][4];
     }
 }
