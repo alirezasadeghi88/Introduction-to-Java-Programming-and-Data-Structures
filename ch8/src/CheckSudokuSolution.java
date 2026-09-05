@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class CheckSudokuSolution {
     public static void main(String[] args) {
         int[][] grid = readASolution();
+
+        System.out.println(isValid(grid) ? "Valid solution" :
+                "Invalid solution");
     }
 
     public static int[][] readASolution() {
