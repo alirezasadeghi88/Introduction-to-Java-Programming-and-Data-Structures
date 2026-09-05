@@ -31,5 +31,9 @@ public class CheckSudokuSolution {
         for (int column = 0; column < 9; column++)
             if (column != j && grid[i][column] == grid[i][j])
                 return false;
+
+        for (int row = 0; row < 9; row++)
+            if (row != i && grid[row][j] == grid[i][j])
+                return false;
     }
 }
