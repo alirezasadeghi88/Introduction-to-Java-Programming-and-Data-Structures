@@ -24,6 +24,6 @@ public class CheckSudokuSolution {
                 if (grid[i][j] < 1 || grid[i][j] > 9
                         || !isValid(i, j, grid))
                     return false;
-
+        return true;
     }
 }
