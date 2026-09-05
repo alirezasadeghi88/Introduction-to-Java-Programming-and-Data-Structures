@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class CheckSudokuSolution {
     public static void main(String[] args) {
-
-
+        int[][] grid = readASolution();
     }
 
     public static int[][] readASolution() {
