@@ -12,4 +12,3 @@ A fundamentals-first introduction to basic programming concepts and techniques
 - [ ] **Chapter 6**: Methods
 - [ ] **Chapter 7**: Single-Dimensional Arrays
 
-
