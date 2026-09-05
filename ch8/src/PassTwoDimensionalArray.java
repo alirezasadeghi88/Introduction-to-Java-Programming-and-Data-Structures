@@ -20,5 +20,10 @@ public class PassTwoDimensionalArray {
 
     public static int sum(int[][] m) {
         int total = 0;
+        for (int row = 0; row < m.length; row++) {
+            for (int column = 0; column < m[row].length; column++) {
+                total += m[row][column];
+            }
+        }
     }
 }
