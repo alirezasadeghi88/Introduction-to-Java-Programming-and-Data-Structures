@@ -28,6 +28,8 @@ public class CheckSudokuSolution {
     }
 
     public static boolean isValid(int i, int j, int[][] grid) {
-
+        for (int column = 0; column < 9; column++)
+            if (column != j && grid[i][column] == grid[i][j])
+                return false;
     }
 }
