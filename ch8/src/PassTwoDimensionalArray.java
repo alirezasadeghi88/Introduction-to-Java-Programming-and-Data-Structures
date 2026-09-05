@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class PassTwoDimensionalArray {
     public static void main(String[] args) {
         int[][] m = getArray();
+
+        System.out.println("\nSum of all elements is " + sum(m));
     }
 
     public static int[][] getArray() {
