@@ -9,5 +9,7 @@ public class PassTwoDimensionalArray {
         Scanner input = new Scanner(System.in);
 
         int[][] m = new int[3][4];
+        System.out.println("Enter " + m.length + " rows and "
+                + m[0].length + " columns: ");
     }
 }
