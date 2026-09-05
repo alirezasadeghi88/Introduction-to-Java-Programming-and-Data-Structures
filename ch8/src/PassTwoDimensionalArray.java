@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PassTwoDimensionalArray {
     public static void main(String[] args) {
-
+        int[][] m = getArray();
     }
 
     public static int[][] getArray() {
