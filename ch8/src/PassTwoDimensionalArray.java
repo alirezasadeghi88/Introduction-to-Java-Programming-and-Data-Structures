@@ -17,4 +17,8 @@ public class PassTwoDimensionalArray {
 
         return m;
     }
+
+    public static int sum(int[][] m) {
+
+    }
 }
