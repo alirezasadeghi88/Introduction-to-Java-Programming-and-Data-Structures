@@ -40,5 +40,7 @@ public class GuessBirthdayUsingArray {
             if (answer == 1)
                 day += dates[i][0][0];
         }
+
+        System.out.println("Your birthday is " + day);
     }
 }
