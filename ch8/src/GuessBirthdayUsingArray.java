@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class GuessBirthdayUsingArray {
     public static void main(String[] args) {
         int day = 0;
@@ -24,5 +26,7 @@ public class GuessBirthdayUsingArray {
                         {20, 21, 22, 23},
                         {24, 25, 26, 27},
                         {28, 29, 30, 31}}};
+
+    Scanner input = new Scanner(System.in);
     }
 }
