@@ -17,4 +17,8 @@ public class CheckSudokuSolution {
 
         return grid;
     }
+
+    public static boolean isValid(int[][] grid) {
+
+    }
 }
