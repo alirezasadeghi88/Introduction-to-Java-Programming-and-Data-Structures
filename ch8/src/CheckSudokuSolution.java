@@ -19,6 +19,11 @@ public class CheckSudokuSolution {
     }
 
     public static boolean isValid(int[][] grid) {
+        for (int i = 0; i < 9; i++)
+            for (int j = 0; j < 9; j++)
+                if (grid[i][j] < 1 || grid[i][j] > 9
+                        || !isValid(i, j, grid))
+                    return false;
 
     }
 }
