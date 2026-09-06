@@ -16,5 +16,7 @@ public class TestTV {
 
         System.out.println("tv1's channel is " + tv1.channel
                 + " and volume level is " + tv1.volumeLevel);
+        System.out.println("tv2's channel is " + tv2.channel
+                + " and volume level is " + tv2.volumeLevel);
     }
 }
