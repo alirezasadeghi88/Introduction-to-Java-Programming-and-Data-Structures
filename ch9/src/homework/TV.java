@@ -15,4 +15,10 @@ public class TV {
     public void turnOff() {
         on = false;
     }
+
+
+    public void setChannel(int newChannel) {
+    if (on && newChannel >= 1 && newChannel <= 120)
+            channel = newChannel;
+    }
 }
