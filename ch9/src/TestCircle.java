@@ -14,5 +14,8 @@ public class TestCircle {
         Circle circle3 = new Circle(125);
         System.out.println("The area of the circle of radius "
                 + circle3.radius + " is " + circle3.getArea());
+
+
+        circle2.radius = 100;
     }
 }
