@@ -7,4 +7,8 @@ public class Circle {
     Circle(double newRadius) {
         radius = newRadius;
     }
+
+    double getArea() {
+        return radius * radius * Math.PI;
+    }
 }
