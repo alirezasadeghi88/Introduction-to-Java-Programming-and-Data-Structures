@@ -4,5 +4,8 @@ public class TestCircle {
 
         System.out.println("The area of the circle of radius "
                 + circle1.radius + " is " + circle1.getArea());
+
+
+        Circle circle2 = new Circle(25);
     }
 }
