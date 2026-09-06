@@ -9,4 +9,9 @@ public class Circle {
         radius = 1;
         numberOfObjects++;
     }
+
+    Circle(double newRadius) {
+        radius = newRadius;
+        numberOfObjects++;
+    }
 }
