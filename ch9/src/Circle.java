@@ -3,4 +3,8 @@ public class Circle {
 
     Circle() {
     }
+
+    Circle(double newRadius) {
+        radius = newRadius;
+    }
 }
