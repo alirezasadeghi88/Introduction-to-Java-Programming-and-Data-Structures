@@ -9,5 +9,9 @@ public class TestTV {
 
 
         TV tv2 = new TV();
+        tv2.turnOn();
+        tv2.channelUp();
+        tv2.channelUp();
+        tv2.volumeUp();
     }
 }
