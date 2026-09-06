@@ -18,4 +18,8 @@ public class Circle {
     static int getNumberOfObjects() {
         return numberOfObjects;
     }
+
+    double getArea() {
+        return radius * radius * Math.PI;
+    }
 }
