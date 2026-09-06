@@ -27,4 +27,10 @@ public class TV {
         if (on && newVolumeLevel >= 1 && newVolumeLevel <= 7)
             volumeLevel = newVolumeLevel;
     }
+
+
+    public void channelUp() {
+        if (on && channel < 120)
+            channel++;
+    }
 }
