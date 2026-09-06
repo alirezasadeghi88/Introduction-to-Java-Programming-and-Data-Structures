@@ -14,4 +14,8 @@ public class Circle {
         radius = newRadius;
         numberOfObjects++;
     }
+
+    static int getNumberOfObjects() {
+        return numberOfObjects;
+    }
 }
