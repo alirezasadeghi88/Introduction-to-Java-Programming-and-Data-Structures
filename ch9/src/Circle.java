@@ -15,4 +15,8 @@ public class Circle {
     double getPerimeter() {
         return 2 * radius * Math.PI;
     }
+
+    void setRadius(double newRadius) {
+        radius = newRadius;
+    }
 }
