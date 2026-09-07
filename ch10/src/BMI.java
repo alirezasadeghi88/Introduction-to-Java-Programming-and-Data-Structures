@@ -46,4 +46,8 @@ public class BMI {
     public double getWeight() {
         return weight;
     }
+
+    public double getHeight() {
+        return height;
+    }
 }
