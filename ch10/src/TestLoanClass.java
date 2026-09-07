@@ -7,5 +7,8 @@ public class TestLoanClass {
         System.out.print(
                 "Enter annual interest rate, for example, 8.25: ");
         double annualInterestRate = input.nextDouble();
+
+        System.out.print("Enter number of years as an integer: ");
+        int numberOfYears = input.nextInt();
     }
 }
