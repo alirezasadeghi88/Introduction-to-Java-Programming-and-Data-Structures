@@ -10,5 +10,8 @@ public class TestLoanClass {
 
         System.out.print("Enter number of years as an integer: ");
         int numberOfYears = input.nextInt();
+
+        System.out.print("Enter loan amount, for example, 120000.95: ");
+        double loanAmount = input.nextDouble();
     }
 }
