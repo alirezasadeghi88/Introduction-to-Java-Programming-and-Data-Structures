@@ -35,4 +35,7 @@ public class BMI {
             return "Obese";
     }
 
+    public String getName() {
+        return name;
+    }
 }
