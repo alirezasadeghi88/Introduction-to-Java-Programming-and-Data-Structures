@@ -42,4 +42,8 @@ public class BMI {
     public int getAge() {
         return age;
     }
+
+    public double getWeight() {
+        return weight;
+    }
 }
