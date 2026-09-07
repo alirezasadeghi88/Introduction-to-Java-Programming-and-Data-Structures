@@ -17,6 +17,9 @@ public class TestLoanClass {
         Loan loan =
                 new Loan(annualInterestRate, numberOfYears, loanAmount);
 
-
+        System.out.printf("The loan was created on %s\n" +
+                        "The monthly payment is %.2f\nThe total payment is %.2f\n",
+                loan.getLoanDate().toString(), loan.getMonthlyPayment(),
+                loan.getTotalPayment());
     }
 }
