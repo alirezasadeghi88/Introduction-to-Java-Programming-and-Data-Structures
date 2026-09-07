@@ -30,4 +30,8 @@ public class Loan {
     public void setNumberOfYears(int numberOfYears) {
         this.numberOfYears = numberOfYears;
     }
+
+    public void setLoanAmount(double loanAmount) {
+        this.loanAmount = loanAmount;
+    }
 }
