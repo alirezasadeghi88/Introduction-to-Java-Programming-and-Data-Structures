@@ -9,5 +9,8 @@ public class TestCourse {
 
         course2.addStudent("Peter Jones");
         course2.addStudent("Steve Smith");
+
+        System.out.println("Number of students in course1: "
+                + course1.getNumberOfStudents());
     }
 }
