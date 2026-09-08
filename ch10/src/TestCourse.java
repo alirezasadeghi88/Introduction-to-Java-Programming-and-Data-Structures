@@ -17,5 +17,7 @@ public class TestCourse {
             System.out.print(students[i] + ", ");
 
         System.out.println();
+        System.out.print("Number of students in course2: "
+                + course2.getNumberOfStudents());
     }
 }
