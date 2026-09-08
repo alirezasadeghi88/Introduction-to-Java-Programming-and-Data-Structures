@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class LargeFactorial {
@@ -8,5 +9,9 @@ public class LargeFactorial {
             int n = input.nextInt();
 
         System.out.println(n +"! is \n" + factorial(n));
+    }
+
+    public static BigInteger factorial(long n) {
+
     }
 }
