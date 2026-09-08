@@ -20,6 +20,8 @@ public class PalindromeIgnoreNonAlphanumeric {
                 stringBuilder.append(s.charAt(i));
             }
         }
+
+        return stringBuilder.toString();
     }
 
     public static String reverse(String s) {
