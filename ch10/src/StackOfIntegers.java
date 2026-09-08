@@ -19,4 +19,9 @@ public class StackOfIntegers {
         }
         elements[size++] = value;
     }
+
+
+    public int pop() {
+        return elements[--size];
+    }
 }
