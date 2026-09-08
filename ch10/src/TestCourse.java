@@ -15,5 +15,7 @@ public class TestCourse {
         String[] students = course1.getStudents();
         for (int i = 0; i < course1.getNumberOfStudents(); i++)
             System.out.print(students[i] + ", ");
+
+        System.out.println();
     }
 }
