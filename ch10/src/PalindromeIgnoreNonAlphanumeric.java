@@ -13,7 +13,7 @@ public class PalindromeIgnoreNonAlphanumeric {
     }
 
     public static String filter(String s) {
-
+        StringBuilder stringBuilder = new StringBuilder();
     }
 
     public static String reverse(String s) {
