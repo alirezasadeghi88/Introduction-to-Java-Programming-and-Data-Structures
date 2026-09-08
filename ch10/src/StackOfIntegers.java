@@ -32,4 +32,8 @@ public class StackOfIntegers {
     public boolean empty() {
         return size == 0;
     }
+
+    public int getSize() {
+        return size;
+    }
 }
