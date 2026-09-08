@@ -25,6 +25,7 @@ public class PalindromeIgnoreNonAlphanumeric {
     }
 
     public static String reverse(String s) {
+        StringBuilder stringBuilder = new StringBuilder(s);
 
     }
 }
