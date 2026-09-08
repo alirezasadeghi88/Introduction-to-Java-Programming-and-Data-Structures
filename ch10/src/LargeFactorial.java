@@ -12,6 +12,6 @@ public class LargeFactorial {
     }
 
     public static BigInteger factorial(long n) {
-
+        BigInteger result = BigInteger.ONE;
     }
 }
