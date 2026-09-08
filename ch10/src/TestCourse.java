@@ -12,5 +12,6 @@ public class TestCourse {
 
         System.out.println("Number of students in course1: "
                 + course1.getNumberOfStudents());
+        String[] students = course1.getStudents();
     }
 }
