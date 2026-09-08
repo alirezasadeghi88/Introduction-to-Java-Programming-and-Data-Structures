@@ -20,8 +20,12 @@ public class StackOfIntegers {
         elements[size++] = value;
     }
 
-
     public int pop() {
         return elements[--size];
+    }
+
+
+    public int peek() {
+        return elements[size - 1];
     }
 }
