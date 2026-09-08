@@ -7,6 +7,7 @@ public class PalindromeIgnoreNonAlphanumeric {
 
     public static boolean isPalindrome(String s) {
         String s1 = filter(s);
+        String s2 = reverse(s1);
     }
 
     public static String filter(String s) {
