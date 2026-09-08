@@ -12,4 +12,8 @@ public class PalindromeIgnoreNonAlphanumeric {
     public static String filter(String s) {
 
     }
+
+    public static String reverse(String s) {
+
+    }
 }
