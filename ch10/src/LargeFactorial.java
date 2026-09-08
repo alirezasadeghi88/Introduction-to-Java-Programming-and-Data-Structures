@@ -6,5 +6,7 @@ public class LargeFactorial {
 
         System.out.print("Enter an integer: ");
             int n = input.nextInt();
+
+        System.out.println(n +"! is \n" + factorial(n));
     }
 }
