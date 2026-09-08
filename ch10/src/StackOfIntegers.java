@@ -6,4 +6,8 @@ public class StackOfIntegers {
     public StackOfIntegers() {
         this(DEFAULT_CAPACITY);
     }
+
+    public StackOfIntegers(int capacity) {
+        elements = new int[capacity];
+    }
 }
