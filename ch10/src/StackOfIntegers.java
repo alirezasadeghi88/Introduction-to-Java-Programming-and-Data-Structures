@@ -28,4 +28,8 @@ public class StackOfIntegers {
     public int peek() {
         return elements[size - 1];
     }
+
+    public boolean empty() {
+        return size == 0;
+    }
 }
