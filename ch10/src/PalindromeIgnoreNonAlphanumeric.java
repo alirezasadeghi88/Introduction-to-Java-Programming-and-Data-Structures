@@ -8,4 +8,8 @@ public class PalindromeIgnoreNonAlphanumeric {
     public static boolean isPalindrome(String s) {
 
     }
+
+    public static String filter(String s) {
+
+    }
 }
