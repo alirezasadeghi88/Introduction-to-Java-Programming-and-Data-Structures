@@ -16,5 +16,7 @@ public class LargeFactorial {
 
         for (int i = 1; i <= n; i++)
               result = result.multiply(new BigInteger(i + ""));
+
+        return result;
     }
 }
