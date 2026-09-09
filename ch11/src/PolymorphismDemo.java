@@ -5,6 +5,7 @@ public class PolymorphismDemo {
 
 
     public static void displayObject(GeometricObject object) {
-
+        System.out.println("Created on " + object.getDateCreated() +
+                ". Color is " + object.getColor());
     }
 }
