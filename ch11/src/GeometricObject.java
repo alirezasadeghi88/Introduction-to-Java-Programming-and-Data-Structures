@@ -24,4 +24,8 @@ public class GeometricObject {
     public boolean isFilled() {
         return filled;
     }
+
+    public void setFilled(boolean filled) {
+        this.filled = filled;
+    }
 }
