@@ -20,4 +20,8 @@ public class GeometricObject {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public boolean isFilled() {
+        return filled;
+    }
 }
