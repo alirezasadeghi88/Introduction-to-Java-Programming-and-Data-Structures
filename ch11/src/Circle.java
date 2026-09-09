@@ -4,4 +4,8 @@ public class Circle extends GeometricObject{
 
     public Circle() {
     }
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
 }
