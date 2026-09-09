@@ -1,6 +1,6 @@
 public class PolymorphismDemo {
     public static void main(String[] args) {
-
+        displayObject(new Circle(1, "red", false));
     }
 
 
