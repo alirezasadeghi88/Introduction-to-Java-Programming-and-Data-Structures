@@ -6,4 +6,10 @@ public class GeometricObject {
     public GeometricObject() {
         dateCreated = new java.util.Date();
     }
+
+    public GeometricObject(String color, boolean filled) {
+        dateCreated = new java.util.Date();
+        this.color = color;
+        this.filled = filled;
+    }
 }
