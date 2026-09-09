@@ -30,4 +30,8 @@ public class Circle extends GeometricObject{
     public double getDiameter() {
         return 2 * radius;
     }
+
+    public double getPerimeter() {
+        return 2 * radius * Math.PI;
+    }
 }
