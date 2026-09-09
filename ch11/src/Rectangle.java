@@ -25,4 +25,8 @@ public class Rectangle extends GeometricObject{
     public void setWidth(double width) {
         this.width = width;
     }
+
+    public double getHeight() {
+        return height;
+    }
 }
