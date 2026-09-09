@@ -17,4 +17,8 @@ public class Rectangle extends GeometricObject{
         setColor(color);
         setFilled(filled);
     }
+
+    public double getWidth() {
+        return width;
+    }
 }
