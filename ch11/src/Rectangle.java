@@ -9,4 +9,12 @@ public class Rectangle extends GeometricObject{
         this.width = width;
         this.height = height;
     }
+
+    public Rectangle(
+        double width, double height, String color, boolean filled) {
+        this.width = width;
+        this.height = height;
+        setColor(color);
+        setFilled(filled);
+    }
 }
