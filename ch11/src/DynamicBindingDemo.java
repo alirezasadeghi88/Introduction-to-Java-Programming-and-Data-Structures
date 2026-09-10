@@ -5,6 +5,6 @@ public class DynamicBindingDemo {
 
 
     public static void m(Object x) {
-
+        System.out.println(x.toString());
     }
 }
