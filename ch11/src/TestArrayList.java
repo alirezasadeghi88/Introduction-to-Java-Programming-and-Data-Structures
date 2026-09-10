@@ -18,5 +18,7 @@ public class TestArrayList {
                 + cityList.indexOf("Denver"));
         System.out.println("Is the list empty? " +
                 cityList.isEmpty());
+
+        cityList.add(2, "Xian");
     }
 }
