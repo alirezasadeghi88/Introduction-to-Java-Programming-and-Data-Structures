@@ -32,5 +32,6 @@ public class TestArrayList {
         ArrayList<Circle> list = new ArrayList<>();
 
         list.add(new Circle(2));
+        list.add(new Circle(3));
     }
 }
