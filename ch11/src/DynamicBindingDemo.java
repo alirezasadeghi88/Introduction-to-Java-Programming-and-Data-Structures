@@ -13,3 +13,7 @@ public class DynamicBindingDemo {
 class Student extends Person {
 
 }
+
+class Person extends Object {
+
+}
