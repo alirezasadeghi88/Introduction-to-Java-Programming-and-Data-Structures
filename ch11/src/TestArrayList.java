@@ -21,5 +21,6 @@ public class TestArrayList {
 
         cityList.add(2, "Xian");
         cityList.remove("Miami");
+        cityList.remove(1);
     }
 }
