@@ -5,7 +5,8 @@ public class CastingDemo {
 
     public static void displayObject(Object object) {
         if (object instanceof Circle) {
-
+            System.out.println("The circle area is " +
+                    ((Circle)object).getArea());
         }
     }
 }
