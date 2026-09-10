@@ -3,6 +3,7 @@ public class DynamicBindingDemo {
         m(new GraduateStudent());
         m(new Student());
         m(new Person());
+        m(new Object());
     }
 
 
