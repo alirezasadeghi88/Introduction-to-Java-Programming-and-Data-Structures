@@ -8,3 +8,8 @@ public class DynamicBindingDemo {
         System.out.println(x.toString());
     }
 }
+
+
+class Student extends Person {
+
+}
