@@ -4,6 +4,8 @@ public class CastingDemo {
     }
 
     public static void displayObject(Object object) {
+        if (object instanceof Circle) {
 
+        }
     }
 }
