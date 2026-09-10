@@ -33,5 +33,8 @@ public class TestArrayList {
 
         list.add(new Circle(2));
         list.add(new Circle(3));
+
+        System.out.println("The area of the circle? " +
+                list.get(0).getArea());
     }
 }
