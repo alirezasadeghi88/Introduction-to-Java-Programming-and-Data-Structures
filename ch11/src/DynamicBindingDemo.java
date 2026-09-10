@@ -10,6 +10,10 @@ public class DynamicBindingDemo {
 }
 
 
+class GraduateStudent extends Student {
+
+}
+
 class Student extends Person {
     @Override
     public String toString() {
