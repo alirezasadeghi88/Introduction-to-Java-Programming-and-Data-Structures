@@ -11,7 +11,10 @@ public class DynamicBindingDemo {
 
 
 class Student extends Person {
-
+    @Override
+    public String toString() {
+        return "Student{}";
+    }
 }
 
 class Person extends Object {
