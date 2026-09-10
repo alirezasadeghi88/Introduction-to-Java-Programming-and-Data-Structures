@@ -18,5 +18,8 @@ class Student extends Person {
 }
 
 class Person extends Object {
-
+    @Override
+    public String toString() {
+        return "Person{}";
+    }
 }
