@@ -30,5 +30,7 @@ public class TestArrayList {
         System.out.println();
 
         ArrayList<Circle> list = new ArrayList<>();
+
+        list.add(new Circle(2));
     }
 }
