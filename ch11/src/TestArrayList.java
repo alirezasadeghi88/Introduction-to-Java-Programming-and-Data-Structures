@@ -5,5 +5,6 @@ public class TestArrayList {
         ArrayList<String> cityList = new ArrayList<>();
 
         cityList.add("London");
+        cityList.add("Denver");
     }
 }
