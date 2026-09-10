@@ -14,3 +14,5 @@ A fundamentals-first introduction to basic programming concepts and techniques
 - [ ] **Chapter 8**: Multidimensional Arrays
 - [ ] **Chapter 9**: Objects and Classes
 - [ ] **Chapter 10**: Object-Oriented Thinking
+- [ ] **Chapter 11**: Inheritance and Polymorphism
+
