@@ -10,5 +10,7 @@ public class TestArrayList {
         cityList.add("Miami");
         cityList.add("Seoul");
         cityList.add("Tokyo");
+
+        System.out.println("List size? " + cityList.size());
     }
 }
