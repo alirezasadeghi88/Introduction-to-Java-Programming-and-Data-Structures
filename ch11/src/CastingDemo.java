@@ -10,7 +10,8 @@ public class CastingDemo {
             System.out.println("The circle diameter is " +
                     ((Circle)object).getDiameter());
         }else if (object instanceof Rectangle) {
-
+            System.out.println("The rectangle area is " +
+                    ((Rectangle)object).getArea());
         }
     }
 }
