@@ -20,5 +20,6 @@ public class TestArrayList {
                 cityList.isEmpty());
 
         cityList.add(2, "Xian");
+        cityList.remove("Miami");
     }
 }
