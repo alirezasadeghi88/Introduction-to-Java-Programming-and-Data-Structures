@@ -4,6 +4,7 @@ public class CastingDemo {
         Object object2 = new Rectangle(1, 1);
 
         displayObject(object1);
+        displayObject(object2);
     }
 
     public static void displayObject(Object object) {
