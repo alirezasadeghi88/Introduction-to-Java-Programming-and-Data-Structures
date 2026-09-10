@@ -2,6 +2,8 @@ public class CastingDemo {
     public static void main(String[] args) {
         Object object1 = new Circle(1);
         Object object2 = new Rectangle(1, 1);
+
+        displayObject(object1);
     }
 
     public static void displayObject(Object object) {
