@@ -8,5 +8,6 @@ public class TestArrayList {
         cityList.add("Denver");
         cityList.add("Paris");
         cityList.add("Miami");
+        cityList.add("Seoul");
     }
 }
