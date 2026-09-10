@@ -12,5 +12,7 @@ public class TestArrayList {
         cityList.add("Tokyo");
 
         System.out.println("List size? " + cityList.size());
+        System.out.println("Is Miami in the list? " +
+                cityList.contains("Miami"));
     }
 }
