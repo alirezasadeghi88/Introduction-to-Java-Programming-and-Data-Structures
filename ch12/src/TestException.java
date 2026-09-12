@@ -4,7 +4,8 @@ public class TestException {
             System.out.println(sum(new int[] {1, 2, 3, 4, 5}));
         }catch (Exception ex) {
             ex.printStackTrace();
-
+            System.out.println("\n" + ex.getMessage());
+            System.out.println("\n" + ex.toString());
         }
     }
 }
