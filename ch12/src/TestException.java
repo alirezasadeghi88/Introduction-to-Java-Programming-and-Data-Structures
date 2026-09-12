@@ -11,7 +11,9 @@ public class TestException {
 
 
             for (int i = 0; i < traceElements.length; i++) {
-
+                System.out.print("method " + traceElements[i].getMethodName());
+                System.out.print("(" + traceElements[i].getClassName() + ":");
+                System.out.println(traceElements[i].getLineNumber() + ")");
             }
         }
     }
