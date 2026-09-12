@@ -16,6 +16,6 @@ public class InputMismatchExceptionDemo {
                 System.out.println("Try again. (" + "Incorrect input: an integer is required)");
                 input.nextLine();
             }
-        }
+        }while (continueInput);
     }
 }
