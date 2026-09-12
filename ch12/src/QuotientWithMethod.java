@@ -4,5 +4,7 @@ public class QuotientWithMethod {
             System.out.println("Divisor cannot be zero");
             System.exit(1);
         }
+
+        return number1 / number2;
     }
 }
