@@ -10,4 +10,8 @@ public class CircleWithException {
         setRadius(newRadius);
         numberOfObjects++;
     }
+
+    public double getRadius() {
+        return radius;
+    }
 }
