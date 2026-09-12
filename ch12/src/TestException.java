@@ -20,6 +20,6 @@ public class TestException {
 
 
     private static int sum(int[] list) {
-
+        int result = 0;
     }
 }
