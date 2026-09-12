@@ -20,6 +20,9 @@ public class QuotientWithException {
             System.out.println(number1 + " / " + number2 + " is "
                     + result);
 
+        }catch (ArithmeticException ex) {
+            System.out.println("Exception: an integer " +
+                    "cannot be divided by zero ");
         }
     }
 }
