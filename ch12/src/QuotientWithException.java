@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class QuotientWithException {
     public static int quotient(int number1, int number2) {
         if (number2 == 0)
@@ -7,6 +9,6 @@ public class QuotientWithException {
     }
 
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 }
