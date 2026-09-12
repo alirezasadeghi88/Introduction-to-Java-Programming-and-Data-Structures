@@ -2,6 +2,8 @@ public class TestException {
     public static void main(String[] args) {
         try {
             System.out.println(sum(new int[] {1, 2, 3, 4, 5}));
+        }catch () {
+
         }
     }
 }
