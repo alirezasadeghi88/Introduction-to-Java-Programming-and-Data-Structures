@@ -11,5 +11,8 @@ public class QuotientWithIf {
         if (number2 != 0)
             System.out.println(number1 + " / " + number2
                     + " is " + (number1 / number2));
+
+        else
+            System.out.println("Divisor cannot be zero ");
     }
 }
