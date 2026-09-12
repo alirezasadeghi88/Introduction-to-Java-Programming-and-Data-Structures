@@ -3,6 +3,7 @@ public class TestException {
         try {
             System.out.println(sum(new int[] {1, 2, 3, 4, 5}));
         }catch (Exception ex) {
+            ex.printStackTrace();
 
         }
     }
