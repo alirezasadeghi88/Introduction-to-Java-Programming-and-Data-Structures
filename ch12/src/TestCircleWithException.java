@@ -8,5 +8,8 @@ public class TestCircleWithException {
         catch (IllegalArgumentException ex) {
             System.out.println(ex);
         }
+
+        System.out.println("Number of objects created: " +
+                CircleWithException.getNumberOfObjects());
     }
 }
