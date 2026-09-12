@@ -6,7 +6,12 @@ public class InputMismatchExceptionDemo {
         boolean continueInput = true;
 
         do {
-
+            try {
+                System.out.print("Enter an integer: ");
+                int number = input.nextInt();
+                System.out.println("The number entered is " + number);
+                continueInput = false;
+            }
         }
     }
 }
