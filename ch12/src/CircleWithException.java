@@ -5,4 +5,9 @@ public class CircleWithException {
     public CircleWithException() {
         this(1.0);
     }
+
+    public CircleWithException(double newRadius) {
+        setRadius(newRadius);
+        numberOfObjects++;
+    }
 }
