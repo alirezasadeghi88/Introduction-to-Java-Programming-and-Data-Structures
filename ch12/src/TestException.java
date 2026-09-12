@@ -8,6 +8,11 @@ public class TestException {
             System.out.println("\n" + ex.toString());
             System.out.println("\nTrace Info Obtained from getStackTrace");
             StackTraceElement[] traceElements = ex.getStackTrace();
+
+
+            for (int i = 0; i < traceElements.length; i++) {
+
+            }
         }
     }
 }
