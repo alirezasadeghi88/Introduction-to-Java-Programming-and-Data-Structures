@@ -6,6 +6,7 @@ public class TestException {
             ex.printStackTrace();
             System.out.println("\n" + ex.getMessage());
             System.out.println("\n" + ex.toString());
+            System.out.println("\nTrace Info Obtained from getStackTrace");
         }
     }
 }
