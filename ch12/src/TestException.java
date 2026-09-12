@@ -21,5 +21,6 @@ public class TestException {
 
     private static int sum(int[] list) {
         int result = 0;
+        for (int i = 0; i <= list.length; i++)
     }
 }
