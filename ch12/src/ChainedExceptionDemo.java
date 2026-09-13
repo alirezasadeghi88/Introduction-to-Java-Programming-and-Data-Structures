@@ -2,7 +2,9 @@ public class ChainedExceptionDemo {
     public static void main(String[] args) {
         try {
             method1();
-        }catch (Exception ex)
+        }catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     public static void method1() throws Exception {
