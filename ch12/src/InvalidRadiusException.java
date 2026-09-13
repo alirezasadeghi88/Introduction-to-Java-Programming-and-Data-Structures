@@ -1,2 +1,2 @@
-public class InvalidRadiusException {
+public class InvalidRadiusException extends Exception {
 }
