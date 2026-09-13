@@ -12,3 +12,7 @@ public class TestCircleWithCustomException {
                 CircleWithCustomException.getNumberOfObjects());
     }
 }
+
+class CircleWithCustomException {
+
+}
