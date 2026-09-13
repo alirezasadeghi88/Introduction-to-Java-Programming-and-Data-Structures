@@ -20,4 +20,10 @@ class CircleWithCustomException {
     public CircleWithCustomException() throws InvalidRadiusException {
         this(1.0);
     }
+
+    public CircleWithCustomException(double newRadius)
+        throws InvalidRadiusException {
+        setRadius(newRadius);
+        numberOfObjects++;
+    }
 }
