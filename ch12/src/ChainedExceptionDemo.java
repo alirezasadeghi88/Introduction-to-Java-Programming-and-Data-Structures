@@ -6,6 +6,6 @@ public class ChainedExceptionDemo {
     public static void method1() throws Exception {
         try {
             method2();
-        }
+        }catch ()
     }
 }
