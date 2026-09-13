@@ -4,6 +4,8 @@ public class TestCircleWithCustomException {
             new CircleWithCustomException(5);
             new CircleWithCustomException(-5);
             new CircleWithCustomException(0);
+        } catch (InvalidRadiusException ex) {
+
         }
     }
 }
