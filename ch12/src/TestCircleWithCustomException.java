@@ -14,5 +14,5 @@ public class TestCircleWithCustomException {
 }
 
 class CircleWithCustomException {
-
+    private double radius;
 }
