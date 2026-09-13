@@ -34,4 +34,8 @@ class CircleWithCustomException {
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    public static int getNumberOfObjects() {
+        return numberOfObjects;
+    }
 }
