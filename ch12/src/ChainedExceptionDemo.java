@@ -10,4 +10,8 @@ public class ChainedExceptionDemo {
             throw new Exception("New info from method1", ex);
         }
     }
+
+    public static void method2() throws Exception {
+
+    }
 }
