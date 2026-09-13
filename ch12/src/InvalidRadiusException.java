@@ -5,4 +5,8 @@ public class InvalidRadiusException extends Exception {
         super("Invalid radius " + radius);
         this.radius = radius;
     }
+
+    public double getRadius() {
+        return radius;
+    }
 }
