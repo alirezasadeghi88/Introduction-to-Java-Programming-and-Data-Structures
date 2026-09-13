@@ -11,5 +11,7 @@ public class TestFileClass {
         System.out.println("Is it hidden? " + file.isHidden());
         System.out.println("Absolute path is " +
                 file.getAbsolutePath());
+        System.out.println("Last modified on " +
+            new java.util.Date(file.lastModified()));
     }
 }
