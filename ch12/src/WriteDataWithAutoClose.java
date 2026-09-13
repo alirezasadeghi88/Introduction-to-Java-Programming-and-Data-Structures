@@ -6,5 +6,10 @@ public class WriteDataWithAutoClose {
             System.out.println("File already exists");
             System.exit(0);
         }
+
+
+        try (
+        java.io.PrintWriter output = new java.io.PrintWriter(file);
+            )
     }
 }
