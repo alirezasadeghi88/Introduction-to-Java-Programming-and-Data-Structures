@@ -28,6 +28,7 @@ public class ReplaceText {
             while (input.hasNext()) {
                 String s1 = input.nextLine();
                 String s2 = s1.replaceAll(args[2], args[3]);
+                output.println(s2);
             }
     }
 }
