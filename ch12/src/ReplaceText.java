@@ -9,7 +9,7 @@ public class ReplaceText {
 
         File sourceFile = new File(args[0]);
         if (!sourceFile.exists()) {
-
+            System.out.println("Source file " + args[0] + " does not exist");
         }
     }
 }
