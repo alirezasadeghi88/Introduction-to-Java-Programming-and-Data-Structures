@@ -17,7 +17,7 @@ public class ReadFileFromURL {
 
             System.out.println("The file size is " + count + " characters");
         }catch (java.net.MalformedURLException ex) {
-
+            System.out.println("Invalid URL");
         }
-        }
+    }
 }
