@@ -26,7 +26,7 @@ public class ReplaceText {
                 PrintWriter output = new PrintWriter(targetFile);
         ){
             while (input.hasNext()) {
-
+                String s1 = input.nextLine();
             }
     }
 }
