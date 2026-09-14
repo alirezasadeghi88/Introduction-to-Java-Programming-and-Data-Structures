@@ -24,6 +24,9 @@ public class ReplaceText {
         try (
                 Scanner input = new Scanner(sourceFile);
                 PrintWriter output = new PrintWriter(targetFile);
-        )
+        ){
+            while (input.hasNext()) {
+
+            }
     }
 }
