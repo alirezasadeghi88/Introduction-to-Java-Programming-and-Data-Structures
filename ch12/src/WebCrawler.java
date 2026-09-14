@@ -41,7 +41,7 @@ public class WebCrawler {
                 String line = input.nextLine();
                 current = line.indexOf("http:", current);
                 while (current > 0) {
-
+                    int endIndex = line.indexOf("\"", current);
                 }
             }
         }
