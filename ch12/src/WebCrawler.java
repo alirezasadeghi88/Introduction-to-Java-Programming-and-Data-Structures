@@ -38,7 +38,8 @@ public class WebCrawler {
             Scanner input = new Scanner(url.openStream());
             int current = 0;
             while (input.hasNext()) {
-
+                String line = input.nextLine();
+                current = line.indexOf("http:", current);
             }
         }
     }
