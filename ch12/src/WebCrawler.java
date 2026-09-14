@@ -46,7 +46,8 @@ public class WebCrawler {
                         list.add(line.substring(current, endIndex));
                         current = line.indexOf("http:", endIndex);
                     }
-                }
+                } else
+                        current = -1;
             }
         }
     }
