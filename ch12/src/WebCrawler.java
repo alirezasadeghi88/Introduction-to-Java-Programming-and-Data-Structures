@@ -40,6 +40,9 @@ public class WebCrawler {
             while (input.hasNext()) {
                 String line = input.nextLine();
                 current = line.indexOf("http:", current);
+                while (current > 0) {
+
+                }
             }
         }
     }
