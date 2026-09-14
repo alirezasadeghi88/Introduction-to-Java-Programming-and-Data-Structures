@@ -45,9 +45,9 @@ public class WebCrawler {
                     if (endIndex > 0) {
                         list.add(line.substring(current, endIndex));
                         current = line.indexOf("http:", endIndex);
-                    }
-                } else
-                current = -1;
+                    } else
+                        current = -1;
+                }
             }
         }   catch (Exception ex) {
             System.out.println("Error: " + ex.getMessage());
