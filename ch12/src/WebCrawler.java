@@ -47,8 +47,10 @@ public class WebCrawler {
                         current = line.indexOf("http:", endIndex);
                     }
                 } else
-                        current = -1;
+                current = -1;
             }
+        }   catch (Exception ex) {
+
         }
     }
 }
