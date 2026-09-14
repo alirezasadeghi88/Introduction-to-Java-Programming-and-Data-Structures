@@ -31,6 +31,6 @@ public class WebCrawler {
     }
 
     public static ArrayList<String> getSubURLs(String urlString) {
-
+        ArrayList<String> list = new ArrayList<>();
     }
 }
