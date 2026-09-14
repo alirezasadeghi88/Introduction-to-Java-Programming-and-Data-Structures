@@ -22,7 +22,9 @@ public class WebCrawler {
                 listOfTraversedURLs.add(urlString);
                 System.out.println("Crawl " + urlString);
 
+                for (String s : getSubURLs(urlString)) {
 
+                }
             }
         }
     }
