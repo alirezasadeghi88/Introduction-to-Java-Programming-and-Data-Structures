@@ -8,5 +8,8 @@ public class ReplaceText {
         }
 
         File sourceFile = new File(args[0]);
+        if (!sourceFile.exists()) {
+
+        }
     }
 }
