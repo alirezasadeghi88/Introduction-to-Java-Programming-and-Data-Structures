@@ -50,7 +50,7 @@ public class WebCrawler {
                 current = -1;
             }
         }   catch (Exception ex) {
-
+            System.out.println("Error: " + ex.getMessage());
         }
     }
 }
