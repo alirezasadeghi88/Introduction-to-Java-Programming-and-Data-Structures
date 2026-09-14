@@ -37,6 +37,9 @@ public class WebCrawler {
             java.net.URL url = new java.net.URL(urlString);
             Scanner input = new Scanner(url.openStream());
             int current = 0;
+            while (input.hasNext()) {
+
+            }
         }
     }
 }
