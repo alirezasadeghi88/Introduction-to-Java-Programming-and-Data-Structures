@@ -23,9 +23,14 @@ public class WebCrawler {
                 System.out.println("Crawl " + urlString);
 
                 for (String s : getSubURLs(urlString)) {
-
+                    if (!listOfTraversedURLs.contains(s))
+                        listOfPendingURLs.add(s);
                 }
             }
         }
+    }
+
+    public static ArrayList<String> getSubURLs(String urlString) {
+
     }
 }
