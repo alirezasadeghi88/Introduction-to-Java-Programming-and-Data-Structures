@@ -14,5 +14,8 @@ public class ReplaceText {
         }
 
         File targetFile = new File(args[1]);
+        if (targetFile.exists()) {
+            
+        }
     }
 }
