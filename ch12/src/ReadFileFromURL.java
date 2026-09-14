@@ -12,6 +12,7 @@ public class ReadFileFromURL {
 
             while (input.hasNext()) {
                 String line = input.nextLine();
+                count += line.length();
             }
         }
     }
