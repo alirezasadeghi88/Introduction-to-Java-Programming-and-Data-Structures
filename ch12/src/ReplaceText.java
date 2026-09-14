@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class ReplaceText {
@@ -22,6 +23,7 @@ public class ReplaceText {
 
         try (
                 Scanner input = new Scanner(sourceFile);
+                PrintWriter output = new PrintWriter(targetFile);
         )
     }
 }
