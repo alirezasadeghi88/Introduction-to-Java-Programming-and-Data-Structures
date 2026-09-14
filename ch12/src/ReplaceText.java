@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.Scanner;
 
 public class ReplaceText {
     public static void main(String[] args) throws Exception {
@@ -20,6 +21,7 @@ public class ReplaceText {
         }
 
         try (
-                )
+                Scanner input = new Scanner(sourceFile);
+        )
     }
 }
