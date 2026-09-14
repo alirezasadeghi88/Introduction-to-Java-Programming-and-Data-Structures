@@ -12,5 +12,7 @@ public class ReplaceText {
             System.out.println("Source file " + args[0] + " does not exist");
             System.exit(2);
         }
+
+        File targetFile = new File(args[1]);
     }
 }
