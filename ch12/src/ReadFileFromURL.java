@@ -14,6 +14,8 @@ public class ReadFileFromURL {
                 String line = input.nextLine();
                 count += line.length();
             }
+
+            System.out.println("The file size is " + count + " characters");
         }
     }
 }
