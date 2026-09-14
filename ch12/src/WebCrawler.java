@@ -7,4 +7,8 @@ public class WebCrawler {
         String url = input.nextLine();
         crawler(url);
     }
+
+    public static void crawler(String startingURL) {
+
+    }
 }
