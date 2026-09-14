@@ -5,5 +5,6 @@ public class WebCrawler {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a URL: ");
         String url = input.nextLine();
+        crawler(url);
     }
 }
