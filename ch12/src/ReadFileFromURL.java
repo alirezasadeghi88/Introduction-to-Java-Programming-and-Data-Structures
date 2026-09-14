@@ -8,6 +8,7 @@ public class ReadFileFromURL {
         try {
             java.net.URL url = new java.net.URL(URLString);
             int count = 0;
+            Scanner input = new Scanner(url.openStream());
         }
     }
 }
