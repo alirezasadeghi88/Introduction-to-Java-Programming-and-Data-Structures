@@ -43,7 +43,8 @@ public class WebCrawler {
                 while (current > 0) {
                     int endIndex = line.indexOf("\"", current);
                     if (endIndex > 0) {
-
+                        list.add(line.substring(current, endIndex));
+                        current = line.indexOf("http:", endIndex);
                     }
                 }
             }
