@@ -19,7 +19,7 @@ public class ReadFileFromURL {
         }catch (java.net.MalformedURLException ex) {
             System.out.println("Invalid URL");
         }   catch (java.io.IOException ex) {
-
+            System.out.println("I/O Errors: no such file");
         }
     }
 }
