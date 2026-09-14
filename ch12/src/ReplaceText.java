@@ -15,7 +15,7 @@ public class ReplaceText {
 
         File targetFile = new File(args[1]);
         if (targetFile.exists()) {
-            
+            System.out.println("Target file " + args[1] + " already exists");
         }
     }
 }
