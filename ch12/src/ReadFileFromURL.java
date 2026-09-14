@@ -6,7 +6,8 @@ public class ReadFileFromURL {
         String URLString = new Scanner(System.in).next();
 
         try {
-
+            java.net.URL url = new java.net.URL(URLString);
+            int count = 0;
         }
     }
 }
