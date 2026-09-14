@@ -34,7 +34,7 @@ public class WebCrawler {
         ArrayList<String> list = new ArrayList<>();
 
         try {
-
+            java.net.URL url = new java.net.URL(urlString);
         }
     }
 }
