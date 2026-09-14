@@ -52,5 +52,7 @@ public class WebCrawler {
         }   catch (Exception ex) {
             System.out.println("Error: " + ex.getMessage());
         }
+
+        return list;
     }
 }
