@@ -14,5 +14,12 @@ public class WebCrawler {
         ArrayList<String> listOfTraversedURLs = new ArrayList<>();
 
         listOfPendingURLs.add(startingURL);
+
+        while (!listOfPendingURLs.isEmpty() &&
+                listOfTraversedURLs.size() <= 100) {
+            String urlString = listOfPendingURLs.remove(0);
+
+            }
+        }
     }
 }
