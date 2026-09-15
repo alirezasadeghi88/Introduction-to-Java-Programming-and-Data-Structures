@@ -35,4 +35,13 @@ public abstract class GeometricObject {
     public Date getDateCreated() {
         return dateCreated;
     }
+
+    @Override
+    public String toString() {
+        return "GeometricObject{" +
+                "color='" + color + '\'' +
+                ", filled=" + filled +
+                ", dateCreated=" + dateCreated +
+                '}';
+    }
 }
