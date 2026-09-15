@@ -6,4 +6,10 @@ public abstract class GeometricObject {
     protected GeometricObject() {
         dateCreated = new java.util.Date();
     }
+
+    protected GeometricObject(String color, boolean filled) {
+        dateCreated = new java.util.Date();
+        this.color = color;
+        this.filled = filled;
+    }
 }
