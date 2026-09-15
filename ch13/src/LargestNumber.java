@@ -9,5 +9,8 @@ public class LargestNumber {
         list.add(3445.53);
         list.add(new BigInteger("3432323234344343101"));
         list.add(new BigDecimal("2.0909090989091343433344343"));
+
+        System.out.println("The largest number is " +
+                getLargestNumber(list));
     }
 }
