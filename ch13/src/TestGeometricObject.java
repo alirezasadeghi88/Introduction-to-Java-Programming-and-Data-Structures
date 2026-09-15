@@ -9,4 +9,8 @@ public class TestGeometricObject {
     public static boolean equalArea(GeometricObject object1, GeometricObject object2) {
         return object1.getArea() == object2.getArea();
     }
+
+    public static void displayGeometricObject(GeometricObject object) {
+
+    }
 }
