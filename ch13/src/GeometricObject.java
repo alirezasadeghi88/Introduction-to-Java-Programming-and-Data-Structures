@@ -44,4 +44,8 @@ public abstract class GeometricObject {
                 ", dateCreated=" + dateCreated +
                 '}';
     }
+
+    public abstract double getArea();
+
+
 }
