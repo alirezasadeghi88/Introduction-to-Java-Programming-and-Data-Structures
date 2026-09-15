@@ -7,6 +7,8 @@ public class TestGeometricObject {
 
         System.out.println("The two objects have the same area? " +
                 equalArea(geoObject1, geoObject2));
+
+        displayGeometricObject(geoObject1);
     }
 
     public static boolean equalArea(GeometricObject object1, GeometricObject object2) {
