@@ -21,5 +21,7 @@ public class LargestNumber {
         Number number = list.get(0);
 
         for (int i = 1; i < list.size(); i++)
+            if (number.doubleValue() < list.get(i).doubleValue())
+                number = list.get(i);
     }
 }
