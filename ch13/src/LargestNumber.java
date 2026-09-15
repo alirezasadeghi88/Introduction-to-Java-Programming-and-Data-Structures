@@ -13,4 +13,8 @@ public class LargestNumber {
         System.out.println("The largest number is " +
                 getLargestNumber(list));
     }
+
+    public static Number getLargestNumber(ArrayList<Number> list) {
+
+    }
 }
