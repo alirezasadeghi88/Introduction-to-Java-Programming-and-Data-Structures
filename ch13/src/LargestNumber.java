@@ -15,6 +15,7 @@ public class LargestNumber {
     }
 
     public static Number getLargestNumber(ArrayList<Number> list) {
-
+        if (list == null || list.size() == 0)
+            return null;
     }
 }
