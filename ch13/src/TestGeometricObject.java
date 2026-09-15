@@ -11,6 +11,8 @@ public class TestGeometricObject {
     }
 
     public static void displayGeometricObject(GeometricObject object) {
-
+        System.out.println();
+        System.out.println("The area is " + object.getArea());
+        System.out.println("The perimeter is " + object.getPerimeter());
     }
 }
