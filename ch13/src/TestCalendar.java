@@ -32,5 +32,7 @@ public class TestCalendar {
         Calendar calendar1 = new GregorianCalendar(1997, 11, 25);
         String[] dayNameOfWeek = {"Sunday", "Monday", "Tuesday", "Wednesday",
                 "Thursday", "Friday", "Saturday"};
+        System.out.println("December 25, 1997 is a " +
+                dayNameOfWeek[calendar1.get(Calendar.DAY_OF_WEEK) - 1]);
     }
 }
