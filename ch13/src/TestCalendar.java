@@ -30,5 +30,7 @@ public class TestCalendar {
         System.out.println("AM_PM: " + calendar.get(Calendar.AM_PM));
 
         Calendar calendar1 = new GregorianCalendar(1997, 11, 25);
+        String[] dayNameOfWeek = {"Sunday", "Monday", "Tuesday", "Wednesday",
+                "Thursday", "Friday", "Saturday"};
     }
 }
