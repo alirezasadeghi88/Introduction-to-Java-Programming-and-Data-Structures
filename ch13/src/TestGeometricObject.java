@@ -1,0 +1,2 @@
+public class TestGeometricObject {
+}
