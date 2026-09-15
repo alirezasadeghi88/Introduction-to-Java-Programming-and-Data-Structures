@@ -1,2 +1,2 @@
-public class GeometricObject {
+public abstract class GeometricObject {
 }
