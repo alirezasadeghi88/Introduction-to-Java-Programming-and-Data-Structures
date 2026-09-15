@@ -9,6 +9,7 @@ public class TestGeometricObject {
                 equalArea(geoObject1, geoObject2));
 
         displayGeometricObject(geoObject1);
+        displayGeometricObject(geoObject2);
     }
 
     public static boolean equalArea(GeometricObject object1, GeometricObject object2) {
