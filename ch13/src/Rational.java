@@ -24,4 +24,8 @@ public class Rational extends Number implements Comparable<Rational> {
 
         return gcd;
     }
+
+    public long getNumerator() {
+        return numerator;
+    }
 }
