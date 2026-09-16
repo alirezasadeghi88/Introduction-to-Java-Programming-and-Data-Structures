@@ -21,4 +21,8 @@ abstract class Animal {
     public double getWeight() {
         return weight;
     }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 }
