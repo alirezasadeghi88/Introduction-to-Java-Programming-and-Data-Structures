@@ -4,5 +4,6 @@ public class TestRationalClass {
         Rational r2 = new Rational(2, 3);
 
         System.out.println(r1 + " + " + r2 + " = " + r1.add(r2));
+        System.out.println(r1 + " − " + r2 + " = " + r1.subtract(r2));
     }
 }
