@@ -13,5 +13,6 @@ public class SortComparableObjects {
                 new BigInteger("54623239292")};
         java.util.Arrays.sort(hugeNumbers);
 
+        for (BigInteger number: hugeNumbers)
     }
 }
