@@ -87,6 +87,6 @@ public class Rational extends Number implements Comparable<Rational> {
 
     @Override
     public double doubleValue() {
-
+        return numerator *  1.0 / denominator;
     }
 }
