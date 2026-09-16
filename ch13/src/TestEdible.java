@@ -1,5 +1,10 @@
 public class TestEdible {
     public static void main(String[] args) {
         Object[] objects = {new Tiger(), new Chicken(), new Apple()};
+
+
+        for (int i = 0; i < objects.length; i++) {
+
+        }
     }
 }
