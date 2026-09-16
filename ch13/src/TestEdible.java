@@ -16,4 +16,5 @@ public class TestEdible {
 }
 
 abstract class Animal {
+    private double weight;
 }
