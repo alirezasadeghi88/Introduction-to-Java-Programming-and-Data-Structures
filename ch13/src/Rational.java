@@ -56,5 +56,6 @@ public class Rational extends Number implements Comparable<Rational> {
     public Rational divide(Rational secondRational) {
         long n = numerator * secondRational.getDenominator();
         long d = denominator * secondRational.numerator;
+        return new Rational(n, d);
     }
 }
