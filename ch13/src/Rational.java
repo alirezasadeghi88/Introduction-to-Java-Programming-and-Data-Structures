@@ -5,4 +5,10 @@ public class Rational {
     public Rational() {
         this(0, 1);
     }
+
+    public Rational(long numerator, long denominator) {
+        long gcd = gcd(numerator, denominator);
+        this.numerator = (denominator > 0 ? 1 : -1) * numerator / gcd;
+        this.denominator = Math.abs(denominator) / gcd;
+    }
 }
