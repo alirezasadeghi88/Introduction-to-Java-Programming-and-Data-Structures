@@ -6,5 +6,6 @@ public class TestRationalClass {
         System.out.println(r1 + " + " + r2 + " = " + r1.add(r2));
         System.out.println(r1 + " − " + r2 + " = " + r1.subtract(r2));
         System.out.println(r1 + " * " + r2 + " = " + r1.multiply(r2));
+        System.out.println(r1 + " / " + r2 + " = " + r1.divide(r2));
     }
 }
