@@ -32,4 +32,8 @@ public class Rational extends Number implements Comparable<Rational> {
     public long getDenominator() {
         return denominator;
     }
+
+    public Rational add(Rational secondRational) {
+
+    }
 }
