@@ -17,4 +17,8 @@ public class TestEdible {
 
 abstract class Animal {
     private double weight;
+
+    public double getWeight() {
+        return weight;
+    }
 }
