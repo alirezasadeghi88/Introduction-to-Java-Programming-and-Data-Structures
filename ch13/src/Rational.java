@@ -61,6 +61,7 @@ public class Rational extends Number implements Comparable<Rational> {
 
     @Override
     public String toString() {
-
+        if (denominator == 1)
+            return numerator + "";
     }
 }
