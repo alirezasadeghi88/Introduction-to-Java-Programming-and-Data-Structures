@@ -58,4 +58,9 @@ public class Rational extends Number implements Comparable<Rational> {
         long d = denominator * secondRational.numerator;
         return new Rational(n, d);
     }
+
+    @Override
+    public String toString() {
+
+    }
 }
