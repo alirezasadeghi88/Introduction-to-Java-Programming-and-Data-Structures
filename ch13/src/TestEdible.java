@@ -51,5 +51,8 @@ class Tiger extends Animal {
 abstract class Fruit implements Edible {
 }
 
+class Apple extends Fruit {
+}
+
 
 
