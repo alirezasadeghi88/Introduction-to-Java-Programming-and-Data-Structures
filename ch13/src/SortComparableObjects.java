@@ -14,5 +14,6 @@ public class SortComparableObjects {
         java.util.Arrays.sort(hugeNumbers);
 
         for (BigInteger number: hugeNumbers)
+            System.out.print(number + " ");
     }
 }
