@@ -9,7 +9,7 @@ public class TestEdible {
 
 
             if (objects[i] instanceof Animal) {
-
+                System.out.println(((Animal)objects[i]).sound());
             }
         }
     }
