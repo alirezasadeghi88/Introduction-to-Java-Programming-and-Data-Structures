@@ -97,6 +97,7 @@ public class Rational extends Number implements Comparable<Rational> {
 
     @Override
     public int compareTo(Rational o) {
-
+        if (this.subtract(o).getNumerator() > 0)
+            return 1;
     }
 }
