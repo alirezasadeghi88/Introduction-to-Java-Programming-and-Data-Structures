@@ -74,4 +74,9 @@ public class Rational extends Number implements Comparable<Rational> {
         else
             return false;
     }
+
+    @Override
+    public int intValue() {
+
+    }
 }
