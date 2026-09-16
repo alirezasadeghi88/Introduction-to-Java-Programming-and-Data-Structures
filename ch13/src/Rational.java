@@ -41,6 +41,7 @@ public class Rational extends Number implements Comparable<Rational> {
     }
 
     public Rational subtract(Rational secondRational) {
-
+        long n = numerator * secondRational.getDenominator()
+                - denominator * secondRational.getNumerator();
     }
 }
