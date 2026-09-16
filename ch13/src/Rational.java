@@ -11,4 +11,8 @@ public class Rational {
         this.numerator = (denominator > 0 ? 1 : -1) * numerator / gcd;
         this.denominator = Math.abs(denominator) / gcd;
     }
+
+    private static long gcd(long n, long d) {
+
+    }
 }
