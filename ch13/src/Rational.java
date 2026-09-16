@@ -19,6 +19,7 @@ public class Rational extends Number implements Comparable<Rational> {
 
         for (int k = 1; k <= n1 && k <= n2; k++) {
             if (n1 % k == 0 && n2 % k == 0)
+                gcd = k;
         }
     }
 }
