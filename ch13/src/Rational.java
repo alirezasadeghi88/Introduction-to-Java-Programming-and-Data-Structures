@@ -92,6 +92,6 @@ public class Rational extends Number implements Comparable<Rational> {
 
     @Override
     public long longValue() {
-
+        return (long)doubleValue();
     }
 }
