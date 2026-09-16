@@ -21,5 +21,7 @@ public class Rational extends Number implements Comparable<Rational> {
             if (n1 % k == 0 && n2 % k == 0)
                 gcd = k;
         }
+
+        return gcd;
     }
 }
