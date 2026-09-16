@@ -41,5 +41,8 @@ class Chicken extends Animal implements Edible {
     }
 }
 
+class Tiger extends Animal {
+}
+
 
 
