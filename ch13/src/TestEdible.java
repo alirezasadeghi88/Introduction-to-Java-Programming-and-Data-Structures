@@ -49,9 +49,14 @@ class Tiger extends Animal {
 }
 
 abstract class Fruit implements Edible {
+    public abstract String howToEat();
 }
 
 class Apple extends Fruit {
+    @Override
+    public String howToEat() {
+        return "Apple: Make apple cider";
+    }
 }
 
 
