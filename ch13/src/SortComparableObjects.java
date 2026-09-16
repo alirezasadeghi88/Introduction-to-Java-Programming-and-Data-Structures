@@ -4,5 +4,6 @@ public class SortComparableObjects {
         java.util.Arrays.sort(cities);
         for (String city: cities)
             System.out.print(city + " ");
+        System.out.println();
     }
 }
