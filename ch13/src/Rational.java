@@ -66,4 +66,9 @@ public class Rational extends Number implements Comparable<Rational> {
         else
             return numerator + "/" + denominator;
     }
+
+    @Override
+    public boolean equals(Object other) {
+
+    }
 }
