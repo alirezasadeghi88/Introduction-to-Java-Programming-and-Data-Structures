@@ -4,7 +4,7 @@ public class TestEdible {
 
 
         for (int i = 0; i < objects.length; i++) {
-
+            if (objects[i] instanceof Edible)
         }
     }
 }
