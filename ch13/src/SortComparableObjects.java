@@ -3,5 +3,6 @@ public class SortComparableObjects {
         String[] cities = {"Savannah", "Boston", "Atlanta", "Tampa"};
         java.util.Arrays.sort(cities);
         for (String city: cities)
+            System.out.print(city + " ");
     }
 }
