@@ -48,5 +48,8 @@ class Tiger extends Animal {
     }
 }
 
+abstract class Fruit implements Edible {
+}
+
 
 
