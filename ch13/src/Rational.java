@@ -13,6 +13,8 @@ public class Rational {
     }
 
     private static long gcd(long n, long d) {
-
+        long n1 = Math.abs(n);
+        long n2 = Math.abs(d);
+        int gcd = 1;
     }
 }
