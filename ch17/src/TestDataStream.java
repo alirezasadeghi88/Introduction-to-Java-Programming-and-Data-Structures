@@ -7,6 +7,8 @@ public class TestDataStream {
         try (
                 DataOutputStream output =
                         new DataOutputStream(new FileOutputStream("temp.dat"));
-                )
+                ) {
+
+        }
     }
 }
