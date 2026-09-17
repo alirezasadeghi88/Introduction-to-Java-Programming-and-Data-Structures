@@ -28,11 +28,11 @@ public class Copy {
                 BufferedOutputStream output =
                         new BufferedOutputStream(new FileOutputStream(targetFile));
         ) {
-                int r, numberOfBytesCopied = 0;
-                while ((r = input.read()) != -1) {
-                    output.write((byte)r);
-                    numberOfBytesCopied++;
-                }
+            int r, numberOfBytesCopied = 0;
+            while ((r = input.read()) != -1) {
+                output.write((byte) r);
+                numberOfBytesCopied++;
+            }
 
             System.out.println(numberOfBytesCopied + " bytes copied");
         }
