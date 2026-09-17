@@ -1,4 +1,6 @@
+import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class DetectEndOfFile {
@@ -10,6 +12,9 @@ public class DetectEndOfFile {
                 output.writeDouble(43.25);
                 output.writeDouble(3.2);
             }
+
+            try (DataInputStream input =
+                         new DataInputStream(new FileInputStream("test.dat"))) {
         }
     }
 }
