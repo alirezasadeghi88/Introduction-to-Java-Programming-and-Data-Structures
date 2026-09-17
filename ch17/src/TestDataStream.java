@@ -17,6 +17,8 @@ public class TestDataStream {
         try (
                 DataInputStream input =
                         new DataInputStream(new FileInputStream("temp.dat"));
-                )
+                ) {
+            System.out.println(input.readUTF() + " " + input.readDouble());
+        }
     }
 }
