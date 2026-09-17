@@ -11,6 +11,8 @@ public class TestObjectStreamForArray {
         try (
                 ObjectOutputStream output = new ObjectOutputStream(new
                         FileOutputStream("array.dat", true));
-        )
+        ) {
+
+        }
     }
 }
