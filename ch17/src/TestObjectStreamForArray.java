@@ -26,6 +26,7 @@ public class TestObjectStreamForArray {
             System.out.println();
 
             for (int i = 0; i < newStrings.length; i++)
+                System.out.print(newStrings[i] + " ");
         }
     }
 }
