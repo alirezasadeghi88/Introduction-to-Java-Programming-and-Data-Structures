@@ -16,5 +16,7 @@ public class Copy {
         }
 
         File targetFile = new File(args[1]);
+        System.out.println("Target file " + args[1]
+                + " already exists");
     }
 }
