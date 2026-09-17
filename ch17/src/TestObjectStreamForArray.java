@@ -13,6 +13,7 @@ public class TestObjectStreamForArray {
                         FileOutputStream("array.dat", true));
         ) {
             output.writeObject(numbers);
+            output.writeObject(strings);
         }
     }
 }
