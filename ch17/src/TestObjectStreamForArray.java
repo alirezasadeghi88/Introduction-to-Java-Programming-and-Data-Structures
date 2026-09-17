@@ -15,5 +15,9 @@ public class TestObjectStreamForArray {
             output.writeObject(numbers);
             output.writeObject(strings);
         }
+
+        try (
+
+                )
     }
 }
