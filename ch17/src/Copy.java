@@ -12,6 +12,7 @@ public class Copy {
         if (!sourceFile.exists()) {
             System.out.println("Source file " + args[0]
                     + " does not exist");
+            System.exit(2);
         }
     }
 }
