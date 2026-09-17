@@ -11,6 +11,7 @@ public class TestObjectInputStream {
                 ) {
             String name = input.readUTF();
             double score = input.readDouble();
+            java.util.Date date = (java.util.Date)(input.readObject());
         }
     }
 }
