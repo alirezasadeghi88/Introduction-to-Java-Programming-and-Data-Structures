@@ -19,6 +19,7 @@ public class TestObjectStreamForArray {
                         new ObjectInputStream(new FileInputStream("array.dat"));
                 ) {
             int[] newNumbers = (int[])(input.readObject());
+            String[] newStrings = (String[])(input.readObject());
         }
     }
 }
