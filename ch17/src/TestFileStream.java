@@ -14,7 +14,7 @@ public class TestFileStream {
         try (
                 FileInputStream input = new FileInputStream("temp.dat");
         ) {
-
+            int value;
         }
     }
 }
