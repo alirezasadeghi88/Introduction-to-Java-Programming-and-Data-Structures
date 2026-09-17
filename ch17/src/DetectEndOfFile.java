@@ -1,7 +1,4 @@
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+import java.io.*;
 
 public class DetectEndOfFile {
     public static void main(String[] args) {
@@ -18,6 +15,8 @@ public class DetectEndOfFile {
                 while (true)
                     System.out.println(input.readDouble());
             }
+        }  catch (EOFException ex) {
+
         }
     }
 }
