@@ -16,6 +16,7 @@ public class TestFileStream {
         ) {
             int value;
             while ((value = input.read()) != -1)
+                System.out.print(value + " ");
         }
     }
 }
