@@ -9,6 +9,8 @@ public class TestDataStream {
                         new DataOutputStream(new FileOutputStream("temp.dat"));
                 ) {
             output.writeUTF("John");
+            output.writeDouble(85.5);
+
         }
     }
 }
