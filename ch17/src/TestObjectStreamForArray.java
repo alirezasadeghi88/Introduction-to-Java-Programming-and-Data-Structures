@@ -12,7 +12,7 @@ public class TestObjectStreamForArray {
                 ObjectOutputStream output = new ObjectOutputStream(new
                         FileOutputStream("array.dat", true));
         ) {
-
+            output.writeObject(numbers);
         }
     }
 }
