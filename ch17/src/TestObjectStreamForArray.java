@@ -17,6 +17,8 @@ public class TestObjectStreamForArray {
         try (
                 ObjectInputStream input =
                         new ObjectInputStream(new FileInputStream("array.dat"));
-                )
+                ) {
+
+        }
     }
 }
