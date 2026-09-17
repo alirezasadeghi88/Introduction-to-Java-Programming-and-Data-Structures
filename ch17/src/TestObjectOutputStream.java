@@ -8,7 +8,7 @@ public class TestObjectOutputStream {
                 ObjectOutputStream output =
                         new ObjectOutputStream(new FileOutputStream("object.dat"));
                 ) {
-
+            output.writeUTF("John");
         }
     }
 }
