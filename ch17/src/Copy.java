@@ -33,6 +33,8 @@ public class Copy {
                     output.write((byte)r);
                     numberOfBytesCopied++;
                 }
+
+            System.out.println(numberOfBytesCopied + " bytes copied");
         }
     }
 }
