@@ -7,6 +7,7 @@ public class DetectEndOfFile {
             try (DataOutputStream output =
                          new DataOutputStream(new FileOutputStream("test.dat"))) {
                 output.writeDouble(4.5);
+                output.writeDouble(43.25);
             }
         }
     }
