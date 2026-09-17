@@ -16,6 +16,7 @@ public class DetectEndOfFile {
             try (DataInputStream input =
                          new DataInputStream(new FileInputStream("test.dat"))) {
                 while (true)
+                    System.out.println(input.readDouble());
             }
         }
     }
