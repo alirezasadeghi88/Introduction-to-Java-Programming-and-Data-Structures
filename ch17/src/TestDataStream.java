@@ -12,6 +12,7 @@ public class TestDataStream {
             output.writeDouble(85.5);
             output.writeUTF("Susan");
             output.writeDouble(185.5);
+            output.writeUTF("Kim");
 
         }
     }
