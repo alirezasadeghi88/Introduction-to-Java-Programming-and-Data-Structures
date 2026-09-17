@@ -9,6 +9,7 @@ public class TestObjectOutputStream {
                         new ObjectOutputStream(new FileOutputStream("object.dat"));
                 ) {
             output.writeUTF("John");
+            output.writeDouble(85.5);
         }
     }
 }
