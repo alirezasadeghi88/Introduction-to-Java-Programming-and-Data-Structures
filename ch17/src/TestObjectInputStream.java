@@ -9,7 +9,7 @@ public class TestObjectInputStream {
                 ObjectInputStream input =
                         new ObjectInputStream(new FileInputStream("object.dat"));
                 ) {
-
+            String name = input.readUTF();
         }
     }
 }
