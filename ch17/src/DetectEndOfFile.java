@@ -16,6 +16,8 @@ public class DetectEndOfFile {
                     System.out.println(input.readDouble());
             }
         }  catch (EOFException ex) {
+            System.out.println("All data were read");
+        }catch (IOException ex) {
 
         }
     }
