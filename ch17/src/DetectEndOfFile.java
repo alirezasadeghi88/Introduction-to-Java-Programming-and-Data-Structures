@@ -15,6 +15,8 @@ public class DetectEndOfFile {
 
             try (DataInputStream input =
                          new DataInputStream(new FileInputStream("test.dat"))) {
+                while (true)
+            }
         }
     }
 }
