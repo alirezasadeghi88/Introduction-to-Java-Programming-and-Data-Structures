@@ -10,6 +10,7 @@ public class TestObjectInputStream {
                         new ObjectInputStream(new FileInputStream("object.dat"));
                 ) {
             String name = input.readUTF();
+            double score = input.readDouble();
         }
     }
 }
