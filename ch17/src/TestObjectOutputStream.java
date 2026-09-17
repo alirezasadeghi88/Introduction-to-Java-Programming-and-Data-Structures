@@ -7,6 +7,8 @@ public class TestObjectOutputStream {
         try (
                 ObjectOutputStream output =
                         new ObjectOutputStream(new FileOutputStream("object.dat"));
-                )
+                ) {
+
+        }
     }
 }
