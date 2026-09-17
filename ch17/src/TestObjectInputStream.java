@@ -8,6 +8,8 @@ public class TestObjectInputStream {
         try (
                 ObjectInputStream input =
                         new ObjectInputStream(new FileInputStream("object.dat"));
-                )
+                ) {
+
+        }
     }
 }
