@@ -7,6 +7,7 @@ public class TestFileStream {
                 FileOutputStream output = new FileOutputStream("temp.dat");
                 ) {
             for (int i = 1; i <= 10; i++)
+                output.write(i);
         }
     }
 }
