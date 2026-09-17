@@ -8,7 +8,7 @@ public class TestDataStream {
                 DataOutputStream output =
                         new DataOutputStream(new FileOutputStream("temp.dat"));
                 ) {
-
+            output.writeUTF("John");
         }
     }
 }
