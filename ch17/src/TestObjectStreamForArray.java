@@ -20,6 +20,8 @@ public class TestObjectStreamForArray {
                 ) {
             int[] newNumbers = (int[])(input.readObject());
             String[] newStrings = (String[])(input.readObject());
+
+            for (int i = 0; i < newNumbers.length; i++)
         }
     }
 }
