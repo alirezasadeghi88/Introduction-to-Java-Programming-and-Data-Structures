@@ -1,3 +1,4 @@
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -11,7 +12,7 @@ public class TestFileStream {
         }
 
         try (
-
-                )
+                FileInputStream input = new FileInputStream("temp.dat");
+        )
     }
 }
