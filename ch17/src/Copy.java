@@ -1,7 +1,4 @@
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class Copy {
     public static void main(String[] args) throws IOException {
@@ -27,6 +24,9 @@ public class Copy {
         try (
                 BufferedInputStream input =
                         new BufferedInputStream(new FileInputStream(sourceFile));
-                )
+
+                BufferedOutputStream output =
+                        new BufferedOutputStream(new FileOutputStream(targetFile));
+        )
     }
 }
