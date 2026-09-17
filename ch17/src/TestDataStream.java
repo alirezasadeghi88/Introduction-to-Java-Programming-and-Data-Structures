@@ -15,5 +15,9 @@ public class TestDataStream {
             output.writeUTF("Kim");
             output.writeDouble(105.25);
         }
+
+        try (
+
+                )
     }
 }
