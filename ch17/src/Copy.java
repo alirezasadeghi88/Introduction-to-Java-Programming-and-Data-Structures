@@ -9,5 +9,8 @@ public class Copy {
         }
 
         File sourceFile = new File(args[0]);
+        if (!sourceFile.exists()) {
+
+        }
     }
 }
