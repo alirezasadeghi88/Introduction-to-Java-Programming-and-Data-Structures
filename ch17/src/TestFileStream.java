@@ -15,6 +15,7 @@ public class TestFileStream {
                 FileInputStream input = new FileInputStream("temp.dat");
         ) {
             int value;
+            while ((value = input.read()) != -1)
         }
     }
 }
