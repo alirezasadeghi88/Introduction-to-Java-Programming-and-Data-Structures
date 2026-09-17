@@ -14,5 +14,7 @@ public class Copy {
                     + " does not exist");
             System.exit(2);
         }
+
+        File targetFile = new File(args[1]);
     }
 }
