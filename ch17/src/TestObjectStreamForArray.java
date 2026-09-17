@@ -1,4 +1,6 @@
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 
 public class TestObjectStreamForArray {
     public static void main(String[] args)
@@ -7,7 +9,8 @@ public class TestObjectStreamForArray {
         String[] strings = {"John", "Susan", "Kim"};
 
         try (
-
-                )
+                ObjectOutputStream output = new ObjectOutputStream(new
+                        FileOutputStream("array.dat", true));
+        )
     }
 }
