@@ -29,6 +29,7 @@ public class Copy {
                         new BufferedOutputStream(new FileOutputStream(targetFile));
         ) {
                 int r, numberOfBytesCopied = 0;
+                while ((r = input.read()) != -1) {
         }
     }
 }
