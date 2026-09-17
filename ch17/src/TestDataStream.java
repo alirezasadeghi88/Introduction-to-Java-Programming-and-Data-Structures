@@ -1,6 +1,4 @@
-import java.io.DataOutputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class TestDataStream {
     public static void main(String[] args)throws IOException {
@@ -17,7 +15,8 @@ public class TestDataStream {
         }
 
         try (
-
+                DataInputStream input =
+                        new DataInputStream(new FileInputStream("temp.dat"));
                 )
     }
 }
