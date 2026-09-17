@@ -28,7 +28,7 @@ public class Copy {
                 BufferedOutputStream output =
                         new BufferedOutputStream(new FileOutputStream(targetFile));
         ) {
-
+                int r, numberOfBytesCopied = 0;
         }
     }
 }
