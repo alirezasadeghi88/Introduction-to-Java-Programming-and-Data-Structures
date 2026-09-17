@@ -30,6 +30,8 @@ public class Copy {
         ) {
                 int r, numberOfBytesCopied = 0;
                 while ((r = input.read()) != -1) {
+                    output.write((byte)r);
+                }
         }
     }
 }
