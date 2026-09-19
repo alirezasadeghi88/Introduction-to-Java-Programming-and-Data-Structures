@@ -15,5 +15,6 @@ public class ComputeFibonacci {
         if (index == 0)
             return 0;
         else if (index == 1)
+            return 1;
     }
 }
