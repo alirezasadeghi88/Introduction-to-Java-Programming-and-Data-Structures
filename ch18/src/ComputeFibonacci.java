@@ -6,5 +6,8 @@ public class ComputeFibonacci {
 
         System.out.print("Enter an index for a Fibonacci number: ");
         int index = input.nextInt();
+
+        System.out.println("The Fibonacci number at index "
+                + index + " is " + fib(index));
     }
 }
