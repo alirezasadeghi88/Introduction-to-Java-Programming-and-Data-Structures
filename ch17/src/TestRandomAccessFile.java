@@ -6,7 +6,7 @@ public class TestRandomAccessFile {
         try (
                 RandomAccessFile inout = new RandomAccessFile("inout.dat", "rw");
                 ) {
-
+            inout.setLength(0);
         }
     }
 }
