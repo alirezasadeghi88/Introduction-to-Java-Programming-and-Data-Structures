@@ -17,6 +17,7 @@ public class TestRandomAccessFile {
             System.out.println("The first number is " + inout.readInt());
 
             inout.seek(1 * 4);
+            System.out.println("The second number is " + inout.readInt());
         }
     }
 }
