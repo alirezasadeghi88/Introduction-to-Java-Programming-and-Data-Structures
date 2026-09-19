@@ -13,5 +13,6 @@ public class RecursivePalindromeUsingSubstring {
                 + isPalindrome("moon"));
         System.out.println("Is noon a palindrome? "
                 + isPalindrome("noon"));
+        System.out.println("Is a a palindrome? " + isPalindrome("a"));
     }
 }
