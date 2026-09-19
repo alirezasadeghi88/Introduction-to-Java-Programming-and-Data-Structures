@@ -21,6 +21,8 @@ public class TestRandomAccessFile {
 
             inout.seek(9 * 4);
             System.out.println("The tenth number is " + inout.readInt());
+
+            inout.writeInt(555);
         }
     }
 }
