@@ -4,5 +4,6 @@ public class RecursivePalindromeUsingSubstring {
             return true;
         else if (s.charAt(0) != s.charAt(s.length() -  1))
             return false;
+        else
     }
 }
