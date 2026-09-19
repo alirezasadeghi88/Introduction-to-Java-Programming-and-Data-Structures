@@ -10,4 +10,8 @@ public class ComputeFibonacci {
         System.out.println("The Fibonacci number at index "
                 + index + " is " + fib(index));
     }
+
+    public static long fib(long index) {
+
+    }
 }
