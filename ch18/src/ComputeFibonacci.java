@@ -5,5 +5,6 @@ public class ComputeFibonacci {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter an index for a Fibonacci number: ");
+        int index = input.nextInt();
     }
 }
