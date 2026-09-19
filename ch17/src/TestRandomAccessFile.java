@@ -15,6 +15,8 @@ public class TestRandomAccessFile {
 
             inout.seek(0);
             System.out.println("The first number is " + inout.readInt());
+
+            inout.seek(1 * 4);
         }
     }
 }
