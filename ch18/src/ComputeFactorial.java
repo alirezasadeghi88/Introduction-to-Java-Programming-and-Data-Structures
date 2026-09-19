@@ -5,5 +5,6 @@ public class ComputeFactorial {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a nonnegative integer: ");
+        int n = input.nextInt();
     }
 }
