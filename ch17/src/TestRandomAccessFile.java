@@ -29,6 +29,7 @@ public class TestRandomAccessFile {
             System.out.println("The new length is " + inout.length());
 
             inout.seek(10 * 4);
+            System.out.println("The eleventh number is " + inout.readInt());
         }
     }
 }
