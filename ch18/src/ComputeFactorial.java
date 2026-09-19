@@ -6,5 +6,7 @@ public class ComputeFactorial {
 
         System.out.print("Enter a nonnegative integer: ");
         int n = input.nextInt();
+
+        System.out.println("Factorial of " + n + " is " + factorial(n));
     }
 }
