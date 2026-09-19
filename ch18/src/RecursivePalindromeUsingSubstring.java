@@ -2,6 +2,7 @@ public class RecursivePalindromeUsingSubstring {
     public static boolean isPalindrome(String s) {
         if (s.length() <= 1)
             return true;
-        else if (s.charAt(0) != s.charAt(s.length() −  1))
+        else if (s.charAt(0) != s.charAt(s.length() -  1))
+            return false;
     }
 }
