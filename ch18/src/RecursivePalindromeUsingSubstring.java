@@ -7,4 +7,8 @@ public class RecursivePalindromeUsingSubstring {
         else
             return isPalindrome(s.substring(1, s.length() − 1));
     }
+
+    public static void main(String[] args) {
+
+    }
 }
