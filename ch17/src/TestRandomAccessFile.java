@@ -10,6 +10,8 @@ public class TestRandomAccessFile {
 
             for (int i = 0; i < 200; i++)
                 inout.writeInt(i);
+
+            System.out.println("Current file length is " + inout.length());
         }
     }
 }
