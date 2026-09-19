@@ -14,5 +14,6 @@ public class ComputeFibonacci {
     public static long fib(long index) {
         if (index == 0)
             return 0;
+        else if (index == 1)
     }
 }
