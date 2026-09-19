@@ -23,6 +23,8 @@ public class TestRandomAccessFile {
             System.out.println("The tenth number is " + inout.readInt());
 
             inout.writeInt(555);
+            inout.seek(inout.length());
+            inout.writeInt(999);
         }
     }
 }
