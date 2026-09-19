@@ -10,6 +10,6 @@ public class ComputeFactorial {
         System.out.println("Factorial of " + n + " is " + factorial(n));
     }
     public static long factorial(int n) {
-
+        if (n == 0)
     }
 }
