@@ -20,6 +20,7 @@ public class TestRandomAccessFile {
             System.out.println("The second number is " + inout.readInt());
 
             inout.seek(9 * 4);
+            System.out.println("The tenth number is " + inout.readInt());
         }
     }
 }
