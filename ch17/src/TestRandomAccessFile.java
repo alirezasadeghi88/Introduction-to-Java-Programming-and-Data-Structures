@@ -25,6 +25,8 @@ public class TestRandomAccessFile {
             inout.writeInt(555);
             inout.seek(inout.length());
             inout.writeInt(999);
+
+            System.out.println("The new length is " + inout.length());
         }
     }
 }
