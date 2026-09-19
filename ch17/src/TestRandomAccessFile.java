@@ -14,6 +14,7 @@ public class TestRandomAccessFile {
             System.out.println("Current file length is " + inout.length());
 
             inout.seek(0);
+            System.out.println("The first number is " + inout.readInt());
         }
     }
 }
