@@ -4,6 +4,6 @@ public class ComputeFactorialTailRecursion {
     }
 
     private static long factorial(int n, int result) {
-
+        if (n == 0)
     }
 }
