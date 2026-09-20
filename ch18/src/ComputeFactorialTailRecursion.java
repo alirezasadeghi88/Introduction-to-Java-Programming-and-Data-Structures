@@ -7,5 +7,6 @@ public class ComputeFactorialTailRecursion {
         if (n == 0)
             return result;
         else
+            return factorial(n - 1, n * result);
     }
 }
