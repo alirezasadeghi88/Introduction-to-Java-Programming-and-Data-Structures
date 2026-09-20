@@ -20,5 +20,6 @@ public class RecursivePalindrome {
                 + isPalindrome("noon"));
         System.out.println("Is a a palindrome? " + isPalindrome("a"));
         System.out.println("Is aba a palindrome? " + isPalindrome("aba"));
+        System.out.println("Is ab a palindrome? " + isPalindrome("ab"));
     }
 }
