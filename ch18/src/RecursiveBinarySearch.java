@@ -16,5 +16,6 @@ public class RecursiveBinarySearch {
         else if (key == list[mid])
             return mid;
         else
+            return binarySearch(list, key, mid + 1, high);
     }
 }
