@@ -16,6 +16,7 @@ public class RecursiveSelectionSort {
             }
 
             list[indexOfMin] = list[low];
+            list[low] = min;
         }
     }
 }
