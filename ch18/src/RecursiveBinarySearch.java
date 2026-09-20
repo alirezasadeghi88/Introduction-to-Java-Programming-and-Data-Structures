@@ -11,5 +11,6 @@ public class RecursiveBinarySearch {
             return -low - 1;
 
         int mid = (low + high) / 2;
+        if (key < list[mid])
     }
 }
