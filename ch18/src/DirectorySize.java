@@ -18,7 +18,7 @@ public class DirectorySize {
                 size += getSize(files[i]);
             }
         } else {
-
+            size += file.length();
         }
         }
 }
