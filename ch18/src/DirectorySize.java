@@ -11,6 +11,6 @@ public class DirectorySize {
     }
 
     public static long getSize(File file) {
-
+        long size = 0;
     }
 }
