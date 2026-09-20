@@ -7,6 +7,6 @@ public class RecursiveBinarySearch {
 
     private static int binarySearch(int[] list, int key,
           int low, int high) {
-
+        if (low > high)
     }
 }
