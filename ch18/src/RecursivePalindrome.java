@@ -10,5 +10,6 @@ public class RecursivePalindrome {
         else if (s.charAt(low) != s.charAt(high))
             return false;
         else
+            return isPalindrome(s, low + 1, high - 1);
     }
 }
