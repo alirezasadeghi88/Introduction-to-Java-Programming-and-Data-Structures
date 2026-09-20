@@ -17,6 +17,8 @@ public class DirectorySize {
             for (int i = 0; files != null && i < files.length; i++) {
                 size += getSize(files[i]);
             }
+        } else {
+
         }
-    }
+        }
 }
