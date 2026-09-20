@@ -9,5 +9,7 @@ public class RecursiveBinarySearch {
           int low, int high) {
         if (low > high)
             return -low - 1;
+
+        int mid = (low + high) / 2;
     }
 }
