@@ -16,5 +16,7 @@ public class RecursivePalindrome {
     public static void main(String[] args) {
         System.out.println("Is moon a palindrome? "
                 + isPalindrome("moon"));
+        System.out.println("Is noon a palindrome? "
+                + isPalindrome("noon"));
     }
 }
