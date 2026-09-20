@@ -9,4 +9,7 @@ public class TowerOfHanoi {
         System.out.println("The moves are:");
         moveDisks(n, 'A', 'B', 'C');
     }
+
+    public static void moveDisks(int n, char fromTower,
+          char toTower, char auxTower) {
 }
