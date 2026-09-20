@@ -14,6 +14,9 @@ public class DirectorySize {
         long size = 0;
         if (file.isDirectory()) {
             File[] files = file.listFiles();
+            for (int i = 0; files != null && i < files.length; i++) {
+
+            }
         }
     }
 }
