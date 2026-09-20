@@ -7,6 +7,7 @@ public class RecursiveSelectionSort {
     private static void sort(double[] list, int low, int high) {
         if (low < high) {
             int indexOfMin = low;
+            double min = list[low];
         }
     }
 }
