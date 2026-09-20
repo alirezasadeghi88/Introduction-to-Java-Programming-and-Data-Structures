@@ -8,5 +8,6 @@ public class RecursivePalindrome {
         if (high <= low)
             return true;
         else if (s.charAt(low) != s.charAt(high))
+            return false;
     }
 }
