@@ -8,6 +8,9 @@ public class RecursiveSelectionSort {
         if (low < high) {
             int indexOfMin = low;
             double min = list[low];
+            for (int i = low + 1; i <= high; i++) {
+
+            }
         }
     }
 }
