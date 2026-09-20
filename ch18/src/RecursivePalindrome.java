@@ -7,5 +7,6 @@ public class RecursivePalindrome {
     private static boolean isPalindrome(String s, int low, int high) {
         if (high <= low)
             return true;
+        else if (s.charAt(low) != s.charAt(high))
     }
 }
