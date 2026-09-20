@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 public class DirectorySize {
@@ -7,5 +8,9 @@ public class DirectorySize {
         String directory = input.nextLine();
 
         System.out.println(getSize(new File(directory)) + " bytes");
+    }
+
+    public static long getSize(File file) {
+
     }
 }
