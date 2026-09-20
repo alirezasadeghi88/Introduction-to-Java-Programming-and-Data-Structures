@@ -7,5 +7,6 @@ public class TowerOfHanoi {
         int n = input.nextInt();
 
         System.out.println("The moves are:");
+        moveDisks(n, 'A', 'B', 'C');
     }
 }
