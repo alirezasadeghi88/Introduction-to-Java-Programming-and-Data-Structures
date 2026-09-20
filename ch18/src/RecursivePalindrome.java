@@ -12,4 +12,8 @@ public class RecursivePalindrome {
         else
             return isPalindrome(s, low + 1, high - 1);
     }
+
+    public static void main(String[] args) {
+
+    }
 }
