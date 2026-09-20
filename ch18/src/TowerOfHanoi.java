@@ -19,6 +19,7 @@ public class TowerOfHanoi {
             moveDisks(n - 1, fromTower, auxTower, toTower);
             System.out.println("Move disk " + n + " from " +
                     fromTower + " to " + toTower);
+            moveDisks(n - 1, auxTower, toTower, fromTower);
         }
     }
 }
