@@ -20,5 +20,6 @@ public class DirectorySize {
         } else {
             size += file.length();
         }
-        }
+        return size;
+    }
 }
