@@ -12,4 +12,6 @@ public class TowerOfHanoi {
 
     public static void moveDisks(int n, char fromTower,
           char toTower, char auxTower) {
+        if (n == 1)
+    }
 }
