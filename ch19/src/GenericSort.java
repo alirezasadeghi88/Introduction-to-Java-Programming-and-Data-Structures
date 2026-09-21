@@ -40,6 +40,10 @@ public class GenericSort {
                     currentMinIndex = j;
                 }
             }
+
+            if (currentMinIndex != i) {
+
+            }
         }
     }
 
