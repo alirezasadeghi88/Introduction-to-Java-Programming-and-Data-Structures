@@ -29,4 +29,8 @@ public class GenericSort {
     public static <E extends Comparable<E>> void sort(E[] list) {
 
     }
+
+    public static void printList(Object[] list) {
+
+    }
 }
