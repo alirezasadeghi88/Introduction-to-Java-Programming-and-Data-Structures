@@ -10,5 +10,7 @@ public class GenericSort {
                 Character.valueOf('J'), Character.valueOf('r')};
 
         String[] stringArray = {"Tom", "Susan", "Kim"};
+
+        sort(intArray);
     }
 }
