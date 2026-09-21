@@ -29,6 +29,10 @@ public class GenericSort {
     public static <E extends Comparable<E>> void sort(E[] list) {
         E currentMin;
         int currentMinIndex;
+
+        for (int i = 0; i < list.length - 1; i++) {
+
+        }
     }
 
     public static void printList(Object[] list) {
