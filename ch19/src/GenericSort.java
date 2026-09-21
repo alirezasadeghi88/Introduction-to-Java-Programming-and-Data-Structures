@@ -35,7 +35,9 @@ public class GenericSort {
             currentMinIndex = i;
 
             for (int j = i + 1; j < list.length; j++) {
+                if (currentMin.compareTo(list[j]) > 0) {
 
+                }
             }
         }
     }
