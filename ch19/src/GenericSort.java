@@ -31,7 +31,7 @@ public class GenericSort {
         int currentMinIndex;
 
         for (int i = 0; i < list.length - 1; i++) {
-
+            currentMin = list[i];
         }
     }
 
