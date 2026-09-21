@@ -6,4 +6,9 @@ public class GenericMethodDemo {
         GenericMethodDemo.<Integer>print(integers);
         GenericMethodDemo.<String>print(strings);
     }
+
+
+    public static <E> void print(E[] list) {
+
+    }
 }
