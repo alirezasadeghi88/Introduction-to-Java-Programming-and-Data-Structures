@@ -15,5 +15,8 @@ public class GenericSort {
         sort(doubleArray);
         sort(charArray);
         sort(stringArray);
+
+        System.out.print("Sorted Integer objects: ");
+        printList(intArray);
     }
 }
