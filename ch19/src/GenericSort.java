@@ -5,5 +5,8 @@ public class GenericSort {
 
         Double[] doubleArray = {Double.valueOf(3.4), Double.valueOf(1.3),
                 Double.valueOf(-22.1)};
+
+        Character[] charArray = {Character.valueOf('a'),
+                Character.valueOf('J'), Character.valueOf('r')};
     }
 }
