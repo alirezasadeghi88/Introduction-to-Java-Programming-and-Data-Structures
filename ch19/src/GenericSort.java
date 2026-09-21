@@ -12,5 +12,6 @@ public class GenericSort {
         String[] stringArray = {"Tom", "Susan", "Kim"};
 
         sort(intArray);
+        sort(doubleArray);
     }
 }
