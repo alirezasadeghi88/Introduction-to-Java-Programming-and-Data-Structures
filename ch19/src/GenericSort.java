@@ -22,5 +22,7 @@ public class GenericSort {
         printList(doubleArray);
         System.out.print("Sorted Character objects: ");
         printList(charArray);
+        System.out.print("Sorted String objects: ");
+        printList(stringArray);
     }
 }
