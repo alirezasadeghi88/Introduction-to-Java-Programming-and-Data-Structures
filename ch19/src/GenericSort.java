@@ -18,5 +18,7 @@ public class GenericSort {
 
         System.out.print("Sorted Integer objects: ");
         printList(intArray);
+        System.out.print("Sorted Double objects: ");
+        printList(doubleArray);
     }
 }
