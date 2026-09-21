@@ -43,6 +43,7 @@ public class GenericSort {
 
             if (currentMinIndex != i) {
                 list[currentMinIndex] = list[i];
+                list[i] = currentMin;
             }
         }
     }
