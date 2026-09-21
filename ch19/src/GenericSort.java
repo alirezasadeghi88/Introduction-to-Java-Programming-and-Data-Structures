@@ -8,5 +8,7 @@ public class GenericSort {
 
         Character[] charArray = {Character.valueOf('a'),
                 Character.valueOf('J'), Character.valueOf('r')};
+
+        String[] stringArray = {"Tom", "Susan", "Kim"};
     }
 }
