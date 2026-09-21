@@ -25,4 +25,8 @@ public class GenericSort {
         System.out.print("Sorted String objects: ");
         printList(stringArray);
     }
+
+    public static <E extends Comparable<E>> void sort(E[] list) {
+
+    }
 }
