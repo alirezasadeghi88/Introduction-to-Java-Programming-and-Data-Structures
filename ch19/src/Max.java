@@ -3,5 +3,6 @@ public class Max {
         if (o1.compareTo(o2) > 0)
             return o1;
         else
+            return o2;
     }
 }
