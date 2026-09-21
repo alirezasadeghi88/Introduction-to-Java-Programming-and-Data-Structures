@@ -33,6 +33,10 @@ public class GenericSort {
         for (int i = 0; i < list.length - 1; i++) {
             currentMin = list[i];
             currentMinIndex = i;
+
+            for (int j = i + 1; j < list.length; j++) {
+
+            }
         }
     }
 
