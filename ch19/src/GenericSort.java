@@ -14,5 +14,6 @@ public class GenericSort {
         sort(intArray);
         sort(doubleArray);
         sort(charArray);
+        sort(stringArray);
     }
 }
