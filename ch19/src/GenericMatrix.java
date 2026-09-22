@@ -23,7 +23,8 @@ public abstract class GenericMatrix<E extends Number> {
 
     public E[][] multiplyMatrix(E[][] matrix1, E[][] matrix2) {
         if (matrix1[0].length != matrix2.length) {
-
+            throw new RuntimeException(
+                    "The matrices do not have compatible size");
         }
     }
 }
