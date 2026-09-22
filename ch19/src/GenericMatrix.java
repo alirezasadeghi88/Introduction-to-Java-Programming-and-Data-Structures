@@ -17,5 +17,7 @@ public abstract class GenericMatrix<E extends Number> {
             for (int j = 0; j < result[i].length; j++) {
                 result[i][j] = add(matrix1[i][j], matrix2[i][j]);
             }
+
+        return result;
     }
 }
