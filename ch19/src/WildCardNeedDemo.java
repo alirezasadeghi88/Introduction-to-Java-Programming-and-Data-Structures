@@ -9,5 +9,9 @@ public class WildCardNeedDemo {
 
     public static double max(GenericStack<Number> stack) {
         double max = stack.pop().doubleValue();
+
+        while (!stack.isEmpty()) {
+
+        }
     }
 }
