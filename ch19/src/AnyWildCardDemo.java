@@ -9,6 +9,8 @@ public class AnyWildCardDemo {
     }
 
     public static void print(GenericStack<?> stack) {
+        while (!stack.isEmpty()) {
 
+        }
     }
 }
