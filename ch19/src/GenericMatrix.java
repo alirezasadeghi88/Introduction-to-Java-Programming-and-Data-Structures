@@ -20,4 +20,8 @@ public abstract class GenericMatrix<E extends Number> {
 
         return result;
     }
+
+    public E[][] multiplyMatrix(E[][] matrix1, E[][] matrix2) {
+
+    }
 }
