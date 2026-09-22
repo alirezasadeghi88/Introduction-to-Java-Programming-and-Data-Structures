@@ -12,6 +12,7 @@ public class WildCardNeedDemo {
 
         while (!stack.isEmpty()) {
             double value = stack.pop().doubleValue();
+            if (value > max)
         }
     }
 }
