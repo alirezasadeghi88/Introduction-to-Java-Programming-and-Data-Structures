@@ -3,5 +3,6 @@ public class SuperWildCardDemo {
         GenericStack<String> stack1 = new GenericStack<>();
         GenericStack<Object> stack2 = new GenericStack<>();
         stack2.push("Java");
+        stack2.push(2);
     }
 }
