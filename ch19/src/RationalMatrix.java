@@ -12,6 +12,6 @@ public class RationalMatrix extends GenericMatrix<Rational> {
 
     @Override
     protected Rational zero() {
-        return null;
+        return new Rational(0, 1);
     }
 }
