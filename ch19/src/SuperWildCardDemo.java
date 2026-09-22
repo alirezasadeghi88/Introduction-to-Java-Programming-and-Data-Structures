@@ -8,4 +8,10 @@ public class SuperWildCardDemo {
         add(stack1, stack2);
         AnyWildCardDemo.print(stack2);
     }
+
+
+    public static <T> void add(GenericStack<T> stack1,
+        GenericStack<? super T> stack2) {
+
+    }
 }
