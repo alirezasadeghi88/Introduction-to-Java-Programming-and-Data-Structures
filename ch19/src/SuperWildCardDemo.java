@@ -13,5 +13,6 @@ public class SuperWildCardDemo {
     public static <T> void add(GenericStack<T> stack1,
         GenericStack<? super T> stack2) {
 
+        while (!stack1.isEmpty())
     }
 }
