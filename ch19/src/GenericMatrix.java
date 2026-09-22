@@ -48,6 +48,8 @@ public abstract class GenericMatrix<E extends Number> {
                                    Number[][] m2, Number[][] m3, char op) {
         for (int i = 0; i < m1.length; i++) {
             for (int j = 0; j < m1[0].length; j++)
+                System.out.print(" " + m1[i][j]);
+
         }
     }
 }
