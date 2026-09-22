@@ -29,5 +29,9 @@ public abstract class GenericMatrix<E extends Number> {
 
         E[][] result =
                 (E[][])new Number[matrix1.length][matrix2[0].length];
+
+        for (int i = 0; i < result.length; i++) {
+
+        }
     }
 }
