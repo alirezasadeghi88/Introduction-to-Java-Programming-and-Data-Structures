@@ -9,5 +9,8 @@ public abstract class GenericMatrix<E extends Number> {
             throw new RuntimeException(
                     "The matrices do not have the same size");
         }
+
+        E[][] result =
+                (E[][])new Number[matrix1.length][matrix1[0].length];
     }
 }
