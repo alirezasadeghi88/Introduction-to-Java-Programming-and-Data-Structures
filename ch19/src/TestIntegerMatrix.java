@@ -4,5 +4,7 @@ public class TestIntegerMatrix {
         Integer[][] m2 = new Integer[][]{{1, 1, 1}, {2, 2, 2}, {0, 0, 0}};
 
         IntegerMatrix integerMatrix = new IntegerMatrix();
+
+        System.out.println("\nm1 + m2 is ");
     }
 }
