@@ -43,4 +43,9 @@ public abstract class GenericMatrix<E extends Number> {
 
         return result;
     }
+
+    public static void printResult(Number[][] m1,
+                                   Number[][] m2, Number[][] m3, char op) {
+
+    }
 }
