@@ -50,6 +50,7 @@ public abstract class GenericMatrix<E extends Number> {
             for (int j = 0; j < m1[0].length; j++)
                 System.out.print(" " + m1[i][j]);
 
+            if (i == m1.length / 2)
         }
     }
 }
