@@ -15,5 +15,7 @@ public class WildCardNeedDemo {
             if (value > max)
                 max = value;
         }
+
+        return max;
     }
 }
