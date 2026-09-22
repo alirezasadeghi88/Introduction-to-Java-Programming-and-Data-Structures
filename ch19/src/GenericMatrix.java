@@ -65,6 +65,8 @@ public abstract class GenericMatrix<E extends Number> {
 
             for (int j = 0; j < m3.length; j++)
                 System.out.print(m3[i][j] + " ");
+
+            System.out.println();
         }
     }
 }
