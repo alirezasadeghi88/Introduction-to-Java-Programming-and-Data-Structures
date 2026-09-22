@@ -61,6 +61,7 @@ public abstract class GenericMatrix<E extends Number> {
             if (i == m1.length / 2)
                 System.out.print("  =  ");
             else
+                System.out.print("     ");
         }
     }
 }
