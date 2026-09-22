@@ -62,6 +62,8 @@ public abstract class GenericMatrix<E extends Number> {
                 System.out.print("  =  ");
             else
                 System.out.print("     ");
+
+            for (int j = 0; j < m3.length; j++)
         }
     }
 }
