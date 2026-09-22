@@ -14,5 +14,6 @@ public class SuperWildCardDemo {
         GenericStack<? super T> stack2) {
 
         while (!stack1.isEmpty())
+            stack2.push(stack1.pop());
     }
 }
