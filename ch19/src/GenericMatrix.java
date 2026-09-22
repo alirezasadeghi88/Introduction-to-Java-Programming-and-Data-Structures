@@ -12,5 +12,7 @@ public abstract class GenericMatrix<E extends Number> {
 
         E[][] result =
                 (E[][])new Number[matrix1.length][matrix1[0].length];
+
+        for (int i = 0; i < result.length; i++)
     }
 }
