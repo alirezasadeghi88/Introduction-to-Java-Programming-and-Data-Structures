@@ -35,7 +35,8 @@ public abstract class GenericMatrix<E extends Number> {
                 result[i][j] = zero();
 
                 for (int k = 0; k < matrix1[0].length; k++) {
-
+                    result[i][j] = add(result[i][j],
+                            multiply(matrix1[i][k], matrix2[k][j]));
                 }
             }
         }
