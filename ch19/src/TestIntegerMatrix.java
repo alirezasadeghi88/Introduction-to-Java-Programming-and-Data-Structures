@@ -8,5 +8,7 @@ public class TestIntegerMatrix {
         System.out.println("\nm1 + m2 is ");
         GenericMatrix.printResult(
                 m1, m2, integerMatrix.addMatrix(m1, m2), '+');
+
+        System.out.println("\nm1 * m2 is ");
     }
 }
