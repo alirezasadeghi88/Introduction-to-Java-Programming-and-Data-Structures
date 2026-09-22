@@ -40,5 +40,7 @@ public abstract class GenericMatrix<E extends Number> {
                 }
             }
         }
+
+        return result;
     }
 }
