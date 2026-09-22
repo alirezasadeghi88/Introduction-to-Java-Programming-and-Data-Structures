@@ -10,4 +10,9 @@ public class IntegerMatrix extends GenericMatrix<Integer> {
         return o1 * o2;
     }
 
+    @Override
+    protected Integer zero() {
+        return 0;
+    }
+
 }
