@@ -4,5 +4,7 @@ public class AnyWildCardDemo {
         intStack.push(1);
         intStack.push(2);
         intStack.push(-2);
+
+        print(intStack);
     }
 }
