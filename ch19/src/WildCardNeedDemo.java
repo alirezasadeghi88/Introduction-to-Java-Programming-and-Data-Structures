@@ -11,7 +11,7 @@ public class WildCardNeedDemo {
         double max = stack.pop().doubleValue();
 
         while (!stack.isEmpty()) {
-
+            double value = stack.pop().doubleValue();
         }
     }
 }
