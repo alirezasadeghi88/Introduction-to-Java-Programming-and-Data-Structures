@@ -1,2 +1,3 @@
-public class IntegerMatrix {
+
+public class IntegerMatrix extends GenericMatrix<Integer> {
 }
