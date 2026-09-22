@@ -4,5 +4,6 @@ public class WildCardNeedDemo {
         intStack.push(1);
         intStack.push(2);
         intStack.push(-2);
+        System.out.print("The max number is " + max(intStack));
     }
 }
