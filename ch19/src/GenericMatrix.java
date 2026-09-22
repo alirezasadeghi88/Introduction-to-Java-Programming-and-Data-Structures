@@ -55,7 +55,7 @@ public abstract class GenericMatrix<E extends Number> {
             else
                 System.out.print("     ");
             for (int j = 0; j < m2.length; j++)
-
+                System.out.print(" " + m2[i][j]);
         }
     }
 }
