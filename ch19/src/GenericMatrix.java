@@ -54,8 +54,11 @@ public abstract class GenericMatrix<E extends Number> {
                 System.out.print("  " + op + "  ");
             else
                 System.out.print("     ");
+
             for (int j = 0; j < m2.length; j++)
                 System.out.print(" " + m2[i][j]);
+
+            if (i == m1.length / 2)
         }
     }
 }
