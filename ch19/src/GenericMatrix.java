@@ -32,7 +32,7 @@ public abstract class GenericMatrix<E extends Number> {
 
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result[0].length; j++) {
-
+                result[i][j] = zero();
             }
         }
     }
