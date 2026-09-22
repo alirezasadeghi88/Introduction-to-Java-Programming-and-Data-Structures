@@ -3,5 +3,6 @@ public class WildCardNeedDemo {
         GenericStack<Integer> intStack = new GenericStack<>();
         intStack.push(1);
         intStack.push(2);
+        intStack.push(-2);
     }
 }
