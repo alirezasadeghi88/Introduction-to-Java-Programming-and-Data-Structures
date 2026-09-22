@@ -7,4 +7,8 @@ public class AnyWildCardDemo {
 
         print(intStack);
     }
+
+    public static void print(GenericStack<?> stack) {
+
+    }
 }
