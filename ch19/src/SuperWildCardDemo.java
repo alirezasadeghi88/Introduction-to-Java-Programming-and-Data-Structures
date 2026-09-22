@@ -6,5 +6,6 @@ public class SuperWildCardDemo {
         stack2.push(2);
         stack1.push("Sun");
         add(stack1, stack2);
+        AnyWildCardDemo.print(stack2);
     }
 }
