@@ -27,7 +27,7 @@ public class TestArrayAndLinkedList {
 
         ListIterator<Object> listIterator = linkedList.listIterator();
         while (listIterator.hasNext()) {
-            
+            System.out.print(listIterator.next() + " ");
         }
     }
 }
