@@ -14,5 +14,7 @@ public class TestCollection {
 
         System.out.println("\nIs Dallas in collection1? "
                 + collection1.contains("Dallas"));
+
+        collection1.remove("Dallas");
     }
 }
