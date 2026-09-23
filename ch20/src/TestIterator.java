@@ -6,5 +6,6 @@ public class TestIterator {
         Collection<String> collection = new ArrayList<>();
         collection.add("New York");
         collection.add("Atlanta");
+        collection.add("Dallas");
     }
 }
