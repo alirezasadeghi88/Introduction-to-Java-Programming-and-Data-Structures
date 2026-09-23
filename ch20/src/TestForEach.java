@@ -8,5 +8,6 @@ public class TestForEach {
         collection.add("New York");
         collection.add("Atlanta");
         collection.add("Dallas");
+        collection.add("Madison");
     }
 }
