@@ -19,5 +19,6 @@ public class TestArrayAndLinkedList {
 
         LinkedList<Object> linkedList = new LinkedList<Object>(arrayList);
         linkedList.add(1, "red");
+        linkedList.removeLast();
     }
 }
