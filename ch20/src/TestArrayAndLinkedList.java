@@ -14,5 +14,6 @@ public class TestArrayAndLinkedList {
         arrayList.add(3, 30);
 
         System.out.println("A list of integers in the array list:");
+        System.out.println(arrayList);
     }
 }
