@@ -11,5 +11,8 @@ public class TestIterator {
         collection.add("Madison");
 
         Iterator<String> iterator = collection.iterator();
+        while (iterator.hasNext()) {
+
+        }
     }
 }
