@@ -26,5 +26,8 @@ public class TestArrayAndLinkedList {
         System.out.println("Display the linked list forward:");
 
         ListIterator<Object> listIterator = linkedList.listIterator();
+        while (listIterator.hasNext()) {
+            
+        }
     }
 }
