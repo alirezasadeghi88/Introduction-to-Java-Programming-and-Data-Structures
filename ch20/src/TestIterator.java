@@ -12,7 +12,7 @@ public class TestIterator {
 
         Iterator<String> iterator = collection.iterator();
         while (iterator.hasNext()) {
-
+            System.out.print(iterator.next().toUpperCase() + " ");
         }
     }
 }
