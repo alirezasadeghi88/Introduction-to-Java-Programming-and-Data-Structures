@@ -43,5 +43,7 @@ public class TestCollection {
 
         c1 = (ArrayList<String>)(collection1.clone());
         c1.removeAll(collection2);
+
+        System.out.print("\nCities in collection1, but not in 2: ");
     }
 }
