@@ -1,2 +1,3 @@
-public class GeometricObjectComparator {
+public class GeometricObjectComparator
+        implements Comparator<GeometricObject>, java.io.Serializable {
 }
