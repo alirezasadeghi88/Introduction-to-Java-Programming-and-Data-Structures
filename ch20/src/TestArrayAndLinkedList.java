@@ -31,5 +31,7 @@ public class TestArrayAndLinkedList {
         }
 
         System.out.println();
+
+        System.out.println("Display the linked list backward:");
     }
 }
