@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class TestIterator {
     public static void main(String[] args) {
@@ -8,5 +9,7 @@ public class TestIterator {
         collection.add("Atlanta");
         collection.add("Dallas");
         collection.add("Madison");
+
+        Iterator<String> iterator = collection.iterator();
     }
 }
