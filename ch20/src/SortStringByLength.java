@@ -15,7 +15,7 @@ public class SortStringByLength {
 
         @Override
         public int compare(String o1, String o2) {
-            return 0;
+            return s1.length() - s2.length();
         }
     }
 }
