@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class TestArrayAndLinkedList {
     public static void main(String[] args) {
@@ -23,5 +24,7 @@ public class TestArrayAndLinkedList {
         linkedList.addFirst("green");
 
         System.out.println("Display the linked list forward:");
+
+        ListIterator<Object> listIterator = linkedList.listIterator();
     }
 }
