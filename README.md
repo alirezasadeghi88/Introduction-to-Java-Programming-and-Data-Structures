@@ -19,3 +19,4 @@ A fundamentals-first introduction to basic programming concepts and techniques
 - [ ] **Chapter 13**: Abstract Classes and Interfaces
 - [ ] **Chapter 17**:Binary I/O
 - [ ] **Chapter 18**:Recursion
+- [ ] **Chapter 19**:Generics
