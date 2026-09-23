@@ -34,5 +34,8 @@ public class TestArrayAndLinkedList {
 
         System.out.println("Display the linked list backward:");
         listIterator = linkedList.listIterator(linkedList.size());
+        while (listIterator.hasPrevious()) {
+
+        }
     }
 }
