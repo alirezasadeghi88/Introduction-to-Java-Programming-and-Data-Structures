@@ -9,5 +9,7 @@ public class TestForEach {
         collection.add("Atlanta");
         collection.add("Dallas");
         collection.add("Madison");
+
+        collection.forEach(e -> System.out.print(e.toUpperCase() + " "));
     }
 }
