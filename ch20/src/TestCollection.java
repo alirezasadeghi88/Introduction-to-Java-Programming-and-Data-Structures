@@ -25,5 +25,6 @@ public class TestCollection {
 
         collection2.add("Seattle");
         collection2.add("Portland");
+        collection2.add("Los Angeles");
     }
 }
