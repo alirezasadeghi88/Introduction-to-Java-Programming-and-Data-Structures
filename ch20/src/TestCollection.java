@@ -8,5 +8,7 @@ public class TestCollection {
         collection1.add("Atlanta");
         collection1.add("Dallas");
         collection1.add("Madison");
+
+        System.out.println("A list of cities in collection1:");
     }
 }
