@@ -27,5 +27,7 @@ public class TestCollection {
         collection2.add("Portland");
         collection2.add("Los Angeles");
         collection2.add("Atlanta");
+
+        System.out.println("\nA list of cities in collection2:");
     }
 }
