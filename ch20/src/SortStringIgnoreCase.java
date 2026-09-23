@@ -7,7 +7,7 @@ public class SortStringIgnoreCase {
 
 
         for (String s: cities) {
-
+            System.out.print(s + " ");
         }
     }
 }
