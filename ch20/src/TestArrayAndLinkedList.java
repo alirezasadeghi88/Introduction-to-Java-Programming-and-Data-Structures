@@ -29,5 +29,7 @@ public class TestArrayAndLinkedList {
         while (listIterator.hasNext()) {
             System.out.print(listIterator.next() + " ");
         }
+
+        System.out.println();
     }
 }
