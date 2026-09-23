@@ -14,5 +14,7 @@ public class TestIterator {
         while (iterator.hasNext()) {
             System.out.print(iterator.next().toUpperCase() + " ");
         }
+
+        System.out.println();
     }
 }
