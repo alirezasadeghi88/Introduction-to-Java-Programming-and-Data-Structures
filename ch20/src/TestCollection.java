@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class TestCollection {
     public static void main(String[] args) {
@@ -19,5 +20,8 @@ public class TestCollection {
 
         System.out.println("\n" + collection1.size() +
                 " cities are in collection1 now");
+
+        Collection<String> collection2 = new ArrayList<>();
+
     }
 }
