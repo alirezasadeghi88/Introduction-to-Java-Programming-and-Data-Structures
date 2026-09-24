@@ -39,7 +39,7 @@ public class EvaluateExpression {
                 while (!operatorStack.isEmpty() &&
                         (operatorStack.peek() == '*' ||
                                 operatorStack.peek() == '/')) {
-
+                    processAnOperator(operandStack, operatorStack);
                 }
             }
         }
