@@ -54,7 +54,11 @@ public class EvaluateExpression {
             }  else {
                 operandStack.push(Integer.valueOf(token));
             }
-            }
+        }
+
+        while (!operatorStack.isEmpty()) {
+
+        }
     }
 }
 
