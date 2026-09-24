@@ -5,5 +5,7 @@ public class TestQueue {
         queue.offer("Indiana");
         queue.offer("Georgia");
         queue.offer("Texas");
+
+        while (queue.size() > 0)
     }
 }
