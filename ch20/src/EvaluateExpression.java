@@ -24,7 +24,7 @@ public class EvaluateExpression {
         String[] tokens = expression.split(" ");
 
         for (String token: tokens) {
-
+            if (token.length() == 0)
         }
     }
 }
