@@ -73,6 +73,7 @@ public class EvaluateExpression {
         else if (op == '−')
             operandStack.push(op2 - op1);
         else if (op == '*')
+            operandStack.push(op2 * op1);
     }
 }
 
