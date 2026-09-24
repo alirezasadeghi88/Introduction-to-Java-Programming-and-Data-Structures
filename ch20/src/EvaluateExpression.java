@@ -41,6 +41,8 @@ public class EvaluateExpression {
                                 operatorStack.peek() == '/')) {
                     processAnOperator(operandStack, operatorStack);
                 }
+
+                operatorStack.push(token.charAt(0));
             }
         }
     }
