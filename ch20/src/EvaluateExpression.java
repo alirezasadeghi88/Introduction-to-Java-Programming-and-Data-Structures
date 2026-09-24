@@ -8,6 +8,8 @@ public class EvaluateExpression {
 
         try {
             System.out.println(evaluateExpression(args[0]));
+        }catch (Exception ex) {
+
         }
     }
 }
