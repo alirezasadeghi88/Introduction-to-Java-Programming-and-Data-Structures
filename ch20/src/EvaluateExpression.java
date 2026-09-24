@@ -36,7 +36,8 @@ public class EvaluateExpression {
 
                 operatorStack.push(token.charAt(0));
             }else if (token.charAt(0) == '*' || token.charAt(0) == '/') {
-
+                while (!operatorStack.isEmpty() &&
+                        (operatorStack.peek() == '*' ||
             }
         }
     }
