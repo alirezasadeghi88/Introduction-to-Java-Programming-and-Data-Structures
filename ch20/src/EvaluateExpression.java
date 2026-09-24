@@ -49,6 +49,8 @@ public class EvaluateExpression {
                 while (operatorStack.peek() != '(') {
                     processAnOperator(operandStack, operatorStack);
                 }
+
+                operatorStack.pop();
             }
         }
     }
