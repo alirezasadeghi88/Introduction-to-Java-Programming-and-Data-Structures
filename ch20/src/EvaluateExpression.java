@@ -65,7 +65,7 @@ public class EvaluateExpression {
 
     public static void processAnOperator(
             Stack<Integer> operandStack, Stack<Character> operatorStack) {
-
+        char op = operatorStack.pop();
     }
 }
 
