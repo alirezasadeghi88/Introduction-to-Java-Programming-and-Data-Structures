@@ -9,5 +9,8 @@ public class PriorityQueueDemo {
         queue1.offer("Texas");
 
         System.out.println("Priority queue using Comparable:");
+        while (queue1.size() > 0) {
+
+        }
     }
 }
