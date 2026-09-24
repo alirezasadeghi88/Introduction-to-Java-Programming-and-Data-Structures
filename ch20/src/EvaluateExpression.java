@@ -10,7 +10,7 @@ public class EvaluateExpression {
 
         try {
             System.out.println(evaluateExpression(args[0]));
-        }catch (Exception ex) {
+        } catch (Exception ex) {
             System.out.println("Wrong expression: " + args[0]);
         }
     }
@@ -23,7 +23,7 @@ public class EvaluateExpression {
 
         String[] tokens = expression.split(" ");
 
-        for (String token: tokens) {
+        for (String token : tokens) {
             if (token.length() == 0)
                  else if (token.charAt(0) == '+' || token.charAt(0) == '−') {
                 while (!operatorStack.isEmpty() &&
@@ -32,9 +32,11 @@ public class EvaluateExpression {
                                 operatorStack.peek() == '*' ||
                                 operatorStack.peek() == '/')) {
                     processAnOperator(operandStack, operatorStack);
-                                }
                 }
+
+                operatorStack.push(token.charAt(0));
             }
         }
     }
 }
+
