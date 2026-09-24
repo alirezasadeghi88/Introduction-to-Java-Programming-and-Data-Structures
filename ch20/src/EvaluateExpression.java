@@ -20,5 +20,7 @@ public class EvaluateExpression {
         Stack<Character> operatorStack = new Stack<>();
 
         expression = insertBlanks(expression);
+
+        String[] tokens = expression.split(" ");
     }
 }
