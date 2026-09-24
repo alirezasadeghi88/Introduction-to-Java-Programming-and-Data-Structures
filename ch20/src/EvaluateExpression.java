@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class EvaluateExpression {
     public static void main(String[] args) {
         if (args.length != 1) {
@@ -14,6 +16,6 @@ public class EvaluateExpression {
     }
 
     public static int evaluateExpression(String expression) {
-
+        Stack<Integer> operandStack = new Stack<>();
     }
 }
