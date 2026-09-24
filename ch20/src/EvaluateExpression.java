@@ -47,7 +47,7 @@ public class EvaluateExpression {
                 operatorStack.push('(');
             }else if (token.trim().charAt(0) ==')') {
                 while (operatorStack.peek() != '(') {
-
+                    processAnOperator(operandStack, operatorStack);
                 }
             }
         }
