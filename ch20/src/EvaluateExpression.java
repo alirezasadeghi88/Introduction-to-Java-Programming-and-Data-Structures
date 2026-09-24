@@ -89,6 +89,8 @@ public class EvaluateExpression {
             else
                 result += s.charAt(i);
         }
+
+        return result;
     }
 }
 
