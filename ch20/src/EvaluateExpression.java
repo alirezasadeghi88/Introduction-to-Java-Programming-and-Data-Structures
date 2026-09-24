@@ -30,6 +30,10 @@ public class EvaluateExpression {
                         (operatorStack.peek() == '+' ||
                                 operatorStack.peek() == '−' ||
                                 operatorStack.peek() == '*' ||
+                                operatorStack.peek() == '/')) {
+
+                                }
+                }
             }
         }
     }
