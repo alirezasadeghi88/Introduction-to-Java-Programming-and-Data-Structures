@@ -77,5 +77,9 @@ public class EvaluateExpression {
         else if (op == '/')
             operandStack.push(op2 / op1);
     }
+
+    public static String insertBlanks(String s) {
+
+    }
 }
 
