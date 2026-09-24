@@ -44,7 +44,7 @@ public class EvaluateExpression {
 
                 operatorStack.push(token.charAt(0));
             } else if(token.trim().charAt(0) =='(') {
-
+                operatorStack.push('(');
             }
         }
     }
