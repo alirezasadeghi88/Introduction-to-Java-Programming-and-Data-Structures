@@ -51,8 +51,10 @@ public class EvaluateExpression {
                 }
 
                 operatorStack.pop();
+            }  else {
+
             }
-        }
+            }
     }
 }
 
