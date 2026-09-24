@@ -85,6 +85,7 @@ public class EvaluateExpression {
             if (s.charAt(i) == '(' || s.charAt(i) == ')' ||
                     s.charAt(i) == '+' || s.charAt(i) == '−' ||
                     s.charAt(i) == '*' || s.charAt(i) == '/')
+                result += " " + s.charAt(i) + " ";
         }
     }
 }
