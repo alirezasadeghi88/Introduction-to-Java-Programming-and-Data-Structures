@@ -59,6 +59,8 @@ public class EvaluateExpression {
         while (!operatorStack.isEmpty()) {
             processAnOperator(operandStack, operatorStack);
         }
+
+        return operandStack.pop();
     }
 }
 
