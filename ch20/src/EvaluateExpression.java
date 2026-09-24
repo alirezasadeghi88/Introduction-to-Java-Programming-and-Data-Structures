@@ -25,6 +25,9 @@ public class EvaluateExpression {
 
         for (String token: tokens) {
             if (token.length() == 0)
+                 else if (token.charAt(0) == '+' || token.charAt(0) == '−') {
+
+            }
         }
     }
 }
