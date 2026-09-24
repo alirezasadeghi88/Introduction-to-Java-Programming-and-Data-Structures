@@ -7,5 +7,7 @@ public class PriorityQueueDemo {
         queue1.offer("Indiana");
         queue1.offer("Georgia");
         queue1.offer("Texas");
+
+        System.out.println("Priority queue using Comparable:");
     }
 }
