@@ -23,7 +23,7 @@ public class PriorityQueueDemo {
 
         System.out.println("\nPriority queue using Comparator:");
         while (queue2.size() > 0) {
-
+            System.out.print(queue2.remove() + " ");
         }
     }
 }
