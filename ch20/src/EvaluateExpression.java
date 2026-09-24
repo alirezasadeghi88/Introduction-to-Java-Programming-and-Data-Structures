@@ -22,5 +22,9 @@ public class EvaluateExpression {
         expression = insertBlanks(expression);
 
         String[] tokens = expression.split(" ");
+
+        for (String token: tokens) {
+
+        }
     }
 }
