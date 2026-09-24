@@ -52,7 +52,7 @@ public class EvaluateExpression {
 
                 operatorStack.pop();
             }  else {
-
+                operandStack.push(Integer.valueOf(token));
             }
             }
     }
