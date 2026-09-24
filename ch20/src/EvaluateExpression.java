@@ -28,6 +28,7 @@ public class EvaluateExpression {
                  else if (token.charAt(0) == '+' || token.charAt(0) == '−') {
                 while (!operatorStack.isEmpty() &&
                         (operatorStack.peek() == '+' ||
+                                operatorStack.peek() == '−' ||
             }
         }
     }
