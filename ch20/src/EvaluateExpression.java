@@ -69,6 +69,7 @@ public class EvaluateExpression {
         int op1 = operandStack.pop();
         int op2 = operandStack.pop();
         if (op == '+')
+            operandStack.push(op2 + op1);
     }
 }
 
