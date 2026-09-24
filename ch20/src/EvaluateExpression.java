@@ -62,5 +62,10 @@ public class EvaluateExpression {
 
         return operandStack.pop();
     }
+
+    public static void processAnOperator(
+            Stack<Integer> operandStack, Stack<Character> operatorStack) {
+
+    }
 }
 
