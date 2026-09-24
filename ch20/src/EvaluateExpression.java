@@ -68,6 +68,7 @@ public class EvaluateExpression {
         char op = operatorStack.pop();
         int op1 = operandStack.pop();
         int op2 = operandStack.pop();
+        if (op == '+')
     }
 }
 
