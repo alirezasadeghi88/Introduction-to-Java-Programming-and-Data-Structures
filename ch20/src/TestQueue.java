@@ -7,5 +7,6 @@ public class TestQueue {
         queue.offer("Texas");
 
         while (queue.size() > 0)
+            System.out.print(queue.remove() + " ");
     }
 }
