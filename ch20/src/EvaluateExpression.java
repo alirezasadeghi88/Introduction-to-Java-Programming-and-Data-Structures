@@ -29,6 +29,7 @@ public class EvaluateExpression {
                 while (!operatorStack.isEmpty() &&
                         (operatorStack.peek() == '+' ||
                                 operatorStack.peek() == '−' ||
+                                operatorStack.peek() == '*' ||
             }
         }
     }
