@@ -31,7 +31,7 @@ public class EvaluateExpression {
                                 operatorStack.peek() == '−' ||
                                 operatorStack.peek() == '*' ||
                                 operatorStack.peek() == '/')) {
-
+                    processAnOperator(operandStack, operatorStack);
                                 }
                 }
             }
