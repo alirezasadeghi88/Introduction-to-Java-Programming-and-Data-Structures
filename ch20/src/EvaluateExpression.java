@@ -18,5 +18,7 @@ public class EvaluateExpression {
     public static int evaluateExpression(String expression) {
         Stack<Integer> operandStack = new Stack<>();
         Stack<Character> operatorStack = new Stack<>();
+
+        expression = insertBlanks(expression);
     }
 }
