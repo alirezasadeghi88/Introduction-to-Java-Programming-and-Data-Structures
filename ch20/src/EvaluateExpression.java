@@ -80,6 +80,10 @@ public class EvaluateExpression {
 
     public static String insertBlanks(String s) {
         String result = "";
+
+        for (int i = 0; i < s.length(); i++) {
+
+        }
     }
 }
 
