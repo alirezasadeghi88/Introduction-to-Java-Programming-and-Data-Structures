@@ -3,6 +3,7 @@ public class EvaluateExpression {
         if (args.length != 1) {
             System.out.println(
                     "Usage: java EvaluateExpression \"expression\"");
+            System.exit(1);
         }
     }
 }
