@@ -26,5 +26,7 @@ public class TestMethodsInCollection {
 
 
         set1.addAll(set2);
+        System.out.println("\nAfter adding set2 to set1, set1 is "
+                + set1);
     }
 }
