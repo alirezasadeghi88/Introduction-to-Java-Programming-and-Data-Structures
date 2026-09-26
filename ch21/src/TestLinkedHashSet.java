@@ -6,5 +6,6 @@ public class TestLinkedHashSet {
         Set<String> set = new LinkedHashSet<>();
         set.add("London");
         set.add("Paris");
+        set.add("New York");
     }
 }
