@@ -14,5 +14,6 @@ public class TestLinkedHashSet {
         System.out.println(set);
 
         for (String element: set)
+            System.out.print(element.toLowerCase() + " ");
     }
 }
