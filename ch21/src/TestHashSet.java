@@ -16,5 +16,7 @@ public class TestHashSet {
         for (String s: set) {
             System.out.print(s.toUpperCase() + " ");
         }
+
+        System.out.println();
     }
 }
