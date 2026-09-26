@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class TestTreeSet {
     public static void main(String[] args) {
@@ -10,5 +11,7 @@ public class TestTreeSet {
         set.add("San Francisco");
         set.add("Beijing");
         set.add("New York");
+
+        TreeSet<String> treeSet = new TreeSet<>(set);
     }
 }
