@@ -19,5 +19,7 @@ public class TestTreeSet {
         System.out.println("last(): " + treeSet.last());
         System.out.println("headSet(\"New York\"): " +
                 treeSet.headSet("New York"));
+        System.out.println("tailSet(\"New York\"): " +
+                treeSet.tailSet("New York"));
     }
 }
