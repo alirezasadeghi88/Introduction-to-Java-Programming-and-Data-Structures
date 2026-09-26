@@ -23,5 +23,8 @@ public class TestMethodsInCollection {
 
         System.out.println("\nIs Taipei in set2? "
                 + set2.contains("Taipei"));
+
+
+        set1.addAll(set2);
     }
 }
