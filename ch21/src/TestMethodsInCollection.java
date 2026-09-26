@@ -3,5 +3,6 @@ public class TestMethodsInCollection {
         java.util.Set<String> set1 = new java.util.HashSet<>();
         set1.add("London");
         set1.add("Paris");
+        set1.add("New York");
     }
 }
