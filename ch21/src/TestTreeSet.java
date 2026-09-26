@@ -14,5 +14,7 @@ public class TestTreeSet {
 
         TreeSet<String> treeSet = new TreeSet<>(set);
         System.out.println("Sorted tree set: " + treeSet);
+
+        System.out.println("first(): " + treeSet.first());
     }
 }
