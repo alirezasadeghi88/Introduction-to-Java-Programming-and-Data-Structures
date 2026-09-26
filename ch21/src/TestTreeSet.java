@@ -23,5 +23,6 @@ public class TestTreeSet {
                 treeSet.tailSet("New York"));
 
         System.out.println("lower(\"P\"): " + treeSet.lower("P"));
+        System.out.println("higher(\"P\"): " + treeSet.higher("P"));
     }
 }
