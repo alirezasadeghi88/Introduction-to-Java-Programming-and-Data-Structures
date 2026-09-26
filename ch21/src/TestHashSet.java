@@ -12,5 +12,9 @@ public class TestHashSet {
         set.add("New York");
 
         System.out.println(set);
+
+        for (String s: set) {
+
+        }
     }
 }
