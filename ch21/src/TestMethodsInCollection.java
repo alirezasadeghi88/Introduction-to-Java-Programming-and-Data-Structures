@@ -31,5 +31,7 @@ public class TestMethodsInCollection {
 
 
         set1.removeAll(set2);
+        System.out.println("After removing set2 from set1, set1 is "
+                + set1);
     }
 }
