@@ -5,5 +5,6 @@ public class TestLinkedHashSet {
     public static void main(String[] args) {
         Set<String> set = new LinkedHashSet<>();
         set.add("London");
+        set.add("Paris");
     }
 }
