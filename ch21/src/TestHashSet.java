@@ -7,5 +7,6 @@ public class TestHashSet {
         set.add("London");
         set.add("Paris");
         set.add("New York");
+        set.add("San Francisco");
     }
 }
