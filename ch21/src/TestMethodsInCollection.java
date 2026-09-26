@@ -18,5 +18,6 @@ public class TestMethodsInCollection {
         set2.add("London");
         set2.add("Shanghai");
         set2.add("Paris");
+        System.out.println("\nset2 is " + set2);
     }
 }
