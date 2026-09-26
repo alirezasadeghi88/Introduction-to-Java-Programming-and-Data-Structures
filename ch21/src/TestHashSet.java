@@ -18,5 +18,6 @@ public class TestHashSet {
         }
 
         System.out.println();
+        set.forEach(e -> System.out.print(e.toLowerCase() + " "));
     }
 }
