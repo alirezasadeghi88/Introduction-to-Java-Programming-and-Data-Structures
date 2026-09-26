@@ -36,5 +36,7 @@ public class TestMethodsInCollection {
 
 
         set1.retainAll(set2);
+        System.out.println("After retaining common elements in set2 "
+                + "and set2, set1 is " + set1);
     }
 }
