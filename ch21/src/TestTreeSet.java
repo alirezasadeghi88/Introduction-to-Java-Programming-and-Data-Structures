@@ -13,5 +13,6 @@ public class TestTreeSet {
         set.add("New York");
 
         TreeSet<String> treeSet = new TreeSet<>(set);
+        System.out.println("Sorted tree set: " + treeSet);
     }
 }
