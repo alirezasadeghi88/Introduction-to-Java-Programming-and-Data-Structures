@@ -6,5 +6,6 @@ public class TestHashSet {
         Set<String> set = new HashSet<>();
         set.add("London");
         set.add("Paris");
+        set.add("New York");
     }
 }
