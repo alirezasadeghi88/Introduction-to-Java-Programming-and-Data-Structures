@@ -16,5 +16,6 @@ public class TestTreeSet {
         System.out.println("Sorted tree set: " + treeSet);
 
         System.out.println("first(): " + treeSet.first());
+        System.out.println("last(): " + treeSet.last());
     }
 }
