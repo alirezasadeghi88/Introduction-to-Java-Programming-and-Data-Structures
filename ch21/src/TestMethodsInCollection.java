@@ -15,5 +15,6 @@ public class TestMethodsInCollection {
         System.out.println(set1.size() + " elements in set1");
 
         java.util.Set<String> set2 = new java.util.HashSet<>();
+        set2.add("London");
     }
 }
