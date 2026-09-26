@@ -12,5 +12,7 @@ public class TestLinkedHashSet {
         set.add("New York");
 
         System.out.println(set);
+
+        for (String element: set)
     }
 }
