@@ -5,5 +5,6 @@ public class TestTreeSet {
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
         set.add("London");
+        set.add("Paris");
     }
 }
