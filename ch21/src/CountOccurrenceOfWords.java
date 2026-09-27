@@ -7,5 +7,7 @@ public class CountOccurrenceOfWords {
                 "Have a good visit. Have fun!";
 
         Map<String, Integer> map = new TreeMap<>();
+
+        String[] words = text.split("[\\s+\\p{P}]");
     }
 }
