@@ -9,5 +9,8 @@ public class CountKeywords {
         String filename = input.nextLine();
 
         File file = new File(filename);
+        if (file.exists()) {
+
+        }
     }
 }
