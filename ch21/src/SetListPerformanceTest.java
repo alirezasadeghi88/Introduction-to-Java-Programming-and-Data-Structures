@@ -30,5 +30,7 @@ public class SetListPerformanceTest {
         Collection<Integer> list1 = new ArrayList<>(list);
         System.out.println("Member test time for array list is " +
                 getTestTime(list1) + " milliseconds");
+        System.out.println("Remove element time for array list is " +
+                getRemoveTime(list1) + " milliseconds");
     }
 }
