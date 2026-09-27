@@ -31,5 +31,7 @@ public class TestMap {
 
         System.out.println("Display entries in LinkedHashMap");
         System.out.println(linkedHashMap);
+
+        System.out.print("\nNames and ages are ");
     }
 }
