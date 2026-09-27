@@ -14,5 +14,7 @@ public class SetListPerformanceTest {
                 getTestTime(set1) + " milliseconds");
         System.out.println("Remove element time for hash set is " +
                 getRemoveTime(set1) + " milliseconds");
+
+        Collection<Integer> set2 = new LinkedHashSet<>(list);
     }
 }
