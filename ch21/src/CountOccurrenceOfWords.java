@@ -14,7 +14,7 @@ public class CountOccurrenceOfWords {
 
             if (key.length() > 0) {
                 if (!map.containsKey(key)) {
-
+                    map.put(key, 1);
                 }
             }
         }
