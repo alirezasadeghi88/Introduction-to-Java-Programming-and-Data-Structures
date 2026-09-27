@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SetListPerformanceTest {
@@ -8,5 +9,6 @@ public class SetListPerformanceTest {
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < N; i++)
             list.add(i);
+        Collections.shuffle(list);
     }
 }
