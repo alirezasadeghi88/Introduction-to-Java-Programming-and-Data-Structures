@@ -43,5 +43,7 @@ public class CountKeywords {
             if (keywordSet.contains(word))
                 count++;
         }
+
+        return count;
     }
 }
