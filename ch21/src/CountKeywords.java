@@ -35,5 +35,7 @@ public class CountKeywords {
         Set<String> keywordSet =
                 new HashSet<>(Arrays.asList(keywordString));
         int count = 0;
+
+        Scanner input = new Scanner(file);
     }
 }
