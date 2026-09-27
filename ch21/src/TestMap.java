@@ -23,5 +23,6 @@ public class TestMap {
                 new LinkedHashMap<>(16, 0.75f, true);
         linkedHashMap.put("Smith", 30);
         linkedHashMap.put("Anderson", 31);
+        linkedHashMap.put("Lewis", 29);
     }
 }
