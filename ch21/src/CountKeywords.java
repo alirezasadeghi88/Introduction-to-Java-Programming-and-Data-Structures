@@ -5,5 +5,6 @@ public class CountKeywords {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a Java source file: ");
+        String filename = input.nextLine();
     }
 }
