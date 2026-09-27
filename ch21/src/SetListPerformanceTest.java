@@ -6,5 +6,6 @@ public class SetListPerformanceTest {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < N; i++)
     }
 }
