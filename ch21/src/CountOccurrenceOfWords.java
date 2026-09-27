@@ -10,7 +10,7 @@ public class CountOccurrenceOfWords {
 
         String[] words = text.split("[\\s+\\p{P}]");
         for (int i = 0; i < words.length; i++) {
-
+            String key = words[i].toLowerCase();
         }
     }
 }
