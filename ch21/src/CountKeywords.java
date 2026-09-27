@@ -13,7 +13,7 @@ public class CountKeywords {
             System.out.println("The number of keywords in " + filename
                     + " is " + countKeywords(file));
         } else {
-
+            System.out.println("File " + filename + " does not exist");
         }
     }
 }
