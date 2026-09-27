@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class TestMap {
     public static void main(String[] args) {
@@ -11,5 +12,7 @@ public class TestMap {
 
         System.out.println("Display entries in HashMap");
         System.out.println(hashMap + "\n");
+
+        Map<String, Integer> treeMap = new TreeMap<>(hashMap);
     }
 }
