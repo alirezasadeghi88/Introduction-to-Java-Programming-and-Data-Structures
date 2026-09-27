@@ -26,5 +26,7 @@ public class SetListPerformanceTest {
                 getTestTime(set3) + " milliseconds");
         System.out.println("Remove element time for tree set is " +
                 getRemoveTime(set3) + " milliseconds");
+
+        Collection<Integer> list1 = new ArrayList<>(list);
     }
 }
