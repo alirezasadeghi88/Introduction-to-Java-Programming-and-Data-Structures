@@ -34,5 +34,6 @@ public class CountKeywords {
 
         Set<String> keywordSet =
                 new HashSet<>(Arrays.asList(keywordString));
+        int count = 0;
     }
 }
