@@ -10,7 +10,8 @@ public class CountKeywords {
 
         File file = new File(filename);
         if (file.exists()) {
-
+            System.out.println("The number of keywords in " + filename
+                    + " is " + countKeywords(file));
         }
     }
 }
