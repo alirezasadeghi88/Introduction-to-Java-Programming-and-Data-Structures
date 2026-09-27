@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 public class CountKeywords {
@@ -6,5 +7,7 @@ public class CountKeywords {
 
         System.out.print("Enter a Java source file: ");
         String filename = input.nextLine();
+
+        File file = new File(filename);
     }
 }
