@@ -41,6 +41,6 @@ public class SetListPerformanceTest {
     }
 
     public static long getTestTime(Collection<> c) {
-
+        long startTime = System.currentTimeMillis();
     }
 }
