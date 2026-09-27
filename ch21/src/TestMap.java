@@ -10,5 +10,6 @@ public class TestMap {
         hashMap.put("Cook", 29);
 
         System.out.println("Display entries in HashMap");
+        System.out.println(hashMap + "\n");
     }
 }
