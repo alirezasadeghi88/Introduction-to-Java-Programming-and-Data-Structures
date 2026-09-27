@@ -30,5 +30,6 @@ public class TestMap {
                         linkedHashMap.get("Lewis"));
 
         System.out.println("Display entries in LinkedHashMap");
+        System.out.println(linkedHashMap);
     }
 }
