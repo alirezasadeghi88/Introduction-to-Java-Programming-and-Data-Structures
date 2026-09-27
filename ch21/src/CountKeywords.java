@@ -1,5 +1,8 @@
 import java.io.File;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class CountKeywords {
     public static void main(String[] args) throws Exception {
@@ -28,5 +31,8 @@ public class CountKeywords {
                 "strictfp", "super", "switch", "synchronized", "this",
                 "throw", "throws", "transient", "try", "void", "volatile",
                 "while", "true", "false", "null"};
+
+        Set<String> keywordSet =
+                new HashSet<>(Arrays.asList(keywordString));
     }
 }
