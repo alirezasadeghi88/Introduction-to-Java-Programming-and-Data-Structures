@@ -27,11 +27,15 @@ public class TestMap {
         linkedHashMap.put("Cook", 29);
 
         System.out.println("\nThe age for " + "Lewis is " +
-                        linkedHashMap.get("Lewis"));
+                linkedHashMap.get("Lewis"));
 
         System.out.println("Display entries in LinkedHashMap");
         System.out.println(linkedHashMap);
 
         System.out.print("\nNames and ages are ");
+
+        treeMap.forEach(
+
+                (name, age) -> System.out.print(name + ": " + age + " "));
     }
 }
