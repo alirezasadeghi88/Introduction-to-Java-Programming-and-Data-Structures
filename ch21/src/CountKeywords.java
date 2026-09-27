@@ -16,4 +16,8 @@ public class CountKeywords {
             System.out.println("File " + filename + " does not exist");
         }
     }
+
+    public static int countKeywords(File file) throws Exception {
+
+    }
 }
