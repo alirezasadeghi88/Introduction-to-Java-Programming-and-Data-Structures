@@ -50,6 +50,6 @@ public class SetListPerformanceTest {
     }
 
     public static long getRemoveTime(Collection<Integer> c) {
-
+        long startTime = System.currentTimeMillis();
     }
 }
