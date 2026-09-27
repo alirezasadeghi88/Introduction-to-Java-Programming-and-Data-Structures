@@ -34,5 +34,7 @@ public class SetListPerformanceTest {
                 getRemoveTime(list1) + " milliseconds");
 
         Collection<Integer> list2 = new LinkedList<>(list);
+        System.out.println("Member test time for linked list is " +
+                getTestTime(list2) + " milliseconds");
     }
 }
