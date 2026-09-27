@@ -10,5 +10,7 @@ public class SetListPerformanceTest {
         Collections.shuffle(list);
 
         Collection<Integer> set1 = new HashSet<>(list);
+        System.out.println("Member test time for hash set is " +
+                getTestTime(set1) + " milliseconds");
     }
 }
