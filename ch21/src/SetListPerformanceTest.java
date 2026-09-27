@@ -39,4 +39,8 @@ public class SetListPerformanceTest {
         System.out.println("Remove element time for linked list is " +
                 getRemoveTime(list2) + " milliseconds");
     }
+
+    public static long getTestTime(Collection<> c) {
+
+    }
 }
