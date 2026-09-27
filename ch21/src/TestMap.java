@@ -24,5 +24,6 @@ public class TestMap {
         linkedHashMap.put("Smith", 30);
         linkedHashMap.put("Anderson", 31);
         linkedHashMap.put("Lewis", 29);
+        linkedHashMap.put("Cook", 29);
     }
 }
