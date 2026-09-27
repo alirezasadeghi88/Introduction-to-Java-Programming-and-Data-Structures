@@ -48,4 +48,8 @@ public class SetListPerformanceTest {
 
         return System.currentTimeMillis() - startTime;
     }
+
+    public static long getRemoveTime(Collection<Integer> c) {
+
+    }
 }
