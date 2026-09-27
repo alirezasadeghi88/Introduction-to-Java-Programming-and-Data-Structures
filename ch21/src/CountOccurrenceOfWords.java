@@ -13,7 +13,9 @@ public class CountOccurrenceOfWords {
             String key = words[i].toLowerCase();
 
             if (key.length() > 0) {
+                if (!map.containsKey(key)) {
 
+                }
             }
         }
     }
