@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class SetListPerformanceTest {
     static final int N = 50000;
@@ -10,5 +8,7 @@ public class SetListPerformanceTest {
         for (int i = 0; i < N; i++)
             list.add(i);
         Collections.shuffle(list);
+
+        Collection<Integer> set1 = new HashSet<>(list);
     }
 }
