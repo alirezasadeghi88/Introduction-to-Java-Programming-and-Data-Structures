@@ -8,5 +8,7 @@ public class TestMap {
         hashMap.put("Anderson", 31);
         hashMap.put("Lewis", 29);
         hashMap.put("Cook", 29);
+
+        System.out.println("Display entries in HashMap");
     }
 }
