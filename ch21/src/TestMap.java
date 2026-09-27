@@ -14,5 +14,6 @@ public class TestMap {
         System.out.println(hashMap + "\n");
 
         Map<String, Integer> treeMap = new TreeMap<>(hashMap);
+        System.out.println("Display entries in ascending order of key");
     }
 }
