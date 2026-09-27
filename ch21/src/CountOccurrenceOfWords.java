@@ -18,6 +18,7 @@ public class CountOccurrenceOfWords {
                 } else {
                     int value = map.get(key);
                     value++;
+                    map.put(key, value);
                 }
             }
         }
