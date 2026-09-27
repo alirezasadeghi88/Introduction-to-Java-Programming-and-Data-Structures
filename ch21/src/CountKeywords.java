@@ -40,6 +40,7 @@ public class CountKeywords {
 
         while (input.hasNext()) {
             String word = input.next();
+            if (keywordSet.contains(word))
         }
     }
 }
