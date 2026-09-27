@@ -39,7 +39,7 @@ public class CountKeywords {
         Scanner input = new Scanner(file);
 
         while (input.hasNext()) {
-
+            String word = input.next();
         }
     }
 }
