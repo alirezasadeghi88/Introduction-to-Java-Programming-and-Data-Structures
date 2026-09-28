@@ -27,5 +27,7 @@ public class ImprovedFibonacci {
             f1 = f2;
             f2 = f0 + f1;
         }
+
+        return f2;
     }
 }
