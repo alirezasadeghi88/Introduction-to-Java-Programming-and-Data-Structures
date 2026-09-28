@@ -23,7 +23,7 @@ public class ImprovedFibonacci {
             return f2;
 
         for (int i = 3; i <= n; i++) {
-
+            f0 = f1;
         }
     }
 }
