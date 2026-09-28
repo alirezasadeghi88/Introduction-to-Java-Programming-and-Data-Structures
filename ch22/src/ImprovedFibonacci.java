@@ -25,6 +25,7 @@ public class ImprovedFibonacci {
         for (int i = 3; i <= n; i++) {
             f0 = f1;
             f1 = f2;
+            f2 = f0 + f1;
         }
     }
 }
