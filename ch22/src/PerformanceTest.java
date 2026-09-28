@@ -9,7 +9,7 @@ public class PerformanceTest {
         long startTime = System.currentTimeMillis();
         long k = 0;
         for (long i = 1; i <= n; i++) {
-
+            k = k + 5;
         }
     }
 }
