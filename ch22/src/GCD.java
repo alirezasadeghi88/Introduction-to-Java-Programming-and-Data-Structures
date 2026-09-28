@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class GCD {
     public static int gcd(int m, int n) {
         int gcd = 1;
@@ -12,5 +14,9 @@ public class GCD {
         }
 
         return gcd;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
     }
 }
