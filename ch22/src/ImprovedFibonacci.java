@@ -11,6 +11,6 @@ public class ImprovedFibonacci {
     }
 
     public static long fib(long n) {
-
+        long f0 = 0;
     }
 }
