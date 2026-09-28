@@ -15,5 +15,8 @@ public class GCDEuclid {
         int m = input.nextInt();
         System.out.print("Enter second integer: ");
         int n = input.nextInt();
+
+        System.out.println("The greatest common divisor for " + m +
+                " and " + n + " is " + gcd(m, n));
     }
 }
