@@ -31,6 +31,8 @@ public class PrimeNumbers {
                 }else
                     System.out.printf("%7d", number);
             }
+
+            number++;
         }
     }
 }
