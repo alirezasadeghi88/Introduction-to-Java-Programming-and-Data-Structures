@@ -29,6 +29,7 @@ public class PrimeNumbers {
                 if (count % NUMBER_PER_LINE == 0) {
                     System.out.printf("%7d\n", number);
                 }else
+                    System.out.printf("%7d", number);
             }
         }
     }
