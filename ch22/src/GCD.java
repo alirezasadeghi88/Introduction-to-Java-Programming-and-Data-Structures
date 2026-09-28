@@ -20,5 +20,6 @@ public class GCD {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter first integer: ");
+        int m = input.nextInt();
     }
 }
