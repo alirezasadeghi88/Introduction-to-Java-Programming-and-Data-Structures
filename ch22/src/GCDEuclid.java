@@ -14,5 +14,6 @@ public class GCDEuclid {
         System.out.print("Enter first integer: ");
         int m = input.nextInt();
         System.out.print("Enter second integer: ");
+        int n = input.nextInt();
     }
 }
