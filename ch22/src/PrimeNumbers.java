@@ -11,5 +11,9 @@ public class PrimeNumbers {
         int number = 2;
 
         System.out.println("The prime numbers are:");
+
+        while (number <= n) {
+
+        }
     }
 }
