@@ -11,5 +11,7 @@ public class PerformanceTest {
         for (long i = 1; i <= n; i++) {
             k = k + 5;
         }
+
+        long endTime = System.currentTimeMillis();
     }
 }
