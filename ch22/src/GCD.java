@@ -10,5 +10,7 @@ public class GCD {
                 break;
             }
         }
+
+        return gcd;
     }
 }
