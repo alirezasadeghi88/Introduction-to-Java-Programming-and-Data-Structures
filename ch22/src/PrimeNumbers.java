@@ -14,6 +14,8 @@ public class PrimeNumbers {
 
         while (number <= n) {
             boolean isPrime = true;
+
+            for (int divisor = 2; divisor <= (int)(Math.sqrt(number));
         }
     }
 }
