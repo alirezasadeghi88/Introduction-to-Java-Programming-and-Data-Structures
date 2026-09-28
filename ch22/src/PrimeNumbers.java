@@ -13,7 +13,7 @@ public class PrimeNumbers {
         System.out.println("The prime numbers are:");
 
         while (number <= n) {
-
+            boolean isPrime = true;
         }
     }
 }
