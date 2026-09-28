@@ -19,5 +19,6 @@ public class ImprovedFibonacci {
             return f0;
         else if (n == 1)
             return f1;
+        else if (n == 2)
     }
 }
