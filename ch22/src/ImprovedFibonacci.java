@@ -14,5 +14,7 @@ public class ImprovedFibonacci {
         long f0 = 0;
         long f1 = 1;
         long f2 = 1;
+
+        if (n == 0)
     }
 }
