@@ -16,6 +16,9 @@ public class PrimeNumbers {
             boolean isPrime = true;
 
             for (int divisor = 2; divisor <= (int)(Math.sqrt(number));
+                 divisor++) {
+
+            }
         }
     }
 }
