@@ -20,5 +20,6 @@ public class ImprovedFibonacci {
         else if (n == 1)
             return f1;
         else if (n == 2)
+            return f2;
     }
 }
