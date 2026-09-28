@@ -21,5 +21,9 @@ public class ImprovedFibonacci {
             return f1;
         else if (n == 2)
             return f2;
+
+        for (int i = 3; i <= n; i++) {
+
+        }
     }
 }
