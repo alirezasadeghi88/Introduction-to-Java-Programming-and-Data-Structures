@@ -25,6 +25,10 @@ public class PrimeNumbers {
 
             if (isPrime) {
                 count++;
+
+                if (count % NUMBER_PER_LINE == 0) {
+
+                }
             }
         }
     }
