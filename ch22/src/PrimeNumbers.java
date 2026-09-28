@@ -17,8 +17,10 @@ public class PrimeNumbers {
 
             for (int divisor = 2; divisor <= (int)(Math.sqrt(number));
                  divisor++) {
+                if (number % divisor == 0) {
 
-            }
+                }
+                }
         }
     }
 }
