@@ -7,5 +7,6 @@ public class PrimeNumbers {
         int n = input.nextInt();
 
         final int NUMBER_PER_LINE = 10;
+        int count = 0;
     }
 }
