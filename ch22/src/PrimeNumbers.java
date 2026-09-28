@@ -8,5 +8,6 @@ public class PrimeNumbers {
 
         final int NUMBER_PER_LINE = 10;
         int count = 0;
+        int number = 2;
     }
 }
