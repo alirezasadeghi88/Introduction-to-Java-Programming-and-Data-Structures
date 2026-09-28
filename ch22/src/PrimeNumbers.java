@@ -24,7 +24,7 @@ public class PrimeNumbers {
                 }
 
             if (isPrime) {
-
+                count++;
             }
         }
     }
