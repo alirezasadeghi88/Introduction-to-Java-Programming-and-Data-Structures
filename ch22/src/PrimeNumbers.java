@@ -19,6 +19,7 @@ public class PrimeNumbers {
                  divisor++) {
                 if (number % divisor == 0) {
                     isPrime = false;
+                    break;
                 }
                 }
         }
