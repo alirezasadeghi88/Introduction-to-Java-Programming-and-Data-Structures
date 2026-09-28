@@ -5,4 +5,8 @@ public class GCDEuclid {
         else
             return gcd(n, m % n);
     }
+
+    public static void main(String[] args) {
+
+    }
 }
