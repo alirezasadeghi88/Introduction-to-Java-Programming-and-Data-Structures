@@ -6,5 +6,6 @@ public class PerformanceTest {
 
     public static void getTime(long n) {
 
+        long startTime = System.currentTimeMillis();
     }
 }
