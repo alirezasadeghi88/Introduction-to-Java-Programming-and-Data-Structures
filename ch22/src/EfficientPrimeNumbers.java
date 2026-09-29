@@ -19,6 +19,10 @@ public class EfficientPrimeNumbers {
             boolean isPrime = true;
 
             if (squareRoot * squareRoot < number) squareRoot++;
+
+            for (int k = 0; k < list.size() && list.get(k) <= squareRoot; k++) {
+
+            }
         }
     }
 }
