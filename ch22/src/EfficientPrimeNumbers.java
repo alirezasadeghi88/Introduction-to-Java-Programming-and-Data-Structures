@@ -37,6 +37,9 @@ public class EfficientPrimeNumbers {
 
                 number++;
             }
+
+            System.out.println("\n" + count +
+                    " prime(s) less than or equal to " + n);
         }
     }
 }
