@@ -28,7 +28,7 @@ public class EfficientPrimeNumbers {
             }
 
             if (isPrime) {
-
+                count++;
             }
         }
     }
