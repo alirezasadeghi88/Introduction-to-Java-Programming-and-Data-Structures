@@ -9,7 +9,7 @@ public class SieveOfEratosthenes {
         boolean[] primes = new boolean[n + 1];
 
         for (int i = 0; i < primes.length; i++) {
-
+            primes[i] = true;
         }
     }
 }
