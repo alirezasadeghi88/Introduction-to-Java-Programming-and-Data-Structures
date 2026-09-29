@@ -17,6 +17,8 @@ public class EfficientPrimeNumbers {
 
         while (number <= n) {
             boolean isPrime = true;
+
+            if (squareRoot * squareRoot < number) squareRoot++;
         }
     }
 }
