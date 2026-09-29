@@ -16,7 +16,7 @@ public class EfficientPrimeNumbers {
         System.out.println("The prime numbers are \n");
 
         while (number <= n) {
-
+            boolean isPrime = true;
         }
     }
 }
