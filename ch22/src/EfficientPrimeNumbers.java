@@ -34,6 +34,8 @@ public class EfficientPrimeNumbers {
                     System.out.println(number);
                 }else
                     System.out.print(number + " ");
+
+                number++;
             }
         }
     }
