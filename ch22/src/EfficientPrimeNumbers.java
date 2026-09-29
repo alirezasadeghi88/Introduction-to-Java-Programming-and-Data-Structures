@@ -33,6 +33,7 @@ public class EfficientPrimeNumbers {
                 if (count % NUMBER_PER_LINE == 0) {
                     System.out.println(number);
                 }else
+                    System.out.print(number + " ");
             }
         }
     }
