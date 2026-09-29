@@ -30,6 +30,9 @@ public class EfficientPrimeNumbers {
             if (isPrime) {
                 count++;
                 list.add(number);
+                if (count % NUMBER_PER_LINE == 0) {
+
+                }
             }
         }
     }
