@@ -5,5 +5,7 @@ public class EfficientPrimeNumbers {
         Scanner input = new Scanner(System.in);
         System.out.print("Find all prime numbers <= n, enter n: ");
         int n = input.nextInt();
+
+        java.util.List<Integer> list = new java.util.ArrayList<>();
     }
 }
