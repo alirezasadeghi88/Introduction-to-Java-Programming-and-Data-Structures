@@ -21,7 +21,9 @@ public class EfficientPrimeNumbers {
             if (squareRoot * squareRoot < number) squareRoot++;
 
             for (int k = 0; k < list.size() && list.get(k) <= squareRoot; k++) {
+                if (number % list.get(k) == 0) {
 
+                }
             }
         }
     }
