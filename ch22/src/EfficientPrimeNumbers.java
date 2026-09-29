@@ -22,7 +22,7 @@ public class EfficientPrimeNumbers {
 
             for (int k = 0; k < list.size() && list.get(k) <= squareRoot; k++) {
                 if (number % list.get(k) == 0) {
-
+                    isPrime = false;
                 }
             }
         }
