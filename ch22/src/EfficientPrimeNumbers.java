@@ -7,5 +7,7 @@ public class EfficientPrimeNumbers {
         int n = input.nextInt();
 
         java.util.List<Integer> list = new java.util.ArrayList<>();
+
+        final int NUMBER_PER_LINE = 10;
     }
 }
