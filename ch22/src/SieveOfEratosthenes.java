@@ -26,6 +26,7 @@ public class SieveOfEratosthenes {
         for (int i = 2; i < primes.length; i++) {
             if (primes[i]) {
                 count++;
+                if (count % NUMBER_PER_LINE == 0)
             }
         }
     }
