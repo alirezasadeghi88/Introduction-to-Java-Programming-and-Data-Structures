@@ -29,6 +29,7 @@ public class SieveOfEratosthenes {
                 if (count % NUMBER_PER_LINE == 0)
                     System.out.printf("%7d\n", i);
                 else
+                    System.out.printf("%7d", i);
             }
         }
     }
