@@ -32,5 +32,8 @@ public class SieveOfEratosthenes {
                     System.out.printf("%7d", i);
             }
         }
+
+        System.out.println("\n" + count +
+                " prime(s) less than or equal to " + n);
     }
 }
