@@ -9,5 +9,6 @@ public class EfficientPrimeNumbers {
         java.util.List<Integer> list = new java.util.ArrayList<>();
 
         final int NUMBER_PER_LINE = 10;
+        int count = 0;
     }
 }
