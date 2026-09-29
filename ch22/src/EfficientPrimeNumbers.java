@@ -26,6 +26,10 @@ public class EfficientPrimeNumbers {
                     break;
                 }
             }
+
+            if (isPrime) {
+
+            }
         }
     }
 }
