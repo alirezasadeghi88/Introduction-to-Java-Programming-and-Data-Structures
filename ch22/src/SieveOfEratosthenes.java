@@ -13,7 +13,9 @@ public class SieveOfEratosthenes {
         }
 
         for (int k = 2; k <= n / k; k++) {
+            if (primes[k]) {
 
+            }
         }
     }
 }
