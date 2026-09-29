@@ -12,5 +12,7 @@ public class EfficientPrimeNumbers {
         int count = 0;
         int number = 2;
         int squareRoot = 1;
+
+        System.out.println("The prime numbers are \n");
     }
 }
