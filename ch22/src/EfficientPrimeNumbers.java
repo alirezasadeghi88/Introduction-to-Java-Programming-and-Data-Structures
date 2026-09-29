@@ -32,7 +32,7 @@ public class EfficientPrimeNumbers {
                 list.add(number);
                 if (count % NUMBER_PER_LINE == 0) {
                     System.out.println(number);
-                }
+                }else
             }
         }
     }
