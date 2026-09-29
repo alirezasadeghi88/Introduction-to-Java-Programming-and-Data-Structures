@@ -29,6 +29,7 @@ public class EfficientPrimeNumbers {
 
             if (isPrime) {
                 count++;
+                list.add(number);
             }
         }
     }
