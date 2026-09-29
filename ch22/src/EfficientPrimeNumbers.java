@@ -14,5 +14,9 @@ public class EfficientPrimeNumbers {
         int squareRoot = 1;
 
         System.out.println("The prime numbers are \n");
+
+        while (number <= n) {
+
+        }
     }
 }
