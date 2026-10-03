@@ -6,4 +6,5 @@ public interface MyList<E> extends Collection<E> {
     public E get(int index);
     public int indexOf(Object e);
     public int lastIndexOf(E e);
+    public E remove(int index);
 }
