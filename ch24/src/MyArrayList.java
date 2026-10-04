@@ -1,2 +1,2 @@
-public class MyArrayList {
+public class MyArrayList<E> implements MyList<E> {
 }
