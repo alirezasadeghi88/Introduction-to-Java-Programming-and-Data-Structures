@@ -5,4 +5,9 @@ public class MyArrayList<E> implements MyList<E> {
 
     public MyArrayList() {
     }
+
+    public MyArrayList(E[] objects) {
+        for (int i = 0; i < objects.length; i++)
+            add(objects[i]);
+    }
 }
