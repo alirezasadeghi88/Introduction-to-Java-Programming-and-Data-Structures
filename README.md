@@ -22,6 +22,5 @@ A fundamentals-first introduction to basic programming concepts and techniques
 - [ ] **Chapter 19**:Generics
 - [ ] **Chapter 20**:Lists, Stacks, Queues, and Priority Queues
 - [ ] **Chapter 21**:Sets and Maps
-- [ ] 
 
 ...
