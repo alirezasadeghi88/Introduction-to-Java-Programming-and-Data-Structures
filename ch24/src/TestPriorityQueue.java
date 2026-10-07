@@ -19,8 +19,11 @@ public class TestPriorityQueue {
         private int priority;
     }
 
-    public Patient(String name, int priority) {
-        this.name = name;
-        this.priority = priority;
+    public TestPriorityQueue() {
+    }
+
+    @Override
+    public String toString() {
+        return name + "(priority:" + priority + ")";
     }
 }
