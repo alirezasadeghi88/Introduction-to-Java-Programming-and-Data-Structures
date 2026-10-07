@@ -7,5 +7,9 @@ public class TestStackQueue {
 
         queue.enqueue("Susan");
         System.out.println("(8) " + queue);
+
+        queue.enqueue("Kim");
+        queue.enqueue("Michael");
+        System.out.println("(9) " + queue);
     }
 }
