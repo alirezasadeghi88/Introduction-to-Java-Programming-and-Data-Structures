@@ -15,6 +15,7 @@ public class TestPriorityQueue {
     }
 
     static class Patient implements Comparable<Patient> {
-
+        private String name;
+        private int priority;
     }
 }
