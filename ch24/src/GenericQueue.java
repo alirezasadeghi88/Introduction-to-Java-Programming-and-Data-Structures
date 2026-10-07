@@ -9,4 +9,8 @@ public class GenericQueue<E> {
     public E dequeue() {
         return list.removeFirst();
     }
+
+    public int getSize() {
+        return list.size();
+    }
 }
