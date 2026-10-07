@@ -18,4 +18,9 @@ public class TestPriorityQueue {
         private String name;
         private int priority;
     }
+
+    public Patient(String name, int priority) {
+        this.name = name;
+        this.priority = priority;
+    }
 }
