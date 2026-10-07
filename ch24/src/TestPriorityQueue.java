@@ -13,4 +13,8 @@ public class TestPriorityQueue {
         while (priorityQueue.getSize() > 0)
             System.out.print(priorityQueue.dequeue() + " ");
     }
+
+    static class Patient implements Comparable<Patient> {
+
+    }
 }
