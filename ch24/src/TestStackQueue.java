@@ -11,5 +11,9 @@ public class TestStackQueue {
         queue.enqueue("Kim");
         queue.enqueue("Michael");
         System.out.println("(9) " + queue);
+
+        System.out.println("(10) " + queue.dequeue());
+        System.out.println("(11) " + queue.dequeue());
+        System.out.println("(12) " + queue);
     }
 }
