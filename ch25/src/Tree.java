@@ -36,4 +36,9 @@ public interface Tree<E> extends Collection<E> {
     public default int size() {
         return getSize();
     }
+
+    @Override
+    public default boolean containsAll(Collection<?> c) {
+        return false;
+    }
 }
