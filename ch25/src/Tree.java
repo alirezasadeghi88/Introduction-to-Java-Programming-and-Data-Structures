@@ -56,4 +56,14 @@ public interface Tree<E> extends Collection<E> {
     public default boolean retainAll(Collection<?> c) {
         return false;
     }
+
+    @Override
+    public default Object[] toArray() {
+        return null;
+    }
+
+    @Override
+    public default <T> T[] toArray(T[] array) {
+        return null;
+    }
 }
