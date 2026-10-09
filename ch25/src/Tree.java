@@ -9,4 +9,6 @@ public interface Tree<E> extends Collection<E> {
     }
     public default void postorder() {
     }
+    public default void preorder() {
+    }
 }
