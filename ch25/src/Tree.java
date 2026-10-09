@@ -46,4 +46,9 @@ public interface Tree<E> extends Collection<E> {
     public default boolean addAll(Collection<? extends E> c) {
         return false;
     }
+
+    @Override
+    public default boolean removeAll(Collection<?> c) {
+        return false;
+    }
 }
