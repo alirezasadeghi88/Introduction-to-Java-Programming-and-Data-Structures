@@ -10,4 +10,10 @@ public class BST<E> implements Tree<E> {
     public BST(java.util.Comparator<E> c) {
         this.c = c;
     }
+
+    public BST(E[] objects) {
+        this.c = (e1, e2) -> ((Comparable<E>)e1).compareTo(e2);
+        for (int i = 0; i < objects.length; i++)
+                 add(objects[i]);
+    }
 }
