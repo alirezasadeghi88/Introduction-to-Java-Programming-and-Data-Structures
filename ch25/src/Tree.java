@@ -7,4 +7,6 @@ public interface Tree<E> extends Collection<E> {
     public int getSize();
     public default void inorder() {
     }
+    public default void postorder() {
+    }
 }
