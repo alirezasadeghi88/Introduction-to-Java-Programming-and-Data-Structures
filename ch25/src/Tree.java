@@ -11,4 +11,9 @@ public interface Tree<E> extends Collection<E> {
     }
     public default void preorder() {
     }
+
+    @Override
+    public default boolean isEmpty() {
+        return size() == 0;
+    }
 }
