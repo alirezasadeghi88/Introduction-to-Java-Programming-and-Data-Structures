@@ -51,4 +51,9 @@ public interface Tree<E> extends Collection<E> {
     public default boolean removeAll(Collection<?> c) {
         return false;
     }
+
+    @Override
+    public default boolean retainAll(Collection<?> c) {
+        return false;
+    }
 }
