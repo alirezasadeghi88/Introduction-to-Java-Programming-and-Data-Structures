@@ -50,6 +50,10 @@ public class BST<E> implements Tree<E> {
         }  else if (c.compare(e, current.element) > 0) {
             parent = current;
             current = current.right;
+        }else
+            return false;
+        if (c.compare(e, parent.element) < 0)
+            parent.left = createNewNode(e);
     }
 
     @Override
