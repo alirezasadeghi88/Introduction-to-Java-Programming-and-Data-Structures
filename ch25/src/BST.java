@@ -37,7 +37,13 @@ public class BST<E> implements Tree<E> {
 
     @Override
     public boolean insert(E e) {
-        return false;
+        if (root == null)
+            root = createNewNode(e);
+        else {
+            TreeNode<E> parent = null;
+            TreeNode<E> current = root;
+            while (current != null)
+        }
     }
 
     @Override
