@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class BST<E> implements Tree<E> {
     protected TreeNode<E> root;
     protected int size = 0;
@@ -31,5 +33,30 @@ public class BST<E> implements Tree<E> {
         }
 
         return false;
+    }
+
+    @Override
+    public boolean insert(E e) {
+        return false;
+    }
+
+    @Override
+    public boolean delete(E e) {
+        return false;
+    }
+
+    @Override
+    public int getSize() {
+        return 0;
+    }
+
+    @Override
+    public Iterator<E> iterator() {
+        return null;
+    }
+
+    @Override
+    public void clear() {
+
     }
 }
