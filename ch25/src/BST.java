@@ -54,6 +54,8 @@ public class BST<E> implements Tree<E> {
             return false;
         if (c.compare(e, parent.element) < 0)
             parent.left = createNewNode(e);
+        else
+            parent.right = createNewNode(e);
     }
 
     @Override
