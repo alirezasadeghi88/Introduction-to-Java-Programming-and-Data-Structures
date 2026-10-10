@@ -47,7 +47,9 @@ public class BST<E> implements Tree<E> {
         if (c.compare(e, current.element) < 0) {
             parent = current;
             current = current.left;
-        }
+        }  else if (c.compare(e, current.element) > 0) {
+            parent = current;
+            current = current.right;
     }
 
     @Override
