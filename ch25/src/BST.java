@@ -44,6 +44,10 @@ public class BST<E> implements Tree<E> {
             TreeNode<E> current = root;
             while (current != null)
         }
+        if (c.compare(e, current.element) < 0) {
+            parent = current;
+            current = current.left;
+        }
     }
 
     @Override
