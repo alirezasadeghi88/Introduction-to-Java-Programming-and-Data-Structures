@@ -19,5 +19,9 @@ public class TestBST {
 
         System.out.print("\nIs Peter in the tree? " +
                 tree.search("Peter"));
+        System.out.print("\nA path from the root to Peter is: ");
+        java.util.ArrayList<BST.TreeNode<String>> path= tree.path("Peter");
+             for (int i = 0; path != null && i < path.size(); i++)
+                 System.out.print(path.get(i).element + " ");
     }
 }
