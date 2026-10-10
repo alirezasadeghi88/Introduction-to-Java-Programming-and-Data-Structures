@@ -16,5 +16,8 @@ public class TestBST {
         System.out.print("\nPreorder: ");
         tree.preorder();
         System.out.print("\nThe number of nodes is " + tree.getSize());
+
+        System.out.print("\nIs Peter in the tree? " +
+                tree.search("Peter"));
     }
 }
