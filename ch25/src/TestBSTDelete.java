@@ -9,5 +9,15 @@ public class TestBSTDelete {
         tree.insert("Peter");
         tree.insert("Daniel");
         printTree(tree);
+        System.out.println("\nAfter delete George:");
+
+        tree.delete("George");
+        printTree(tree);
+        System.out.println("\nAfter delete Adam:");
+        tree.delete("Adam");
+        printTree(tree);
+        System.out.println("\nAfter delete Michael:");
+        tree.delete("Michael");
+        printTree(tree);
     }
 }
