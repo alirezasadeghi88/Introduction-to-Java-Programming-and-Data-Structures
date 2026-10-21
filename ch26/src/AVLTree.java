@@ -1,3 +1,5 @@
+import javax.swing.tree.TreeNode;
+
 public class AVLTree<E> extends BST<E>  {
     public AVLTree() {
 
@@ -39,5 +41,31 @@ public class AVLTree<E> extends BST<E>  {
             node.height = 1 +
                 Math.max(((AVLTreeNode<E>)(node.right)).height,
                 ((AVLTreeNode<E>)(node.left)).height);
+    }
+
+    private void balancePath(E e) {
+        java.util.ArrayList<TreeNode<E>> path = path(e);
+        for (int i = path.size() - 1; i >= 0; i--) {
+            AVLTreeNode<E> A = (AVLTreeNode<E>)(path.get(i));
+            updateHeight(A);
+            AVLTreeNode<E> parentOfA = (A == root) ? null :
+                    (AVLTreeNode<E>)(path.get(i - 1));
+            switch (balanceFactor(A)) {
+                case -2:
+                    if (balanceFactor((AVLTreeNode<E>)A.left) <= 0) {
+                        balanceLL(A, parentOfA);
+                    }
+                    else {          balanceLR(A, parentOfA);
+                    }
+                    break;
+                    case +2:
+                    if (balanceFactor((AVLTreeNode<E>)A.right) >= 0) {
+                        balanceRR(A, parentOfA);
+                    }
+                    else {
+                        balanceRL(A, parentOfA);
+                    }
+            }
+        }
     }
 }
