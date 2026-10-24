@@ -15,4 +15,9 @@ public class TestAVLTree {
         System.out.print("\nAfter inserting 30");
         printTree(tree);
     }
+
+
+    public static void printTree(BST tree) {
+
+    }
 }
