@@ -30,9 +30,7 @@ public class TestAVLTree {
         System.out.print("\nAfter removing 5:");
         printTree(tree);
         System.out.print("\nTraverse the elements in the tree: ");
-        for (int e: tree) {
-            System.out.print(e + " ");
-        }
+
     }
 
 
