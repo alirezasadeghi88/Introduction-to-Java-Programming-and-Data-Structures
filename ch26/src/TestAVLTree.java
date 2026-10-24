@@ -31,6 +31,9 @@ public class TestAVLTree {
         printTree(tree);
         System.out.print("\nTraverse the elements in the tree: ");
 
+        for (int e: tree) {
+            System.out.print(e + " ");
+        }
     }
 
 
