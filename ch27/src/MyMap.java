@@ -7,4 +7,5 @@ public interface MyMap<K, V>  {
     public java.util.Set<Map.Entry<K, V>> entrySet();
     public V get(K key);
     public boolean isEmpty();
+    public java.util.Set<K> keySet();
 }
