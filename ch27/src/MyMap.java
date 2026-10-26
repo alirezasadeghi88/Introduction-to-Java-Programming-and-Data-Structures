@@ -6,4 +6,5 @@ public interface MyMap<K, V>  {
     public boolean containsValue(V value);
     public java.util.Set<Map.Entry<K, V>> entrySet();
     public V get(K key);
+    public boolean isEmpty();
 }
