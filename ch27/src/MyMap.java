@@ -11,4 +11,5 @@ public interface MyMap<K, V>  {
     public V put(K key, V value);
     public void remove(K key);
     public int size();
+    public java.util.Set<V> values();
 }
