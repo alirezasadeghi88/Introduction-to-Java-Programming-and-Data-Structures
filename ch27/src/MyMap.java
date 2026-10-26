@@ -8,4 +8,5 @@ public interface MyMap<K, V>  {
     public V get(K key);
     public boolean isEmpty();
     public java.util.Set<K> keySet();
+    public V put(K key, V value);
 }
