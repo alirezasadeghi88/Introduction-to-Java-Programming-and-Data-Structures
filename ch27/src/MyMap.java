@@ -9,4 +9,5 @@ public interface MyMap<K, V>  {
     public boolean isEmpty();
     public java.util.Set<K> keySet();
     public V put(K key, V value);
+    public void remove(K key);
 }
