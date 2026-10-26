@@ -1,2 +1,3 @@
-public interface MyMap {
+public interface MyMap<K, V>  {
+    public void clear();
 }
