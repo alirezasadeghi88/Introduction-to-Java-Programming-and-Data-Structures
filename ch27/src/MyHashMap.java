@@ -12,4 +12,8 @@ public class MyHashMap <K, V> implements MyMap<K, V> {
     public MyHashMap() {
         this(DEFAULT_INITIAL_CAPACITY, DEFAULT_MAX_LOAD_FACTOR);
     }
+
+    public MyHashMap(int initialCapacity) {
+        this(initialCapacity, DEFAULT_MAX_LOAD_FACTOR);
+    }
 }
