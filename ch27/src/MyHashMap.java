@@ -8,4 +8,8 @@ public class MyHashMap <K, V> implements MyMap<K, V> {
     private float loadFactorThreshold;
     private int size = 0;
     LinkedList<Entry<K,V>>[] table;
+
+    public MyHashMap() {
+        this(DEFAULT_INITIAL_CAPACITY, DEFAULT_MAX_LOAD_FACTOR);
+    }
 }
