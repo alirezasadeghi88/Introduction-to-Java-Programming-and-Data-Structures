@@ -27,4 +27,3 @@ A fundamentals-first introduction to basic programming concepts and techniques
 - [ ] **Chapter 24**:Implementing Lists, Stacks, Queues, and Priority Queues
 - [ ] **Chapter 25**:Binary Search Trees
 
-
