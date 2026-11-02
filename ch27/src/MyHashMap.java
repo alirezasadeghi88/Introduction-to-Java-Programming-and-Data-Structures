@@ -27,8 +27,16 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     }
 
     @Override
-     public void clear() {
-     size = 0;
-     removeEntries();
+    public void clear() {
+        size = 0;
+        removeEntries();
+    }
+
+    @Override
+    public boolean containsKey(K key) {
+        if (get(key) != null)
+            return true;
+        else
+            return false;
     }
 }
