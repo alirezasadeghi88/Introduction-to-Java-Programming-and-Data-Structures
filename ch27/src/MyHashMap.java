@@ -39,4 +39,18 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
         else
             return false;
     }
+
+    @Override
+    public boolean containsValue(V value) {
+        for (int i = 0; i < capacity; i++) {
+            if (table[i] != null) {
+                LinkedList<Entry<K, V>> bucket = table[i];
+            }
+            for (Entry<K, V> entry : bucket)
+                if (entry.getValue().equals(value))
+                    return true;
+        }
+
+               return false;
+    }
 }
