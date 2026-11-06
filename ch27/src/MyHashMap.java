@@ -51,6 +51,22 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
                     return true;
         }
 
-               return false;
+        return false;
+    }
+
+    @Override
+    public java.util.Set<MyMap.Entry<K, V>> entrySet() {
+        java.util.Set<MyMap.Entry<K, V>> set =
+                new java.util.HashSet<>();
+
+        for (int i = 0; i < capacity; i++) {
+            if (table[i] != null) {
+                LinkedList<Entry<K, V>> bucket = table[i];
+                for (Entry<K, V> entry : bucket)
+                    set.add(entry);
+            }
+        }
+
+        return set;
     }
 }
