@@ -102,4 +102,43 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
         return set;
     }
+
+
+    @Override
+    public V put(K key, V value) {
+        if (get(key) != null) {
+            int bucketIndex = hash(key.hashCode());
+            LinkedList<Entry<K, V>> bucket = table[bucketIndex];
+            for (Entry<K, V> entry : bucket)
+                if (entry.getKey().equals(key)) {
+                    V oldValue = entry.getValue();
+
+                    entry.value = value;
+
+                    return oldValue;
+                }
+        }
+
+
+        if (size >= capacity * loadFactorThreshold) {
+            if (capacity == MAXIMUM_CAPACITY)
+                throw new RuntimeException("Exceeding maximum capacity");
+
+            rehash();
+        }
+
+        int bucketIndex = hash(key.hashCode());
+
+
+        if (table[bucketIndex] == null) {
+            table[bucketIndex] = new LinkedList<Entry<K, V>>();
+        }
+
+
+        table[bucketIndex].add(new MyMap.Entry<K, V>(key, value));
+
+        size++;
+
+        return value;
+    }
 }
