@@ -141,4 +141,19 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
         return value;
     }
+
+    @Override
+    public void remove(K key) {
+        int bucketIndex = hash(key.hashCode());
+
+        if (table[bucketIndex] != null) {
+            LinkedList<Entry<K, V>> bucket = table[bucketIndex];
+            for (Entry<K, V> entry : bucket)
+                if (entry.getKey().equals(key)) {
+                    bucket.remove(entry);
+                    size—–;
+                    break;
+                }
+        }
+    }
 }
