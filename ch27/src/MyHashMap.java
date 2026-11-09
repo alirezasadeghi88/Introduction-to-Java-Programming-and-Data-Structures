@@ -191,5 +191,16 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
         return h ^ (h >>> 7) ^ (h >>> 4);
     }
+
+
+    private int trimToPowerOf2(int initialCapacity) {
+        int capacity = 1;
+        while (capacity < initialCapacity) {
+            capacity <<= 1;
+        }
+
+
+        return capacity;
+    }
 }
 
