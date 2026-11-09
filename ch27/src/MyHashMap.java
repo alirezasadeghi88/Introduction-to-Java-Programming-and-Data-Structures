@@ -202,5 +202,14 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
         return capacity;
     }
+
+
+    private void removeEntries() {
+        for (int i = 0; i < capacity; i++) {
+            if (table[i] != null) {
+                table[i].clear();
+            }
+        }
+    }
 }
 
