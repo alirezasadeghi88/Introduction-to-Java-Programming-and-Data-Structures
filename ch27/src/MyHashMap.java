@@ -218,6 +218,11 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
         capacity <<= 1;
         table = new LinkedList[capacity];
         size = 0;
+
+
+        for (Entry<K, V> entry: set) {
+            put(entry.getKey(), entry.getValue()); // Store to new table
+        }
     }
 }
 
