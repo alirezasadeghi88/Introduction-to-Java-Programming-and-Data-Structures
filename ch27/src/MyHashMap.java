@@ -234,6 +234,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
             if (table[i] != null && table[i].size() > 0)
                 for (Entry<K, V> entry: table[i])
                     builder.append(entry);
+            builder.append("]");
         }
     }
 }
