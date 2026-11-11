@@ -215,6 +215,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
     private void rehash() {
         java.util.Set<Entry<K, V>> set = entrySet();
+        capacity <<= 1;
     }
 }
 
