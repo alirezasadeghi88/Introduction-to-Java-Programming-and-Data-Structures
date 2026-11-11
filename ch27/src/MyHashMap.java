@@ -217,6 +217,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
         java.util.Set<Entry<K, V>> set = entrySet();
         capacity <<= 1;
         table = new LinkedList[capacity];
+        size = 0;
     }
 }
 
