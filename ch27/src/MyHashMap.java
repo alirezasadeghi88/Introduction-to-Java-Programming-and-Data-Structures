@@ -228,6 +228,11 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder("[");
+
+
+        for (int i = 0; i < capacity; i++) {
+
+        }
     }
 }
 
