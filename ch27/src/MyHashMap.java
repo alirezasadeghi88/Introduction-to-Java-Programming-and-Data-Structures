@@ -231,7 +231,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
 
         for (int i = 0; i < capacity; i++) {
-
+            if (table[i] != null && table[i].size() > 0)
         }
     }
 }
