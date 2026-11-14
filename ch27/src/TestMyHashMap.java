@@ -16,5 +16,8 @@ public class TestMyHashMap {
                 map.containsKey("Smith"));
         System.out.println("Is age 33 in the map? " +
                 map.containsValue(33));
+
+        map.remove("Smith");
+        System.out.println("Entries in map: " + map);
     }
 }
