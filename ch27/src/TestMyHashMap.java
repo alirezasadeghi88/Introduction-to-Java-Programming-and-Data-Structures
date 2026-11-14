@@ -11,5 +11,8 @@ public class TestMyHashMap {
 
         System.out.println("The age for Lewis is " +
                 map.get("Lewis"));
+
+        System.out.println("Is Smith in the map? " +
+                map.containsKey("Smith"));
     }
 }
